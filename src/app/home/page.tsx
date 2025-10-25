@@ -40,7 +40,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">
-              <img src={'/Images/mt-brushmore-main-logo-trsnprnt.png'} alt="Brushmore Logo" className='h-24 w-auto' />
+              <img src={'/Images/mt-brushmore-main-logo-trsnprnt.png'} alt="Brushmore Logo" className='h-12 md:h-24 w-auto' />
             </div>
 
             {/* Navigation Links */}
@@ -114,7 +114,7 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-gray-800 font-semibold text-lg mb-3">Over 6,000 5-star reviews</p>
-              <div className='flex gap-3 mb-2'>
+              <div className='flex gap-2 md:gap-3 mb-2'>
                 <Button className='rounded-full' size={'lg'}>Book Now</Button>
                 <Button variant={'secondary'} className='rounded-full' size={'lg'}>Insurance</Button>
               </div>
@@ -128,7 +128,7 @@ export default function HomePage() {
           </div>
 
           {/* Right Column - Video and Awards */}
-          <div className="bg-white rounded-3xl shadow-lg p-12 relative overflow-hidden space-y-8">
+          <div className="bg-white rounded-lg md:rounded-3xl shadow-lg p-4 md:p-12 relative overflow-hidden space-y-8">
             {/* Video Section */}
             <div>
               <div className="aspect-video">
@@ -186,9 +186,9 @@ export default function HomePage() {
               {/* Smile Lodge Logo */}
               <div className="bg-white rounded-2xl shadow-lg p-8 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-[#5A3A2A] mb-2">
-                    <span className="block text-3xl">MT</span>
-                    <span className="block text-4xl">BRUSHMORE</span>
+                  <div className="text-lg md:text-4xl font-bold text-[#5A3A2A] mb-2">
+                    <span className="block text-lg md:text-3xl">MT</span>
+                    <span className="block text-xl md:text-4xl">BRUSHMORE</span>
                   </div>
                 </div>
               </div>
