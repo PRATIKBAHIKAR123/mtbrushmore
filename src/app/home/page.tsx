@@ -27,59 +27,7 @@ export default function HomePage() {
   };
   return (
     <div className="min-h-screen bg-[#F5EFE7]">
-      {/* Top Banner */}
-      <div className="bg-[#8B5A3C] text-white py-3 text-center">
-        <a href="#locations" className="hover:underline">
-          Find a Location Near You →
-        </a>
-      </div>
-
-      {/* Navigation */}
-      <nav className="bg-[#F5EFE7] shadow-sm sticky top-0 z-50">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            {/* Logo */}
-            <div className="flex items-center">
-              <img src={'/Images/mt-brushmore-main-logo-trsnprnt.png'} alt="Brushmore Logo" className='h-12 md:h-24 w-auto' />
-            </div>
-
-            {/* Navigation Links */}
-            <div className="hidden lg:flex items-center space-x-8">
-              <a href="#about" className="text-gray-800 hover:text-[#8B5A3C] font-medium">
-                About Us
-              </a>
-              <a href="#services" className="text-gray-800 hover:text-[#8B5A3C] font-medium">
-                Services
-              </a>
-              <a href="#parents" className="text-gray-800 hover:text-[#8B5A3C] font-medium">
-                For Parents
-              </a>
-              <a href="#locations" className="text-gray-800 hover:text-[#8B5A3C] font-medium">
-                Locations
-              </a>
-              <a href="#review" className="text-gray-800 hover:text-[#8B5A3C] font-medium">
-                Review Us
-              </a>
-              <a href="#pay" className="text-gray-800 hover:text-[#8B5A3C] font-medium">
-                Pay Online
-              </a>
-              <button className="bg-[#8B5A3C] text-white px-6 py-2 rounded-full hover:bg-[#6D4830] transition-colors">
-                Book Now
-              </button>
-              <a href="tel:5183731181" className="border-2 border-[#8B5A3C] text-[#8B5A3C] px-6 py-2 rounded-full hover:bg-[#8B5A3C] hover:text-white transition-colors">
-                (518) 373-1181
-              </a>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button className="lg:hidden">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </nav>
+      
 
       {/* Main Content */}
       <main className="container mx-auto px-6 py-12">
@@ -118,8 +66,12 @@ export default function HomePage() {
                 <Button className='rounded-full' size={'lg'}>Book Now</Button>
                 <Button variant={'secondary'} className='rounded-full' size={'lg'}>Insurance</Button>
               </div>
-              
+
             </div>
+
+            <div className='h-48 w-auto absolute z-9 bottom-0 right-0'>
+                <img src={'/Images/portrait-funny-bear-with-big-smile-big-teeth-white-background-ai-generative_407474-16729-removebg-preview.png'} className='h-full w-full'/>
+              </div>
 
             {/* Decorative Bear */}
             <div className="absolute inset-0">
