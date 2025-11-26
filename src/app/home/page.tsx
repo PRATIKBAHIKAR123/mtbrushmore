@@ -30,21 +30,21 @@ export default function HomePage() {
       
 
       {/* Main Content */}
-      <main className="container mx-auto px-6 py-12">
+      <main className="container mx-auto px-2 md:px-6 py-4 md:py-12">
         <div className="grid lg:grid-cols-2 gap-8 items-stretch">
           {/* Left Column - Welcome Text */}
-          <div className="bg-white rounded-3xl shadow-lg p-12 relative overflow-hidden flex flex-col justify-center ">
+          <div className="bg-white rounded-3xl shadow-lg p-4 md:p-12 relative overflow-hidden flex flex-col justify-center ">
             {/* Background Pattern */}
 
             <div className="relative z-10">
-              <h1 className="text-5xl font-bold mb-6" style={{fontFamily: "'Eveleth', sans-serif"}}>
+              <h1 className="text-2xl md:text-5xl font-bold mb-6" style={{fontFamily: "'Eveleth', sans-serif"}}>
                 <span className="text-gray-900">WELCOME TO</span>
                 <br />
                 <span className="text-gray-900">THE </span>
                 <span className="text-[#8B5A3C]">MT BRUSHMORE</span>
               </h1>
 
-              <p className="text-gray-700 text-lg leading-relaxed mb-8">
+              <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-8">
                 At <span className="font-semibold">Mt. Brushmore</span>, we're dedicated to creating joyful dental 
                 experiences for your little ones, combining expert care with a warm, 
                 family-friendly atmosphere designed to make every visit stress-free 
@@ -69,7 +69,7 @@ export default function HomePage() {
 
             </div>
 
-            <div className='h-48 w-auto absolute z-9 bottom-0 right-0'>
+            <div className='h-24 md:h-48 w-auto absolute z-9 bottom-0 right-0'>
                 <img src={'/Images/portrait-funny-bear-with-big-smile-big-teeth-white-background-ai-generative_407474-16729-removebg-preview.png'} className='h-full w-full'/>
               </div>
 
@@ -85,7 +85,7 @@ export default function HomePage() {
             <div>
               <div className="aspect-video">
                 {/* Placeholder for video - replace with actual video */}
-                <div className="relative w-full h-[380px] overflow-hidden rounded-3xl shadow-lg">
+                <div className="relative w-full h-[380px] overflow-hidden rounded-xl md:rounded-3xl shadow-lg">
       {/* Background Video */}
       <video
         ref={videoRef}
@@ -146,9 +146,9 @@ export default function HomePage() {
               </div>
 
               {/* Times Union Award */}
-              <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center">
+              <div className="bg-white rounded-2xl shadow-lg p-4 md:p-8 flex flex-col items-center justify-center">
                 <div className="text-center mb-4">
-                  <div className="text-2xl font-bold text-gray-900 mb-1">TIMES UNION</div>
+                  <div className="text-lg md:text-2xl font-bold text-gray-900 mb-1">TIMES UNION</div>
                 </div>
                 <div className="border-4 border-red-600 rounded-lg px-4 py-2 text-center">
                   <div className="flex items-center justify-center mb-1">

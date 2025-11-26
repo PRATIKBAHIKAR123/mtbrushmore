@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 interface Service {
@@ -6,34 +8,39 @@ interface Service {
   description: string;
   image: string;
   decorativeIcon?: string;
+  path?: string;
 }
 
 const ServicesSection = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: "PREVENTIVE",
+      title: "Dental Cleanings and Exams",
       description: "Protect your child's smile with cleanings, fluoride, and sealants.",
       image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
-      decorativeIcon: "tooth"
+      decorativeIcon: "tooth",
+      path: "/treatments/dental-cleanings-and-exams"
     },
     {
       id: 2,
       title: "RESTORATIVE",
       description: "Restore your child's smile with gentle fillings and crowns.",
-      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop"
+      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
+      path: "/treatments/restorative-dentistry"
     },
     {
       id: 3,
       title: "ORTHODONTICS",
       description: "Straighten teeth and boost confidence with braces and aligners.",
-      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop"
+      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
+      path: "/treatments/orthodontics"
     },
     {
       id: 4,
       title: "EMERGENCIES",
       description: "Get fast, compassionate emergency dental care for your child.",
       image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      path: "/treatments/dental-emergencies",
       decorativeIcon: "flower"
     }
   ];
@@ -128,7 +135,10 @@ const ServicesSection = () => {
                   <button className="flex-1 bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button className="flex-1 bg-transparent border-2 border-[#D4C5A0] hover:border-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-[#D4C5A0]">
+                  <button className="flex-1 bg-transparent border-2 border-[#D4C5A0] hover:border-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-[#D4C5A0]" onClick={() => {
+                    if (service.path) {
+                      window.location.href = service.path;
+                    }}}>
                     Learn More
                   </button>
                 </div>

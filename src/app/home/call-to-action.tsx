@@ -39,26 +39,6 @@ const CTASection = () => {
           
           {/* Decorative animal characters */}
           
-          {/* Leaf/Plant - Top Right */}
-          <div className="absolute -top-8 right-8 md:right-16 w-32 h-32 md:w-40 md:h-40 animate-sway">
-            <svg viewBox="0 0 160 160" fill="none" className="w-full h-full drop-shadow-xl">
-              <g>
-                {/* Stem */}
-                <path d="M80 140 Q75 100, 80 60" stroke="#8B5A2B" strokeWidth="4" fill="none" />
-                
-                {/* Monstera leaf */}
-                <ellipse cx="90" cy="50" rx="45" ry="60" fill="#8B4513" transform="rotate(15 90 50)" />
-                <path d="M90 20 L90 80 M70 30 L110 70 M70 70 L110 30" stroke="#F5E6D3" strokeWidth="6" />
-                
-                {/* Small yellow flower */}
-                <circle cx="75" cy="120" r="8" fill="#F4A460" />
-                <circle cx="68" cy="115" r="6" fill="#F4A460" />
-                <circle cx="82" cy="115" r="6" fill="#F4A460" />
-                <circle cx="75" cy="108" r="6" fill="#F4A460" />
-                <circle cx="75" cy="120" r="4" fill="#FFD700" />
-              </g>
-            </svg>
-          </div>
 
           {/* Rabbit - Bottom Right */}
           <div className="absolute -bottom-4 right-8 md:right-20 w-36 h-36 md:w-44 md:h-44 animate-bounce-slow">

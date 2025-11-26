@@ -13,7 +13,20 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
   cardImage2 = '/Images/Copy of Fox.png',
 }) => {
   return (
-    <section className="relative bg-[#E8DDD3] py-16 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section className="relative bg-[#E8DDD3] pt-32 pb-16 px-6 md:px-12 lg:px-20 overflow-hidden">
+      <div className="absolute top-0 left-0 w-full overflow-hidden leading-none">
+  <svg
+    className="relative block w-[calc(100%+1.3px)] h-[120px]"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 120"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M0,40 C120,80 240,0 360,20 480,40 600,100 720,90 840,80 960,20 1080,10 1200,0 1320,40 1440,30 L1440,0 L0,0 Z"
+      fill="#F5EFE7"
+    />
+  </svg>
+</div>
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
         <div className="absolute top-10 left-10 w-64 h-64 bg-[#C4A789] rounded-full blur-3xl"></div>

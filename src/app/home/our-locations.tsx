@@ -14,13 +14,13 @@ const LocationsSection = () => {
       name: "CLIFTON PARK, NY",
       image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&h=800&fit=crop",
       link: "/locations/clifton-park"
-    },
-    {
-      id: 2,
-      name: "EAST GREENBUSH, NY",
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=800&fit=crop",
-      link: "/locations/east-greenbush"
     }
+    // {
+    //   id: 2,
+    //   name: "EAST GREENBUSH, NY",
+    //   image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=800&fit=crop",
+    //   link: "/locations/east-greenbush"
+    // }
   ];
 
   return (
