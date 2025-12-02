@@ -113,7 +113,8 @@ const TeamSection = () => {
 
                 {/* Buttons */}
                 <div className="flex">
-                  <button className="flex-1 bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
+                  <button className="flex-1 bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm"
+                  onClick={()=>{window.location.href='team/dr-mcdonell' }}>
                     View Profile
                   </button>
                 </div>

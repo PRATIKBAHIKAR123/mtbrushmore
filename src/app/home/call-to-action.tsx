@@ -2,7 +2,8 @@ import React from 'react';
 
 const CTASection = () => {
   return (
-    <section className="relative bg-gradient-to-b from-[#E8DED3] to-[#D8CEC3] py-20 px-4 md:py-32 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-[#dadada] to-[#D8CEC3] py-20 px-4 md:py-32 overflow-hidden">
+      <img src={'/Images/Mountains.png'} alt="Decorative mountains" className="absolute inset-0 w-full h-full opacity-40"/>
       {/* Decorative torn paper edge at top */}
       <div className="absolute top-0 left-0 w-full h-8 bg-[#F5F0E8]">
         <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 1440 32" fill="none">
@@ -42,49 +43,15 @@ const CTASection = () => {
 
           {/* Rabbit - Bottom Right */}
           <div className="absolute -bottom-4 right-8 md:right-20 w-36 h-36 md:w-44 md:h-44 animate-bounce-slow">
-            <svg viewBox="0 0 180 180" fill="none" className="w-full h-full drop-shadow-2xl">
-              <g>
-                {/* Body */}
-                <ellipse cx="90" cy="130" rx="45" ry="35" fill="#B8B8B8" />
-                
-                {/* Legs */}
-                <ellipse cx="70" cy="155" rx="18" ry="12" fill="#A0A0A0" />
-                <ellipse cx="110" cy="155" rx="18" ry="12" fill="#A0A0A0" />
-                
-                {/* Head */}
-                <ellipse cx="90" cy="100" rx="35" ry="32" fill="#C0C0C0" />
-                
-                {/* Ears */}
-                <ellipse cx="75" cy="60" rx="12" ry="35" fill="#C0C0C0" transform="rotate(-15 75 60)" />
-                <ellipse cx="105" cy="60" rx="12" ry="35" fill="#C0C0C0" transform="rotate(15 105 60)" />
-                <ellipse cx="75" cy="60" rx="7" ry="25" fill="#FFB6C1" transform="rotate(-15 75 60)" />
-                <ellipse cx="105" cy="60" rx="7" ry="25" fill="#FFB6C1" transform="rotate(15 105 60)" />
-                
-                {/* Face */}
-                <circle cx="80" cy="100" r="4" fill="#4A3728" />
-                <circle cx="100" cy="100" r="4" fill="#4A3728" />
-                <circle cx="90" cy="110" r="3" fill="#FFB6C1" />
-                <path d="M85 113 Q90 116, 95 113" stroke="#4A3728" strokeWidth="2" fill="none" />
-                
-                {/* Whiskers */}
-                <line x1="60" y1="105" x2="75" y2="103" stroke="#4A3728" strokeWidth="1.5" />
-                <line x1="60" y1="110" x2="75" y2="110" stroke="#4A3728" strokeWidth="1.5" />
-                <line x1="105" y1="103" x2="120" y2="105" stroke="#4A3728" strokeWidth="1.5" />
-                <line x1="105" y1="110" x2="120" y2="110" stroke="#4A3728" strokeWidth="1.5" />
-                
-                {/* Arms */}
-                <ellipse cx="60" cy="120" rx="12" ry="20" fill="#B8B8B8" transform="rotate(-30 60 120)" />
-                <ellipse cx="120" cy="120" rx="12" ry="20" fill="#B8B8B8" transform="rotate(30 120 120)" />
-              </g>
-            </svg>
+            <img src={'/Images/animals/moose-1.png'} alt="Decorative rabbit" className="w-full h-full object-contain"/>
           </div>
 
           {/* Main CTA Content */}
           <div className="text-center relative z-20">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+            <h2 className="text-lg md:text-2xl lg:text-4xl font-bold mb-4">
               <span className="text-[#4A3728]">GET STARTED.</span>
               <br />
-              <span className="text-[#8B4513]">REQUEST YOUR VISIT TODAY!</span>
+              <span className="text-primary">REQUEST YOUR VISIT TODAY!</span>
             </h2>
 
             {/* Decorative ants walking */}
@@ -109,7 +76,7 @@ const CTASection = () => {
               </svg>
             </div>
 
-            <button className="bg-[#8B4513] hover:bg-[#7A3A0F] text-white font-bold py-4 px-12 rounded-full text-lg md:text-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+            <button className="bg-primary hover:bg-[#7A3A0F] text-white font-bold py-4 px-12 rounded-full text-lg md:text-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
               Book Now
             </button>
           </div>

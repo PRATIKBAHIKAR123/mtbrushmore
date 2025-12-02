@@ -39,13 +39,10 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="relative bg-[#E8DED3] py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 opacity-10">
-        <svg viewBox="0 0 400 400" fill="none" className="w-full h-full">
-          <path d="M200 50 L250 150 L350 150 L270 220 L300 320 L200 260 L100 320 L130 220 L50 150 L150 150 Z" 
-                fill="#8B6F47" />
-        </svg>
+      <div className="absolute top-0 right-0 w-96 h-96 opacity-50">
+        <img src={'/Images/animals/bird.png'} alt="Decorative bird" className="object-contain" />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -53,11 +50,11 @@ const ServicesSection = () => {
         <div className="mb-12">
           <div className="mb-4">
             <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
+              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#0a73b1" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#4A3728] mb-4">
-            OUR <span className="text-[#8B4513]">SERVICES</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4">
+            OUR <span className="text-primary">SERVICES</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
             From routine check-ups and cleanings to specialized treatments, The Smile Lodge offers comprehensive pediatric dental care, ensuring every child's smile stays healthy, bright, and full of confidence.
@@ -124,10 +121,10 @@ const ServicesSection = () => {
 
                 {/* Buttons */}
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
+                  <button className="flex-1 bg-primary hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button className="flex-1 bg-transparent border-2 border-[#D4C5A0] hover:border-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-[#D4C5A0]">
+                  <button className="flex-1 bg-transparent border-2 border-primary hover:border-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary">
                     Learn More
                   </button>
                 </div>

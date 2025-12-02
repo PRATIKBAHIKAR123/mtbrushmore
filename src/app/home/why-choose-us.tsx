@@ -8,12 +8,12 @@ interface WhyUsProps {
 }
 
 const WhyUsSection: React.FC<WhyUsProps> = ({
-  heroImage = '/Images/fox-8534422_1280.png',
+  heroImage = '/Images/animals/deer-1.png',
   cardImage1 = '/Images/Moose.png',
   cardImage2 = '/Images/Copy of Fox.png',
 }) => {
   return (
-    <section className="relative bg-[#E8DDD3] pt-32 pb-16 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section className="relative bg-[#dadada] pt-32 pb-16 px-6 md:px-12 lg:px-20 overflow-hidden">
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none">
   <svg
     className="relative block w-[calc(100%+1.3px)] h-[120px]"
@@ -57,7 +57,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
 
           {/* Hero Image */}
           <div className="lg:w-1/2 flex justify-end">
-            <div className="relative w-64 h-64 md:w-80 md:h-80">
+            <div className="relative w-64 h-64 md:w-80 md:h-80 animate-float">
               <Image
                 src={heroImage}
                 alt="Decorative leaf"
@@ -71,7 +71,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
         {/* Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Card 1 - Expert Pediatric Care */}
-          <div className="bg-[#6B5744] rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
+          <div className="bg-[#8e5509] rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
             <div className="relative z-10">
               <h3 className="text-6xl md:text-7xl font-bold text-white/30 mb-4">01</h3>
               <h4 className="text-2xl md:text-3xl font-bold mb-4 uppercase">
@@ -113,7 +113,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           </div>
 
           {/* Card 4 - Can be customized for additional content */}
-          <div className="bg-[#D4B896] rounded-3xl p-8 md:p-10 relative overflow-hidden">
+          <div className="bg-[#e97e36] rounded-3xl p-8 md:p-10 relative overflow-hidden">
             <div className="relative z-10">
               <h3 className="text-6xl md:text-7xl font-bold text-[#4A3728]/20 mb-4">02</h3>
               <h4 className="text-2xl md:text-3xl font-bold mb-4 text-[#4A3728] uppercase">
@@ -132,6 +132,19 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           </div>
         </div>
       </div>
+            <style jsx>{`
+        @keyframes float {
+          0%, 100% {
+            transform: translateY(0px) rotate(0deg);
+          }
+          50% {
+            transform: translateY(-20px) rotate(5deg);
+          }
+        }
+        .animate-float {
+          animation: float 3s ease-in-out infinite;
+        }
+      `}</style>
     </section>
   );
 };

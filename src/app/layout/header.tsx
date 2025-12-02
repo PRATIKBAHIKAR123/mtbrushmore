@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <>
       {/* Top Banner */}
-      <div className="bg-[#8B5A3C] text-white py-3 text-center">
+      <div className="bg-primary text-white py-3 text-center">
         <a href="#locations" className="hover:underline">
           Get Direction →
         </a>
@@ -42,12 +42,12 @@ const Header = () => {
             
             {/* Navigation Links */}
             <div className="hidden lg:flex items-center space-x-8 ml-40">
-              <a href="/about-us" className="text-gray-800 hover:text-[#8B5A3C] font-medium">
+              <a href="/about-us" className="text-gray-800 hover:text-primary font-medium">
                 About Us
               </a>
 
               <div className="relative group">
-                <button className="text-gray-800 hover:text-[#8B5A3C] font-medium inline-flex items-center">
+                <button className="text-gray-800 hover:text-primary font-medium inline-flex items-center">
                   Services
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -71,17 +71,17 @@ const Header = () => {
                 </div>
               </div>
 
-              <a href="#parents" className="text-gray-800 hover:text-[#8B5A3C] font-medium">For Parents</a>
-              <a href="#locations" className="text-gray-800 hover:text-[#8B5A3C] font-medium">Locations</a>
-              {/* <a href="#review" className="text-gray-800 hover:text-[#8B5A3C] font-medium">Review Us</a>
-              <a href="#pay" className="text-gray-800 hover:text-[#8B5A3C] font-medium">Pay Online</a> */}
+              <a href="#parents" className="text-gray-800 hover:text-primary font-medium">For Parents</a>
+              <a href="#locations" className="text-gray-800 hover:text-primary font-medium">Locations</a>
+              {/* <a href="#review" className="text-gray-800 hover:text-primary font-medium">Review Us</a>
+              <a href="#pay" className="text-gray-800 hover:text-primary font-medium">Pay Online</a> */}
 
-              <button className="bg-[#8B5A3C] text-white px-6 py-2 rounded-full hover:bg-[#6D4830] transition-colors">
+              <button className="bg-primary text-white px-6 py-2 rounded-full hover:bg-[#6D4830] transition-colors">
                 Book Now
               </button>
 
-              <a href="tel:5183731181" className="border-2 border-[#8B5A3C] text-[#8B5A3C] px-6 py-2 rounded-full hover:bg-[#8B5A3C] hover:text-white transition-colors">
-                (518) 373-1181
+              <a href="tel:5183731181" className="border-2 border-primary text-primary px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors">
+                609-422-4700
               </a>
             </div>
 

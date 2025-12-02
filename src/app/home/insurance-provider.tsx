@@ -29,7 +29,7 @@ const InsuranceSection = () => {
   const displayedProviders = showFullList ? insuranceProviders : insuranceProviders.slice(0, 13);
 
   return (
-    <section className="relative bg-[#E8DED3] py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-5">
         <svg className="absolute top-10 left-20 w-64 h-64" viewBox="0 0 200 200" fill="none">
@@ -51,8 +51,8 @@ const InsuranceSection = () => {
               <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#4A3728] mb-4">
-            WE ACCEPT <span className="text-[#8B4513]">YOUR INSURANCE</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4">
+            WE ACCEPT <span className="text-primary">YOUR INSURANCE</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-3xl leading-relaxed">
             At The Smile Lodge, we simplify dental care by accepting most insurance plans, ensuring your child gets the high-quality treatment they need without the stress of navigating complicated payment options.

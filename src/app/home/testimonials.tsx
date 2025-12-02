@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
   const current = testimonials[currentIndex];
 
   return (
-    <section className="relative bg-[#E8DED3] py-16 px-4 md:py-24 overflow-hidden">
+    <section className="relative bg-[#dadada] py-16 px-4 md:py-24 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10">
         <svg className="absolute top-10 right-20 w-64 h-64" viewBox="0 0 200 200" fill="none">
@@ -70,10 +70,10 @@ const TestimonialsSection = () => {
               <path d="M0 4 Q15 0, 30 4 T60 4" stroke="#4A3728" strokeWidth="2" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#4A3728] mb-2">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-2">
             TESTIMONIALS
           </h2>
-          <p className="text-2xl md:text-3xl font-semibold text-[#8B4513]">
+          <p className="text-2xl md:text-3xl font-semibold text-accent">
             WHAT PARENTS SAY
           </p>
         </div>
@@ -89,7 +89,7 @@ const TestimonialsSection = () => {
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
               {/* Decorative smile overlay */}
-              <div className="absolute top-8 right-8 w-32 h-32 bg-[#D4563C] rounded-full flex items-center justify-center shadow-lg">
+              <div className="absolute top-8 right-8 w-32 h-32 bg-primary rounded-full flex items-center justify-center shadow-lg">
                 <svg className="w-20 h-20" viewBox="0 0 100 100" fill="none">
                   <circle cx="30" cy="35" r="6" fill="#FFF9E6" />
                   <circle cx="70" cy="35" r="6" fill="#FFF9E6" />

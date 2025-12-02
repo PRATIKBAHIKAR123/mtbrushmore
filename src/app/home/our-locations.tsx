@@ -11,7 +11,7 @@ const LocationsSection = () => {
   const locations: Location[] = [
     {
       id: 1,
-      name: "CLIFTON PARK, NY",
+      name: "Trenton, NJ 08690",
       image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&h=800&fit=crop",
       link: "/locations/clifton-park"
     }
@@ -24,22 +24,14 @@ const LocationsSection = () => {
   ];
 
   return (
-    <section className="relative bg-[#E8DED3] py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
+      <div className="absolute top-0 left-0 w-full h-full opacity-80 pointer-events-none">
         {/* Top left decorative shapes */}
-        <svg className="absolute top-20 left-10 w-96 h-96" viewBox="0 0 400 400" fill="none">
-          <path d="M50 200 Q100 150, 150 200 T250 200 T350 200" stroke="#8B6F47" strokeWidth="3" fill="none" />
-          <circle cx="100" cy="100" r="60" fill="#8B6F47" opacity="0.3" />
-          <circle cx="300" cy="150" r="80" fill="#8B6F47" opacity="0.2" />
-        </svg>
+        <img src={'/Images/animals/owl.png'} alt="Decorative bird" className="absolute top-10 left-20 w-64 h-64 object-contain"/>
         
         {/* Top right decorative shapes */}
-        <svg className="absolute top-10 right-10 w-[500px] h-[400px]" viewBox="0 0 500 400" fill="none">
-          <path d="M50 100 Q150 50, 250 100 T450 100" stroke="#8B6F47" strokeWidth="4" fill="none" />
-          <path d="M100 200 L150 150 L200 200 L250 150 L300 200 L350 150 L400 200" stroke="#8B6F47" strokeWidth="3" fill="none" />
-          <ellipse cx="250" cy="250" rx="120" ry="80" fill="#8B6F47" opacity="0.2" />
-        </svg>
+        <img src={'/Images/animals/trees-1.png'} alt="Decorative bird" className="absolute top-10 right-20 w-180 h-180 object-contain"/>
 
         {/* Bottom decorative elements */}
         <svg className="absolute bottom-0 left-0 w-full h-64" viewBox="0 0 1440 256" fill="none">
@@ -56,7 +48,7 @@ const LocationsSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#4A3728]">
-            OUR <span className="text-[#8B4513]">LOCATIONS</span>
+            OUR <span className="text-primary">LOCATIONS</span>
           </h2>
         </div>
 
@@ -87,7 +79,7 @@ const LocationsSection = () => {
 
                 <button 
                   onClick={() => window.location.href = location.link}
-                  className="bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg inline-flex items-center gap-2 group/button"
+                  className="bg-primary hover:bg-[#C4B590] text-[#4A3728] font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg inline-flex items-center gap-2 group/button"
                 >
                   See Location
                   <svg 

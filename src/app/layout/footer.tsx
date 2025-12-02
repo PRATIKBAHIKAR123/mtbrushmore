@@ -3,7 +3,7 @@ import { Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-amber-900 to-amber-950">
+    <footer className="bg-primary">
       {/* Logo Section */}
       {/* <div className="py-8">
         <div className=" px-4">

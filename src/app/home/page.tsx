@@ -9,6 +9,7 @@ import ServicesSection from './our-services';
 import InsuranceSection from './insurance-provider';
 import LocationsSection from './our-locations';
 import CTASection from './call-to-action';
+import { Star } from 'lucide-react';
 
 export default function HomePage() {
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -30,7 +31,7 @@ export default function HomePage() {
       
 
       {/* Main Content */}
-      <main className="container mx-auto px-2 md:px-6 py-4 md:py-12">
+      <main className="container mx-auto px-2 md:px-6 py-4 md:py-12 relative">
         <div className="grid lg:grid-cols-2 gap-8 items-stretch">
           {/* Left Column - Welcome Text */}
           <div className="bg-white rounded-3xl shadow-lg p-4 md:p-12 relative overflow-hidden flex flex-col justify-center ">
@@ -41,7 +42,7 @@ export default function HomePage() {
                 <span className="text-gray-900">WELCOME TO</span>
                 <br />
                 <span className="text-gray-900">THE </span>
-                <span className="text-[#8B5A3C]">MT BRUSHMORE</span>
+                <span className="text-primary">MT BRUSHMORE</span>
               </h1>
 
               <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-8">
@@ -70,12 +71,12 @@ export default function HomePage() {
             </div>
 
             <div className='h-24 md:h-48 w-auto absolute z-9 bottom-0 right-0'>
-                <img src={'/Images/portrait-funny-bear-with-big-smile-big-teeth-white-background-ai-generative_407474-16729-removebg-preview.png'} className='h-full w-full'/>
+                <img src={'/Images/animals/bear-baby-bear.png'} className='h-full w-full'/>
               </div>
 
             {/* Decorative Bear */}
             <div className="absolute inset-0">
-              <img src={"/Images/Mountains.png"} className='w-full h-full object-cover opacity-40'/>
+              <img src={"/Images/banner.png"} className='w-full h-full object-cover opacity-40'/>
             </div>
           </div>
 
@@ -150,19 +151,97 @@ export default function HomePage() {
                 <div className="text-center mb-4">
                   <div className="text-lg md:text-2xl font-bold text-gray-900 mb-1">TIMES UNION</div>
                 </div>
-                <div className="border-4 border-red-600 rounded-lg px-4 py-2 text-center">
+                <div className="border-4 border-primary rounded-lg px-4 py-2 text-center">
                   <div className="flex items-center justify-center mb-1">
-                    <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
+                    <Star className="w-6 h-6 text-yellow-400 mr-1" />
                   </div>
-                  <div className="text-red-600 font-bold text-sm">WINNER</div>
+                  <div className="text-primary font-bold text-sm">WINNER</div>
                   <div className="text-gray-700 text-xs font-semibold">BEST OF CAPITAL REGION</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* Floating + Marquee Boat — put this inside the hero/main container (parent should be relative) */}
+<div className="boat-marquee-wrapper" aria-hidden>
+  <div className="boat-marquee">
+    {/* You can duplicate the <img> if you want more than one boat in the stream */}
+    <img src="/Images/animals/2.png" alt="Boat" className="boat" />
+  </div>
+</div>
+
+<style jsx>{`
+  /* wrapper sits at bottom, full width, hides overflow */
+  .boat-marquee-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -120px; /* adjust so boat sits visually on the water edge */
+    pointer-events: none; /* doesn't block clicks */
+    overflow: hidden;
+    height: 160px; /* area reserved for boat motion; adjust for image size */
+    z-index: 40;
+  }
+
+  /* marquee container moves horizontally across screen */
+  .boat-marquee {
+    display: flex;
+    align-items: flex-end; /* keep boat sitting near bottom of wrapper */
+    /* start off-screen right and move to off-screen left */
+    animation: marqueeBoat 18s linear infinite;
+    /* optionally pause on hover (won't be reached because pointer-events:none) */
+  }
+
+  /* Actual boat image: bob up/down (floating) + small rotation for realism */
+  .boat {
+    width: 200px; /* adjust size */
+    max-width: 30vw;
+    transform-origin: center bottom;
+    animation: float 3.6s ease-in-out infinite;
+    will-change: transform;
+    display: block;
+    margin-right: 40px; /* spacing if you duplicate boats */
+  }
+
+  /* vertical bob + tiny rotation */
+  @keyframes float {
+    0% {
+      transform: translateY(0px) rotate(-6deg);
+    }
+    50% {
+      transform: translateY(-60px) rotate(4deg);
+    }
+    100% {
+      transform: translateY(0px) rotate(-6deg);
+    }
+  }
+
+  /* horizontal marquee: from right (100%) to left (-100%) so boat fully passes screen */
+  @keyframes marqueeBoat {
+    0% {
+      transform: translateX(-120%);
+    }
+    100% {
+      transform: translateX(120%);
+    }
+  }
+
+  /* Optional - slower on small screens */
+  @media (max-width: 640px) {
+    .boat {
+      width: 140px;
+    }
+    .boat-marquee-wrapper {
+      height: 120px;
+      bottom: -10px;
+    }
+    /* make marquee slightly slower on mobile */
+    .boat-marquee {
+      animation-duration: 22s;
+    }
+  }
+`}</style>
+
       </main>
 
       <WhyUsSection/>
