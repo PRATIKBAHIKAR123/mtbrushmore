@@ -65,7 +65,7 @@ const TeamSection = () => {
   ];
 
   return (
-    <section className="relative bg-[#E8DED3] py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#F5EFE7] py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-0 right-0 w-96 h-96 opacity-10">
         <svg viewBox="0 0 400 400" fill="none" className="w-full h-full">
@@ -82,8 +82,8 @@ const TeamSection = () => {
               <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#4A3728] mb-4">
-            MEET <span className="text-[#8B4513]">Our Team</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+            MEET <span className="text-accent">Our Team</span>
           </h2>
         </div>
 
@@ -113,7 +113,7 @@ const TeamSection = () => {
 
                 {/* Buttons */}
                 <div className="flex">
-                  <button className="flex-1 bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm"
+                  <button className="flex-1 bg-primary hover:bg-[#C4B590] text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm"
                   onClick={()=>{window.location.href='team/dr-mcdonell' }}>
                     View Profile
                   </button>

@@ -38,14 +38,14 @@ export default function HomePage() {
             {/* Background Pattern */}
 
             <div className="relative z-10">
-              <h1 className="text-2xl md:text-5xl font-bold mb-6" style={{fontFamily: "'Eveleth', sans-serif"}}>
-                <span className="text-gray-900">WELCOME TO</span>
+              <h1 className="text-2xl md:text-5xl font-bold mb-6" >
+                <span className="text-primary chunk-plump">WELCOME TO</span>
                 <br />
-                <span className="text-gray-900">THE </span>
-                <span className="text-primary">MT BRUSHMORE</span>
+                <span className="text-primary">THE </span>
+                <span className="text-accent font-eveleth font-bold">MT BRUSHMORE</span>
               </h1>
 
-              <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-8">
+              <p className="text-accent text-base md:text-lg leading-relaxed mb-8">
                 At <span className="font-semibold">Mt. Brushmore</span>, we're dedicated to creating joyful dental 
                 experiences for your little ones, combining expert care with a warm, 
                 family-friendly atmosphere designed to make every visit stress-free 
@@ -62,10 +62,10 @@ export default function HomePage() {
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-800 font-semibold text-lg mb-3">Over 6,000 5-star reviews</p>
+              <p className="text-accent font-semibold text-lg mb-3">Over 6,000 5-star reviews</p>
               <div className='flex gap-2 md:gap-3 mb-2'>
-                <Button className='rounded-full' size={'lg'}>Book Now</Button>
-                <Button variant={'secondary'} className='rounded-full' size={'lg'}>Insurance</Button>
+                <Button variant={'secondary'} className='rounded-full' size={'lg'}>Book Now</Button>
+                <Button variant={'accent'} className='rounded-full' size={'lg'}>Insurance</Button>
               </div>
 
             </div>
@@ -76,7 +76,7 @@ export default function HomePage() {
 
             {/* Decorative Bear */}
             <div className="absolute inset-0">
-              <img src={"/Images/banner.png"} className='w-full h-full object-cover opacity-40'/>
+              <img src={"/Images/banner.png"} className='w-full h-full object-cover opacity-20'/>
             </div>
           </div>
 
@@ -120,14 +120,7 @@ export default function HomePage() {
       </button>
     </div>
 
-                {/* Badge */}
-                <div className="absolute top-4 left-4">
-                  <div className="bg-red-600 text-white rounded-full p-3">
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  </div>
-                </div>
+                
               </div>
               <div className="absolute inset-0">
               <img src={"/Images/Mountains.png"} className='w-full h-full object-cover opacity-10'/>
@@ -139,7 +132,7 @@ export default function HomePage() {
               {/* Smile Lodge Logo */}
               <div className="bg-white rounded-2xl shadow-lg p-8 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-lg md:text-4xl font-bold text-[#5A3A2A] mb-2">
+                  <div className="text-lg md:text-4xl font-bold text-accent mb-2">
                     <span className="block text-lg md:text-3xl">MT</span>
                     <span className="block text-xl md:text-4xl">BRUSHMORE</span>
                   </div>
@@ -149,98 +142,21 @@ export default function HomePage() {
               {/* Times Union Award */}
               <div className="bg-white rounded-2xl shadow-lg p-4 md:p-8 flex flex-col items-center justify-center">
                 <div className="text-center mb-4">
-                  <div className="text-lg md:text-2xl font-bold text-gray-900 mb-1">TIMES UNION</div>
+                  <div className="text-lg md:text-2xl font-bold text-accent mb-1">TIMES UNION</div>
                 </div>
-                <div className="border-4 border-primary rounded-lg px-4 py-2 text-center">
+                <div className="border-4 border-accent rounded-lg px-4 py-2 text-center">
                   <div className="flex items-center justify-center mb-1">
                     <Star className="w-6 h-6 text-yellow-400 mr-1" />
                   </div>
-                  <div className="text-primary font-bold text-sm">WINNER</div>
-                  <div className="text-gray-700 text-xs font-semibold">BEST OF CAPITAL REGION</div>
+                  <div className="text-accent font-bold text-sm">WINNER</div>
+                  <div className="text-primary text-xs font-semibold">BEST OF CAPITAL REGION</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* Floating + Marquee Boat — put this inside the hero/main container (parent should be relative) */}
-<div className="boat-marquee-wrapper" aria-hidden>
-  <div className="boat-marquee">
-    {/* You can duplicate the <img> if you want more than one boat in the stream */}
-    <img src="/Images/animals/2.png" alt="Boat" className="boat" />
-  </div>
-</div>
+        
 
-<style jsx>{`
-  /* wrapper sits at bottom, full width, hides overflow */
-  .boat-marquee-wrapper {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -120px; /* adjust so boat sits visually on the water edge */
-    pointer-events: none; /* doesn't block clicks */
-    overflow: hidden;
-    height: 160px; /* area reserved for boat motion; adjust for image size */
-    z-index: 40;
-  }
-
-  /* marquee container moves horizontally across screen */
-  .boat-marquee {
-    display: flex;
-    align-items: flex-end; /* keep boat sitting near bottom of wrapper */
-    /* start off-screen right and move to off-screen left */
-    animation: marqueeBoat 18s linear infinite;
-    /* optionally pause on hover (won't be reached because pointer-events:none) */
-  }
-
-  /* Actual boat image: bob up/down (floating) + small rotation for realism */
-  .boat {
-    width: 200px; /* adjust size */
-    max-width: 30vw;
-    transform-origin: center bottom;
-    animation: float 3.6s ease-in-out infinite;
-    will-change: transform;
-    display: block;
-    margin-right: 40px; /* spacing if you duplicate boats */
-  }
-
-  /* vertical bob + tiny rotation */
-  @keyframes float {
-    0% {
-      transform: translateY(0px) rotate(-6deg);
-    }
-    50% {
-      transform: translateY(-60px) rotate(4deg);
-    }
-    100% {
-      transform: translateY(0px) rotate(-6deg);
-    }
-  }
-
-  /* horizontal marquee: from right (100%) to left (-100%) so boat fully passes screen */
-  @keyframes marqueeBoat {
-    0% {
-      transform: translateX(-120%);
-    }
-    100% {
-      transform: translateX(120%);
-    }
-  }
-
-  /* Optional - slower on small screens */
-  @media (max-width: 640px) {
-    .boat {
-      width: 140px;
-    }
-    .boat-marquee-wrapper {
-      height: 120px;
-      bottom: -10px;
-    }
-    /* make marquee slightly slower on mobile */
-    .boat-marquee {
-      animation-duration: 22s;
-    }
-  }
-`}</style>
 
       </main>
 

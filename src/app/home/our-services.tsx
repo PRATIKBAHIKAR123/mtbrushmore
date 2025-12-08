@@ -121,10 +121,10 @@ const ServicesSection = () => {
 
                 {/* Buttons */}
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-primary hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
+                  <button className="flex-1 bg-accent hover:bg-[#C4B590] text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button className="flex-1 bg-transparent border-2 border-primary hover:border-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary">
+                  <button className="flex-1 bg-transparent border-2 border-accent hover:border-[#C4B590] text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary">
                     Learn More
                   </button>
                 </div>

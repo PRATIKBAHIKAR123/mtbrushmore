@@ -28,7 +28,7 @@ const LocationsSection = () => {
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-80 pointer-events-none">
         {/* Top left decorative shapes */}
-        <img src={'/Images/animals/owl.png'} alt="Decorative bird" className="absolute top-10 left-20 w-64 h-64 object-contain"/>
+        
         
         {/* Top right decorative shapes */}
         <img src={'/Images/animals/trees-1.png'} alt="Decorative bird" className="absolute top-10 right-20 w-180 h-180 object-contain"/>
@@ -47,7 +47,7 @@ const LocationsSection = () => {
               <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#4A3728]">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-accent">
             OUR <span className="text-primary">LOCATIONS</span>
           </h2>
         </div>
@@ -57,7 +57,7 @@ const LocationsSection = () => {
           {locations.map((location) => (
             <div 
               key={location.id}
-              className="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              className="relative group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               {/* Image Container */}
               <div className="relative h-72 md:h-80 lg:h-96 overflow-hidden">
@@ -79,7 +79,7 @@ const LocationsSection = () => {
 
                 <button 
                   onClick={() => window.location.href = location.link}
-                  className="bg-primary hover:bg-[#C4B590] text-[#4A3728] font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg inline-flex items-center gap-2 group/button"
+                  className="bg-secondary hover:bg-[#C4B590] text-[#4A3728] font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg inline-flex items-center gap-2 group/button"
                 >
                   See Location
                   <svg 
@@ -97,6 +97,7 @@ const LocationsSection = () => {
                   </svg>
                 </button>
               </div>
+              <img src={'/Images/animals/owl.png'} alt="Decorative bird" className="absolute bottom-0 right-10 w-48 h-48 object-contain"/>
             </div>
           ))}
         </div>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const CTASection = () => {
   return (
-    <section className="relative bg-gradient-to-b from-[#dadada] to-[#D8CEC3] py-20 px-4 md:py-32 overflow-hidden">
-      <img src={'/Images/Mountains.png'} alt="Decorative mountains" className="absolute inset-0 w-full h-full opacity-40"/>
+    <section className="relative bg-gradient-to-b from-[#dadada] to-[#D8CEC3] py-20 px-4 md:py-24 overflow-hidden">
+      <img src={'/Images/Mountains.png'} alt="Decorative mountains" className="absolute inset-0 w-full h-full object-cover opacity-40"/>
       {/* Decorative torn paper edge at top */}
       <div className="absolute top-0 left-0 w-full h-8 bg-[#F5F0E8]">
         <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 1440 32" fill="none">
@@ -49,76 +49,23 @@ const CTASection = () => {
           {/* Main CTA Content */}
           <div className="text-center relative z-20">
             <h2 className="text-lg md:text-2xl lg:text-4xl font-bold mb-4">
-              <span className="text-[#4A3728]">GET STARTED.</span>
+              <span className="text-primary">GET STARTED.</span>
               <br />
-              <span className="text-primary">REQUEST YOUR VISIT TODAY!</span>
+              <span className="text-accent">REQUEST YOUR VISIT TODAY!</span>
             </h2>
 
             {/* Decorative ants walking */}
-            <div className="flex justify-center items-center gap-3 my-8">
-              <svg className="w-6 h-6 text-[#4A3728] animate-walk" viewBox="0 0 24 24" fill="currentColor">
-                <circle cx="12" cy="8" r="3" />
-                <ellipse cx="12" cy="16" rx="4" ry="6" />
-                <line x1="8" y1="14" x2="4" y2="18" stroke="currentColor" strokeWidth="2" />
-                <line x1="16" y1="14" x2="20" y2="18" stroke="currentColor" strokeWidth="2" />
-              </svg>
-              <svg className="w-6 h-6 text-[#4A3728] animate-walk" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '0.2s' }}>
-                <circle cx="12" cy="8" r="3" />
-                <ellipse cx="12" cy="16" rx="4" ry="6" />
-                <line x1="8" y1="14" x2="4" y2="18" stroke="currentColor" strokeWidth="2" />
-                <line x1="16" y1="14" x2="20" y2="18" stroke="currentColor" strokeWidth="2" />
-              </svg>
-              <svg className="w-6 h-6 text-[#4A3728] animate-walk" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '0.4s' }}>
-                <circle cx="12" cy="8" r="3" />
-                <ellipse cx="12" cy="16" rx="4" ry="6" />
-                <line x1="8" y1="14" x2="4" y2="18" stroke="currentColor" strokeWidth="2" />
-                <line x1="16" y1="14" x2="20" y2="18" stroke="currentColor" strokeWidth="2" />
-              </svg>
-            </div>
-
-            <button className="bg-primary hover:bg-[#7A3A0F] text-white font-bold py-4 px-12 rounded-full text-lg md:text-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+            <div className="flex flex-col justify-center items-center">
+              
+            
+<img src={'/Images/animals/raccoon-baby-raccoon.png'} alt="Decorative ant" className="w-12 h-12 md:w-16 md:h-16"/>
+            <button className="bg-secondary hover:bg-primary text-white font-bold py-4 px-12 rounded-full text-lg md:text-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
               Book Now
             </button>
+            </div>
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes sway {
-          0%, 100% {
-            transform: rotate(0deg);
-          }
-          50% {
-            transform: rotate(8deg);
-          }
-        }
-        @keyframes bounce-slow {
-          0%, 100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-        }
-        @keyframes walk {
-          0%, 100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-3px);
-          }
-        }
-        .animate-sway {
-          animation: sway 3s ease-in-out infinite;
-          transform-origin: bottom center;
-        }
-        .animate-bounce-slow {
-          animation: bounce-slow 2s ease-in-out infinite;
-        }
-        .animate-walk {
-          animation: walk 0.6s ease-in-out infinite;
-        }
-      `}</style>
     </section>
   );
 };

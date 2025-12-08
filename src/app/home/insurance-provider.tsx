@@ -78,8 +78,8 @@ const InsuranceSection = () => {
           {/* Right Side - Insurance List */}
           <div className="relative h-full">
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-xl">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#4A3728] mb-2">
-                WE ARE <span className="text-[#8B4513]">IN-NETWORK WITH:</span>
+              <h3 className="text-2xl md:text-3xl font-bold text-primary mb-2">
+                WE ARE <span className="text-accent">IN-NETWORK WITH:</span>
               </h3>
 
               <ul className="space-y-3 mb-8 mt-6">
@@ -88,7 +88,7 @@ const InsuranceSection = () => {
                     key={index}
                     className="flex items-start text-[#4A3728] text-base"
                   >
-                    <span className="inline-block w-2 h-2 bg-[#8B4513] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="inline-block w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span>{provider}</span>
                   </li>
                 ))}
@@ -96,7 +96,7 @@ const InsuranceSection = () => {
 
               <button 
                 onClick={() => setShowFullList(!showFullList)}
-                className="bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg"
+                className="bg-accent hover:bg-[#C4B590] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 {showFullList ? "Show Less" : "See Full List"}
               </button>

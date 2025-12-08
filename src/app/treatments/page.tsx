@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import CTASection from '../home/call-to-action';
 
 interface Service {
   id: number;
@@ -48,11 +49,8 @@ const ServicesSection = () => {
   return (
     <section className="relative bg-[#E8DED3] py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 opacity-10">
-        <svg viewBox="0 0 400 400" fill="none" className="w-full h-full">
-          <path d="M200 50 L250 150 L350 150 L270 220 L300 320 L200 260 L100 320 L130 220 L50 150 L150 150 Z" 
-                fill="#8B6F47" />
-        </svg>
+      <div className="absolute top-0 right-0 w-84 h-84 opacity-60">
+        <img src="/Images/animals/deer.png" alt="Decorative Pattern" className="w-full h-full object-cover" />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -63,8 +61,8 @@ const ServicesSection = () => {
               <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#4A3728] mb-4">
-           Preventive <span className="text-[#8B4513]">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+           Preventive <span className="text-accent">
  Dentistry</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
@@ -73,7 +71,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="bg-muted grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 rounded-3xl">
           {services.map((service, index) => (
             <div 
               key={service.id}
@@ -132,10 +130,10 @@ const ServicesSection = () => {
 
                 {/* Buttons */}
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-[#D4C5A0] hover:bg-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
+                  <button className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button className="flex-1 bg-transparent border-2 border-[#D4C5A0] hover:border-[#C4B590] text-[#4A3728] font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-[#D4C5A0]" onClick={() => {
+                  <button className="flex-1 bg-transparent border-2 border-secondary hover:border-[#C4B590] text-secondary font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-[#D4C5A0]" onClick={() => {
                     if (service.path) {
                       window.location.href = service.path;
                     }}}>
@@ -147,6 +145,7 @@ const ServicesSection = () => {
           ))}
         </div>
       </div>
+      <CTASection/>
     </section>
   );
 };

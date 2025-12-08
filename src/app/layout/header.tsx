@@ -23,7 +23,7 @@ const Header = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="bg-[#F5EFE7] shadow-sm sticky top-0 z-40 relative py-4">
+      <nav className="bg-accent shadow-sm sticky top-0 z-40 relative py-4">
         
         {/* Absolute Logo (Centered Left Area) */}
         <div className="absolute left-6 top-1/2 -translate-y-1/2 z-50">
@@ -32,7 +32,7 @@ const Header = () => {
             alt="Brushmore Logo"
             className={`
               transition-all duration-300 ease-in-out
-              ${isScrolled ? "h-12 md:h-16" : "h-20 md:h-36"}
+              ${isScrolled ? "h-12 md:h-16" : "h-20 md:h-48"}
             `}
           />
         </div>
@@ -42,12 +42,12 @@ const Header = () => {
             
             {/* Navigation Links */}
             <div className="hidden lg:flex items-center space-x-8 ml-40">
-              <a href="/about-us" className="text-gray-800 hover:text-primary font-medium">
+              <a href="/about-us" className="text-white hover:text-primary font-medium">
                 About Us
               </a>
 
               <div className="relative group">
-                <button className="text-gray-800 hover:text-primary font-medium inline-flex items-center">
+                <button className="text-white hover:text-primary font-medium inline-flex items-center">
                   Services
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -71,16 +71,16 @@ const Header = () => {
                 </div>
               </div>
 
-              <a href="#parents" className="text-gray-800 hover:text-primary font-medium">For Parents</a>
-              <a href="#locations" className="text-gray-800 hover:text-primary font-medium">Locations</a>
-              {/* <a href="#review" className="text-gray-800 hover:text-primary font-medium">Review Us</a>
-              <a href="#pay" className="text-gray-800 hover:text-primary font-medium">Pay Online</a> */}
+              <a href="#parents" className="text-white hover:text-primary font-medium">For Parents</a>
+              <a href="#locations" className="text-white hover:text-primary font-medium">Locations</a>
+              {/* <a href="#review" className="text-white hover:text-primary font-medium">Review Us</a>
+              <a href="#pay" className="text-white hover:text-primary font-medium">Pay Online</a> */}
 
-              <button className="bg-primary text-white px-6 py-2 rounded-full hover:bg-[#6D4830] transition-colors">
+              <button className="bg-secondary text-white px-6 py-2 rounded-full hover:bg-primary transition-colors">
                 Book Now
               </button>
 
-              <a href="tel:5183731181" className="border-2 border-primary text-primary px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors">
+              <a href="tel:5183731181" className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors">
                 609-422-4700
               </a>
             </div>
