@@ -48,7 +48,7 @@ const CTASection = () => {
 
           {/* Main CTA Content */}
           <div className="text-center relative z-20">
-            <h2 className="text-lg md:text-2xl lg:text-4xl font-bold mb-4">
+            <h2 className="text-lg md:text-2xl lg:text-4xl font-bold mb-4 eveleth">
               <span className="text-primary">GET STARTED.</span>
               <br />
               <span className="text-accent">REQUEST YOUR VISIT TODAY!</span>

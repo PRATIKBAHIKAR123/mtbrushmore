@@ -51,7 +51,7 @@ const InsuranceSection = () => {
               <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-accent eveleth mb-4">
             WE ACCEPT <span className="text-primary">YOUR INSURANCE</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-3xl leading-relaxed">
@@ -78,7 +78,7 @@ const InsuranceSection = () => {
           {/* Right Side - Insurance List */}
           <div className="relative h-full">
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-xl">
-              <h3 className="text-2xl md:text-3xl font-bold text-primary mb-2">
+              <h3 className="text-2xl md:text-3xl font-bold eveleth text-primary mb-2">
                 WE ARE <span className="text-accent">IN-NETWORK WITH:</span>
               </h3>
 

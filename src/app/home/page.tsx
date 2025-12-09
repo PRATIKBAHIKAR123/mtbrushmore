@@ -38,11 +38,11 @@ export default function HomePage() {
             {/* Background Pattern */}
 
             <div className="relative z-10">
-              <h1 className="text-2xl md:text-5xl font-bold mb-6" >
-                <span className="text-primary chunk-plump">WELCOME TO</span>
+              <h1 className="text-2xl md:text-5xl font-bold eveleth mb-6" >
+                <span className="text-primary">WELCOME TO</span>
                 <br />
                 <span className="text-primary">THE </span>
-                <span className="text-accent font-eveleth font-bold">MT BRUSHMORE</span>
+                <span className="text-accent font-bold">MT BRUSHMORE</span>
               </h1>
 
               <p className="text-accent text-base md:text-lg leading-relaxed mb-8">
@@ -132,7 +132,7 @@ export default function HomePage() {
               {/* Smile Lodge Logo */}
               <div className="bg-white rounded-2xl shadow-lg p-8 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-lg md:text-4xl font-bold text-accent mb-2">
+                  <div className="text-lg md:text-4xl font-bold text-accent eveleth mb-2">
                     <span className="block text-lg md:text-3xl">MT</span>
                     <span className="block text-xl md:text-4xl">BRUSHMORE</span>
                   </div>

@@ -53,7 +53,7 @@ const ServicesSection = () => {
               <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#0a73b1" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4 eveleth">
             OUR <span className="text-primary">SERVICES</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
@@ -112,7 +112,7 @@ const ServicesSection = () => {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-[#4A3728] mb-3">
+                <h3 className="text-xl font-bold text-[#4A3728] mb-3 eveleth">
                   {service.title}
                 </h3>
                 <p className="text-[#6B5D52] text-sm leading-relaxed mb-6">

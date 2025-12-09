@@ -46,7 +46,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           <div className="lg:w-1/2 mb-8 lg:mb-0">
             
             <div className='flex items-center justify-start'>
-            <h2 className="text-5xl md:text-6xl font-bold text-accent mb-6">
+            <h2 className="text-5xl md:text-6xl font-bold text-accent eveleth mb-6">
               {/* Decorative wave line */}
             <div className="mb-4">
               <svg width="80" height="20" viewBox="0 0 80 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,8 +81,8 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           {/* Card 1 - Expert Pediatric Care */}
           <div className="bg-[#b5650d] rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
             <div className="relative z-10">
-              <h3 className="text-6xl md:text-7xl font-bold text-white/30 mb-4">01</h3>
-              <h4 className="text-2xl md:text-3xl font-bold mb-4 uppercase">
+              <h3 className="text-6xl md:text-7xl font-bold text-white/30 mb-4 eveleth">01</h3>
+              <h4 className="text-2xl md:text-3xl font-bold mb-4 uppercase eveleth">
                 Expert Pediatric Care
               </h4>
               <p className="text-gray-200 leading-relaxed mb-8 max-w-md">
@@ -120,8 +120,8 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           {/* Card 4 - Can be customized for additional content */}
           <div className="bg-[#f59142] rounded-3xl p-8 md:p-10 relative overflow-hidden">
             <div className="relative z-10">
-              <h3 className="text-6xl md:text-7xl font-bold text-[#4A3728]/20 mb-4">02</h3>
-              <h4 className="text-2xl md:text-3xl font-bold mb-4 text-[#4A3728] uppercase">
+              <h3 className="text-6xl md:text-7xl font-bold text-[#4A3728]/20 mb-4 ">02</h3>
+              <h4 className="text-2xl md:text-3xl font-bold mb-4 text-[#4A3728] uppercase eveleth">
                 Kid Friendly Environment
               </h4>
               <p className="text-[#5A4A3A] leading-relaxed max-w-md">

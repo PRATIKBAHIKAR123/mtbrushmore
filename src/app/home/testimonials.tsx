@@ -70,7 +70,7 @@ const TestimonialsSection = () => {
               <path d="M0 4 Q15 0, 30 4 T60 4" stroke="#4A3728" strokeWidth="2" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-2">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-2 eveleth">
             TESTIMONIALS
           </h2>
           <p className="text-2xl md:text-3xl font-semibold text-accent">

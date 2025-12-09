@@ -47,7 +47,7 @@ const LocationsSection = () => {
               <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-accent">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold eveleth text-accent">
             OUR <span className="text-primary">LOCATIONS</span>
           </h2>
         </div>
@@ -73,7 +73,7 @@ const LocationsSection = () => {
 
               {/* Content */}
               <div className="p-6 md:p-8">
-                <h3 className="text-2xl md:text-3xl font-bold text-[#4A3728] mb-6">
+                <h3 className="text-2xl md:text-3xl font-bold text-[#4A3728] mb-6 eveleth">
                   {location.name}
                 </h3>
 
