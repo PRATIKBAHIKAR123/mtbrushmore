@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import CTASection from '../home/call-to-action';
+import CTASection from "@/app/home/call-to-action";
+
 
 interface Service {
   id: number;
@@ -16,34 +16,26 @@ const ServicesSection = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: "Dental Cleanings & Exams",
-      description: "We keep tiny teeth sparkling clean while checking that every smile is developing just right.",
+      title: "IV Sedation",
+      description: "A fully monitored, restful solution for children who need extensive treatment or extra comfort during their visit.",
       image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
       decorativeIcon: "tooth",
       path: "/treatments/dental-cleanings-and-exams"
     },
     {
       id: 2,
-      title: "Dental Sealants",
-      description: "A smooth, invisible shield protects cavity-prone areas so kids can enjoy snacks without worry.",
+      title: "Laughing Gas",
+      description: "A light and calming option that helps kids stay relaxed and giggly while remaining awake and in control.",
       image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
       path: "/treatments/restorative-dentistry"
     },
     {
       id: 3,
-      title: "Fluoride Treatments",
-      description: "This quick strengthening boost gives enamel extra power to fight off sugar bugs and decay.",
+      title: "Oral Sedation",
+      description: "A gentle, deeper relaxation choice that helps reduce worries so children can feel peaceful throughout care.",
       image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
       path: "/treatments/orthodontics"
     },
-    {
-      id: 4,
-      title: "Nutritional Counseling",
-      description: "Simple guidance for parents and kids to support mouth-healthy choices at home and school.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
-      path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
-    }
   ];
 
   return (
@@ -62,13 +54,11 @@ const ServicesSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-           Preventive Dentistry  <span className="text-accent">
+           Sedation Dentistry <span className="text-accent">
  in Hamilton, NJ</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
-            Helping little teeth stay strong and healthy with
-            <strong> gentle pediatric dental care in Hamilton, NJ</strong>
-            that prevents cavities early and supports confident, growing smiles.
+            Stress-free visits start here, with sedation dentistry for kids in Hamilton, NJ designed to help every child feel relaxed, supported, and completely at ease.
           </p>
         </div>
 

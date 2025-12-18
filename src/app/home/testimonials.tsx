@@ -16,26 +16,26 @@ const TestimonialsSection = () => {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      name: "Melissa L.",
-      location: "Clifton Park, NY",
+      name: "Daisy S.",
+      location: "Hamilton Square, NJ",
       rating: 5,
-      text: "We had a wonderful experience at Smile Lodge from start to finish. My son was referred due to his sensitivities and anxieties. The Smile Lodge staff were very kind and welcoming and it was apparent that not only do they know how to handle children but they like them as well. Dr. McMahon was personable, compassionate, and did a flawless job on my son's procedure. He even checked in on us later that evening to make sure everything went well. I was surprised at how much we enjoyed our experience and I would highly recommend this practice. My only complaint is I wish they took adult patients! Thank you Smile Lodge.",
+      text: "My daughter was nervous for her first dentist visit, but Dr. Manmeet Arora and the team made her feel safe right away. They were gentle, patient, and incredibly kind. She left smiling ear-to-ear and keeps asking when she can go back. We’re so grateful to have Mt. Brushmore close to home.",
       image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=600&fit=crop"
     },
     {
       id: 2,
-      name: "Sarah M.",
-      location: "Albany, NY",
+      name: "Mark D.",
+      location: "Robbinsville, NJ",
       rating: 5,
-      text: "Exceptional care for my daughter! The team at Smile Lodge made her feel comfortable and safe throughout the entire visit. The child-friendly environment and patient staff turned what could have been a scary experience into a positive one. Highly recommend to all parents!",
+      text: "Our twins have never been happier at the dentist! Dr. Manmeet Arora is fantastic with kids - knowledgeable, funny, and so patient. The office atmosphere is bright and welcoming, and appointments are always smooth. We trust Mt. Brushmore with our children’s growing smiles completely.",
       image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=600&fit=crop"
     },
     {
       id: 3,
-      name: "Jennifer K.",
-      location: "Saratoga Springs, NY",
+      name: "Julia C.",
+      location: "Mercerville, NJ",
       rating: 5,
-      text: "Outstanding pediatric dental practice! My kids actually look forward to their appointments now. The staff is incredibly patient and skilled at working with children of all ages. Clean facility, modern equipment, and a caring team. We're so grateful we found Smile Lodge!",
+      text: "Mt. Brushmore has completely changed how my son feels about the dentist. Dr. Manmeet Arora explained everything to him in a fun, kid-friendly way that made him comfortable. The entire staff is so positive and encouraging. I recommend them to every parent looking for a pediatric dentist who truly understands children.",
       image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=600&fit=crop"
     }
   ];
@@ -74,7 +74,7 @@ const TestimonialsSection = () => {
             TESTIMONIALS
           </h2>
           <p className="text-2xl md:text-3xl font-semibold text-accent">
-            WHAT PARENTS SAY
+            Why Parents Love Mt. Brushmore
           </p>
         </div>
 
@@ -112,7 +112,7 @@ const TestimonialsSection = () => {
             <h3 className="text-2xl font-bold text-[#4A3728] mb-1">
               {current.name}
             </h3>
-            <p className="text-[#8B6F47] mb-6">{current.location}</p>
+            <p className="text-accent mb-6">{current.location}</p>
 
             {/* Testimonial Text */}
             <p className="text-[#4A3728] leading-relaxed mb-8">
@@ -123,19 +123,19 @@ const TestimonialsSection = () => {
             <div className="flex items-center gap-4">
               <button
                 onClick={prevTestimonial}
-                className="w-12 h-12 rounded-full border-2 border-[#8B6F47] flex items-center justify-center hover:bg-[#8B6F47] hover:text-white transition-colors"
+                className="w-12 h-12 rounded-full border-2 border-secondary flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
                 aria-label="Previous testimonial"
               >
                 <ChevronLeft className="w-6 h-6" />
               </button>
               <button
                 onClick={nextTestimonial}
-                className="w-12 h-12 rounded-full border-2 border-[#8B6F47] flex items-center justify-center hover:bg-[#8B6F47] hover:text-white transition-colors"
+                className="w-12 h-12 rounded-full border-2 border-secondary flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
                 aria-label="Next testimonial"
               >
                 <ChevronRight className="w-6 h-6" />
               </button>
-              <div className="ml-auto text-sm text-[#8B6F47]">
+              <div className="ml-auto text-sm text-secondary">
                 {currentIndex + 1} / {testimonials.length}
               </div>
             </div>

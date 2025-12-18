@@ -20,33 +20,20 @@ export default function AboutUs() {
 
             <div className="relative z-10">
               <h1 className="text-5xl font-bold mb-6" style={{fontFamily: "'Eveleth', sans-serif"}}>
-                <span className="text-primary">WELCOME TO</span>
+                <span className="text-primary">Meet Mt. Brushmore -</span>
                 <br />
-                <span className="text-primary">THE </span>
-                <span className="text-accent">MT BRUSHMORE</span>
+                <span className="text-accent">Where Little Smiles Grow Big & Confident</span>
               </h1>
 
-              <p className="text-gray-700 text-lg w-[50%] leading-relaxed mb-8">
-                At <span className="font-semibold">Mt. Brushmore</span>, we're dedicated to creating joyful dental 
-                experiences for your little ones, combining expert care with a warm, 
-                family-friendly atmosphere designed to make every visit stress-free 
-                and fun!
+              <p className="text-gray-700 text-lg w-3xl leading-relaxed mb-8">
+                <span className="font-semibold">Mt. Brushmore Pediatric Dentistry</span> is where kids feel brave, parents feel supported, and healthy smiles shine brighter every day. Led by Dr. Manmeet Arora, DDS, our Hamilton, NJ pediatric dentist office specializes in gentle care for infants, children, and teens - from routine checkups and cavity prevention to orthodontics, emergencies, sedation dentistry, and special needs dental care. Families across Hamilton Square (08690), Mercerville (08619), Robbinsville (08691), Lawrenceville (08648), West Windsor (08550), East Windsor (08512, 08520) and surrounding neighborhoods trust us for friendly, modern care that makes every visit positive and stress-free. Searching for a pediatric dentist near me? You’ve found a dental home that puts comfort, safety, and fun first - because building a lifetime of confident smiles always starts with the right team by your child’s side.
+                 
               </p>
 
               
-
-              {/* Star Rating */}
-              <div className="flex items-center space-x-2 mb-2">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-6 h-6 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-gray-800 font-semibold text-lg mb-3">Over 6,000 5-star reviews</p>
               <div className='flex gap-2 md:gap-3 mb-2'>
                               <Button variant={'secondary'} className='rounded-full' size={'lg'}>Book Now</Button>
-                              <Button variant={'accent'} className='rounded-full' size={'lg'}>Insurance</Button>
+                              <Button variant={'accent'} className='rounded-full' size={'lg'}>Call Us</Button>
                             </div>
 
             </div>

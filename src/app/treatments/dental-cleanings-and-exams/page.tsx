@@ -31,19 +31,18 @@ export default function TreatmentDetailsPage() {
 ];
 
   return (
-    <div className="bg-[#E8DED3] min-h-screen py-12">
+    <div className="bg-muted min-h-screen py-12">
       {/* Paper Container */}
-      <div className="mx-auto max-w-7xl bg-[#F8F1E6] rounded-[26px] px-6 py-12 md:px-12 shadow-sm">
+      <div className="mx-auto max-w-7xl bg-white rounded-[26px] px-6 py-12 md:px-12 shadow-sm">
         
         {/* Header */}
         <div className="mb-10">
           <h1
-            className="text-3xl md:text-5xl font-extrabold tracking-tight mb-4 text-[#2F241C]"
-            style={{ fontFamily: "'Eveleth', serif" }}
+            className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-accent eveleth"
           >
             Dental Cleanings and Exams
           </h1>
-          <p className="text-[#4A3A2A] max-w-2xl text-base md:text-lg">
+          <p className=" max-w-2xl text-base md:text-lg">
             Routine check-ups and cleanings prevent issues and keep teeth in optimal condition.
           </p>
         </div>
@@ -71,7 +70,7 @@ export default function TreatmentDetailsPage() {
               <h3 className="text-lg md:text-xl font-bold text-[#3B2C20] mb-2 uppercase">
                 What It Is
               </h3>
-              <p className="text-[#4A3A2A] leading-relaxed text-sm md:text-base">
+              <p className=" leading-relaxed text-sm md:text-base">
                 Dental cleanings and exams remove plaque and tartar while assessing overall oral health. 
                 They help prevent cavities, gum disease, and other dental problems before they worsen.
               </p>
@@ -82,7 +81,7 @@ export default function TreatmentDetailsPage() {
               <h3 className="text-lg md:text-xl font-bold text-[#3B2C20] mb-2 uppercase">
                 How It Works
               </h3>
-              <p className="text-[#4A3A2A] leading-relaxed text-sm md:text-base">
+              <p className=" leading-relaxed text-sm md:text-base">
                 During the visit, a dental professional cleans your teeth, removes plaque buildup, 
                 and examines your gums and teeth. X-rays may be taken if required to detect hidden issues.
               </p>
@@ -93,7 +92,7 @@ export default function TreatmentDetailsPage() {
               <h3 className="text-lg md:text-xl font-bold text-[#3B2C20] mb-2 uppercase">
                 How It Helps
               </h3>
-              <p className="text-[#4A3A2A] leading-relaxed text-sm md:text-base">
+              <p className=" leading-relaxed text-sm md:text-base">
                 Regular cleanings keep your smile healthy, prevent tooth decay, and help maintain fresh breath. 
                 These visits are essential for long-term oral health.
               </p>
@@ -103,7 +102,7 @@ export default function TreatmentDetailsPage() {
             <div className="pt-4">
               <button
                 className="inline-flex items-center justify-center gap-2
-                bg-[#8B4513] hover:bg-[#74380F]
+                bg-accent hover:bg-secondary
                 text-white font-semibold
                 px-8 py-3 rounded-full
                 transition-all duration-300 shadow-md"
@@ -115,11 +114,11 @@ export default function TreatmentDetailsPage() {
           </div>
         </div>
       </div>
-       <section className="bg-[#F8F1E6] mx-auto max-w-7xl rounded-[26px] px-6 py-12 md:px-12 mt-4 md:mt-6">
+       <section className="bg-white mx-auto max-w-7xl rounded-[26px] px-6 py-12 md:px-12 mt-4 md:mt-6">
       
       {/* Heading */}
       <h2
-        className="text-2xl md:text-4xl font-extrabold mb-8 text-[#2F241C]"
+        className="text-2xl md:text-4xl font-bold mb-8 text-accent eveleth"
         style={{ fontFamily: "'Eveleth', serif" }}
       >
         Frequently Asked Questions
@@ -140,7 +139,7 @@ export default function TreatmentDetailsPage() {
                 font-semibold
                 uppercase
                 tracking-wide
-                text-[#7A4A24]
+                text-accent
                 hover:no-underline
                 py-4
               "
@@ -148,7 +147,7 @@ export default function TreatmentDetailsPage() {
               {faq.question}
             </AccordionTrigger>
 
-            <AccordionContent className="text-[#4A3A2A] text-sm md:text-base leading-relaxed pb-4">
+            <AccordionContent className=" text-sm md:text-base leading-relaxed pb-4">
               {faq.answer}
             </AccordionContent>
           </AccordionItem>

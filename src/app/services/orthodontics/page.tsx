@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import CTASection from '../home/call-to-action';
+import CTASection from "@/app/home/call-to-action";
+
 
 interface Service {
   id: number;
@@ -16,30 +16,38 @@ const ServicesSection = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: "Dental Cleanings & Exams",
-      description: "We keep tiny teeth sparkling clean while checking that every smile is developing just right.",
+      title: "Braces (Traditional)",
+      description: "Reliable metal braces gently guide teeth into beautiful alignment for a healthier, more confident smile.",
       image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
       decorativeIcon: "tooth",
       path: "/treatments/dental-cleanings-and-exams"
     },
     {
       id: 2,
-      title: "Dental Sealants",
-      description: "A smooth, invisible shield protects cavity-prone areas so kids can enjoy snacks without worry.",
+      title: "Clear Aligners",
+      description: "Nearly invisible aligners straighten teeth comfortably while letting kids eat, brush, and smile freely.",
       image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
       path: "/treatments/restorative-dentistry"
     },
     {
       id: 3,
-      title: "Fluoride Treatments",
-      description: "This quick strengthening boost gives enamel extra power to fight off sugar bugs and decay.",
+      title: "Early Orthodontic Assessments",
+      description: "Early checkups help us spot alignment changes sooner so treatment stays simpler and smiles grow strong from the start.",
       image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
       path: "/treatments/orthodontics"
     },
     {
       id: 4,
-      title: "Nutritional Counseling",
-      description: "Simple guidance for parents and kids to support mouth-healthy choices at home and school.",
+      title: "Palate Expanders and Habit Appliances",
+      description: "Special appliances support healthy jaw growth and help end habits like thumb-sucking to protect future smiles.",
+      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      path: "/treatments/dental-emergencies",
+      decorativeIcon: "flower"
+    },
+    {
+      id: 5,
+      title: "Retainers",
+      description: "Custom retainers keep teeth perfectly in place after treatment so confident results last as your child grows.",
       image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
       path: "/treatments/dental-emergencies",
       decorativeIcon: "flower"
@@ -62,13 +70,11 @@ const ServicesSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-           Preventive Dentistry  <span className="text-accent">
+           Orthodontics <span className="text-accent">
  in Hamilton, NJ</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
-            Helping little teeth stay strong and healthy with
-            <strong> gentle pediatric dental care in Hamilton, NJ</strong>
-            that prevents cavities early and supports confident, growing smiles.
+            Our pediatric orthodontics in Hamilton, NJ help growing smiles straighten with ease so kids can beam brighter and feel confident every step of the way.
           </p>
         </div>
 

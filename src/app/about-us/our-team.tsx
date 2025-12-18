@@ -12,56 +12,11 @@ const TeamSection = () => {
   const team: Team[] = [
     {
       id: 1,
-      title: "Dr. McDonnell",
+      title: "Dr. Manmeet Arora DDS",
       description: "Protect your child's smile with cleanings, fluoride, and sealants.",
-      image: "/Images/doctor-with-his-arms-crossed-white-background.jpg",
+      image: "/Images/Dr. Manmeet Arora, DDS.webp",
       decorativeIcon: "tooth"
     },
-    {
-      id: 2,
-      title: "Dr. McMahon",
-      description: "Restore your child's smile with gentle fillings and crowns.",
-      image: "/Images/doctor-with-his-arms-crossed-white-background.jpg"
-    },
-    {
-      id: 3,
-      title: "Dr. McMahon",
-      description: "Straighten teeth and boost confidence with braces and aligners.",
-      image: "/Images/female-doctor-hospital-with-stethoscope.jpg"
-    },
-    {
-      id: 4,
-      title: "Dr. Hubbi",
-      description: "Get fast, compassionate emergency dental care for your child.",
-      image: "/Images/doctor-with-his-arms-crossed-white-background.jpg",
-      decorativeIcon: "flower"
-    },
-    {
-      id: 5,
-      title: "Dr. McDonnell",
-      description: "Protect your child's smile with cleanings, fluoride, and sealants.",
-      image: "/Images/doctor-with-his-arms-crossed-white-background.jpg",
-      decorativeIcon: "tooth"
-    },
-    {
-      id: 6,
-      title: "Dr. McMahon",
-      description: "Restore your child's smile with gentle fillings and crowns.",
-      image: "/Images/doctor-with-his-arms-crossed-white-background.jpg"
-    },
-    {
-      id: 7,
-      title: "Dr. McMahon",
-      description: "Straighten teeth and boost confidence with braces and aligners.",
-      image: "/Images/female-doctor-hospital-with-stethoscope.jpg"
-    },
-    {
-      id: 8,
-      title: "Dr. Hubbi",
-      description: "Get fast, compassionate emergency dental care for your child.",
-      image: "/Images/doctor-with-his-arms-crossed-white-background.jpg",
-      decorativeIcon: "flower"
-    }
   ];
 
   return (
@@ -83,18 +38,18 @@ const TeamSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            MEET <span className="text-accent">Our Team</span>
+            <span className="text-accent">The Pediatric Dentistry Team Kids Love</span>
           </h2>
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="flex items-center justify-center">
           {team.map((service, index) => (
             <div 
               key={service.id}
             >
               {/* Image Container */}
-              <div className='relative z-10 h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-300'>
+              <div className='relative z-10 h-64 rounded-3xl overflow-hidden shadow-lg transition-all duration-300'>
               <div className="absolute inset-0">
                 <img
                   src={service.image}
@@ -113,8 +68,8 @@ const TeamSection = () => {
 
                 {/* Buttons */}
                 <div className="flex">
-                  <button className="flex-1 bg-primary hover:bg-[#C4B590] text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm"
-                  onClick={()=>{window.location.href='team/dr-mcdonell' }}>
+                  <button className="flex-1 bg-primary hover:bg-accent text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm"
+                  onClick={()=>{window.location.href='/team/dr-manmeet-arora' }}>
                     View Profile
                   </button>
                 </div>

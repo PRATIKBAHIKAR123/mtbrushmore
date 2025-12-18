@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import CTASection from '../home/call-to-action';
+import CTASection from "@/app/home/call-to-action";
+
 
 interface Service {
   id: number;
@@ -16,34 +16,47 @@ const ServicesSection = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: "Dental Cleanings & Exams",
-      description: "We keep tiny teeth sparkling clean while checking that every smile is developing just right.",
+      title: "Chipped or Broken Teeth",
+      description: "Quick and comforting care repairs cracks or breaks so kids can smile and chew again - without worry.",
       image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
       decorativeIcon: "tooth",
       path: "/treatments/dental-cleanings-and-exams"
     },
     {
       id: 2,
-      title: "Dental Sealants",
-      description: "A smooth, invisible shield protects cavity-prone areas so kids can enjoy snacks without worry.",
+      title: "Dental Abscesses",
+      description: "Immediate relief for painful infections keeps children comfortable and prevents serious complications.",
       image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
       path: "/treatments/restorative-dentistry"
     },
     {
       id: 3,
-      title: "Fluoride Treatments",
-      description: "This quick strengthening boost gives enamel extra power to fight off sugar bugs and decay.",
+      title: "Knocked-Out Teeth",
+      description: "Rapid care gives the best chance to save a permanent tooth and restore the smile after an accident.",
       image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
       path: "/treatments/orthodontics"
     },
     {
       id: 4,
-      title: "Nutritional Counseling",
-      description: "Simple guidance for parents and kids to support mouth-healthy choices at home and school.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
-      path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
-    }
+      title: "Lost Fillings or Crowns",
+      description: "Swift restoration protects the tooth underneath and keeps everything stable until fully repaired. ",
+      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
+      path: "/treatments/restorative-dentistry"
+    },
+    {
+      id: 5,
+      title: "Orthodontic Emergencies",
+      description: "Broken braces or poking wires are fixed fast to keep treatment on track and smiles growing strong.",
+      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
+      path: "/treatments/orthodontics"
+    },
+    {
+      id: 6,
+      title: "Soft Tissue Injuries",
+      description: "Gentle treatment quickly soothes cuts, bites, or gum injuries so kids can heal comfortably.",
+      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
+      path: "/treatments/restorative-dentistry"
+    },
   ];
 
   return (
@@ -62,13 +75,11 @@ const ServicesSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-           Preventive Dentistry  <span className="text-accent">
+           Emergency Dentistry <span className="text-accent">
  in Hamilton, NJ</span>
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
-            Helping little teeth stay strong and healthy with
-            <strong> gentle pediatric dental care in Hamilton, NJ</strong>
-            that prevents cavities early and supports confident, growing smiles.
+            A knocked-out tooth or sudden toothache can feel scary, but families can count on gentle, fast emergency dental care in Hamilton, NJ that helps little smiles bounce back with confidence.
           </p>
         </div>
 

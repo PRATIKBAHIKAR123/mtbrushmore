@@ -15,12 +15,11 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
   return (
     <section className="relative bg-[#dadada] pt-32 pb-16 px-6 md:px-12 lg:px-20 overflow-hidden">
       {/* Floating + Marquee Boat — put this inside the hero/main container (parent should be relative) */}
-      <div className="boat-marquee-wrapper" aria-hidden>
+      {/* <div className="boat-marquee-wrapper" aria-hidden>
         <div className="boat-marquee">
-          {/* You can duplicate the <img> if you want more than one boat in the stream */}
           <img src="/Images/animals/2.png" alt="Boat" className="boat" />
         </div>
-      </div>
+      </div> */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none">
   <svg
     className="relative block w-[calc(100%+1.3px)] h-[120px]"

@@ -23,32 +23,32 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-white">ABOUT US</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Mission
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Team
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Why Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Giving Back
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Fun Videos
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Follow Us
                 </a>
               </li>
@@ -60,32 +60,32 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-white">SERVICES</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Preventive Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Restorative Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Orthodontics
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Sedation Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Emergency Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Special Needs Dentistry
                 </a>
               </li>
@@ -97,32 +97,32 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-white">FOR PARENTS</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   First Visit
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Insurance
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Financing
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Accessibility
                 </a>
               </li>
@@ -134,12 +134,12 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-white">LOCATIONS</h3>
             <ul className="space-y-3 mb-6">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   Clifton Park, NY
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#" className="text-white transition-colors">
                   East Greenbush, NY
                 </a>
               </li>
@@ -169,7 +169,7 @@ const Footer = () => {
       {/* Copyright Bar */}
       <div className="border-t border-amber-800">
         <div className="max-w-7xl mx-auto px-4 py-4">
-          <p className="text-center text-amber-200 text-sm">
+          <p className="text-center text-white text-sm">
             Copyright © 2025 Patiently.com | Site Monitored & Protected by DMCA
           </p>
         </div>

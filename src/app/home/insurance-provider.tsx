@@ -52,10 +52,10 @@ const InsuranceSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-accent eveleth mb-4">
-            WE ACCEPT <span className="text-primary">YOUR INSURANCE</span>
+            Affordable Care Made Easy
           </h2>
           <p className="text-[#4A3728] text-base md:text-lg max-w-3xl leading-relaxed">
-            At The Smile Lodge, we simplify dental care by accepting most insurance plans, ensuring your child gets the high-quality treatment they need without the stress of navigating complicated payment options.
+            Dental care should never feel stressful - especially when it comes to payments. We make visits simple by accepting a wide range of insurance plans, so your child can receive the highest quality care without worry. Our team is always happy to help you understand your benefits and maximize coverage.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const InsuranceSection = () => {
           <div className="relative h-full">
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-10 shadow-xl">
               <h3 className="text-2xl md:text-3xl font-bold eveleth text-primary mb-2">
-                WE ARE <span className="text-accent">IN-NETWORK WITH:</span>
+                In-Network <span className="text-accent">With Major Insurance Providers</span>
               </h3>
 
               <ul className="space-y-3 mb-8 mt-6">

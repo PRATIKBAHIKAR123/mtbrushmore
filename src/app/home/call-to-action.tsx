@@ -2,15 +2,9 @@ import React from 'react';
 
 const CTASection = () => {
   return (
-    <section className="relative bg-gradient-to-b from-[#dadada] to-[#D8CEC3] py-20 px-4 md:py-24 overflow-hidden">
+    <section className="relative bg-muted py-20 px-4 md:py-24 overflow-hidden">
       <img src={'/Images/Mountains.png'} alt="Decorative mountains" className="absolute inset-0 w-full h-full object-cover opacity-40"/>
-      {/* Decorative torn paper edge at top */}
-      <div className="absolute top-0 left-0 w-full h-8 bg-[#F5F0E8]">
-        <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 1440 32" fill="none">
-          <path d="M0 0 L0 32 Q20 20, 40 32 T80 32 T120 32 T160 32 T200 32 T240 32 T280 32 T320 32 T360 32 T400 32 T440 32 T480 32 T520 32 T560 32 T600 32 T640 32 T680 32 T720 32 T760 32 T800 32 T840 32 T880 32 T920 32 T960 32 T1000 32 T1040 32 T1080 32 T1120 32 T1160 32 T1200 32 T1240 32 T1280 32 T1320 32 T1360 32 T1400 32 T1440 32 L1440 0 Z" 
-                fill="#F5F0E8" />
-        </svg>
-      </div>
+     
 
       {/* Background decorative silhouettes */}
       <div className="absolute inset-0 opacity-5 pointer-events-none">
@@ -34,7 +28,7 @@ const CTASection = () => {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         {/* Main Content Container */}
         <div className="relative bg-white/40 backdrop-blur-sm rounded-[3rem] p-12 md:p-16 lg:p-20 shadow-2xl">
           
@@ -49,20 +43,29 @@ const CTASection = () => {
           {/* Main CTA Content */}
           <div className="text-center relative z-20">
             <h2 className="text-lg md:text-2xl lg:text-4xl font-bold mb-4 eveleth">
-              <span className="text-primary">GET STARTED.</span>
+              <span className="text-primary">Join Our Mt. Brushmore Family!</span>
               <br />
-              <span className="text-accent">REQUEST YOUR VISIT TODAY!</span>
+              
             </h2>
+            <h3 className="text-base md:text-xl lg:text-2xl font-bold mb-24 eveleth">
+              <span className="text-accent">Book Your Child’s Visit Today</span>
+            </h3>
+
+            
 
             {/* Decorative ants walking */}
-            <div className="flex flex-col justify-center items-center">
+            <div className='flex items-end justify-center gap-3 relative'>
               
             
-<img src={'/Images/animals/raccoon-baby-raccoon.png'} alt="Decorative ant" className="w-12 h-12 md:w-16 md:h-16"/>
+<img src={'/Images/animals/raccoon-baby-raccoon.png'} alt="Decorative ant" className="w-12 h-12 md:w-38 md:h-32 absolute left-1/2 -translate-x-1/2 bottom-0 -translate-y-1/2 animate-bounce-slow"/>
+
             <button className="bg-secondary hover:bg-primary text-white font-bold py-4 px-12 rounded-full text-lg md:text-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
               Book Now
             </button>
-            </div>
+            <a href="tel:5183731181" className="border-2 border-secondary text-secondary font-bold py-4 px-12 rounded-full hover:bg-primary hover:text-white transition-colors">
+                609-422-4700
+              </a>
+              </div>
           </div>
         </div>
       </div>

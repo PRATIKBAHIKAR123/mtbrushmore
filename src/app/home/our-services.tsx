@@ -12,29 +12,35 @@ const ServicesSection = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: "PREVENTIVE",
-      description: "Protect your child's smile with cleanings, fluoride, and sealants.",
+      title: "Preventive Dentistry",
+      description: "Protect growing smiles with regular cleanings, fluoride, and early cavity prevention designed just for kids.",
       image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
       decorativeIcon: "tooth"
     },
     {
       id: 2,
-      title: "RESTORATIVE",
-      description: "Restore your child's smile with gentle fillings and crowns.",
+      title: "Restorative Dentistry",
+      description: "Gently repair and strengthen teeth using tooth-colored fillings and long-lasting pediatric crowns.",
       image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop"
     },
     {
       id: 3,
-      title: "ORTHODONTICS",
-      description: "Straighten teeth and boost confidence with braces and aligners.",
+      title: "Orthodontics",
+      description: "Guide teeth into healthy alignment and boost confidence with braces, aligners, and early orthodontic evaluations.",
       image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop"
     },
     {
       id: 4,
-      title: "EMERGENCIES",
-      description: "Get fast, compassionate emergency dental care for your child.",
+      title: "Sedation Dentistry",
+      description: "Help anxious or sensitive children relax with safe, carefully monitored sedation tailored to their comfort.",
       image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
       decorativeIcon: "flower"
+    },
+    {
+      id: 5,
+      title: "Emergency Dentistry",
+      description:"From toothaches to dental injuries, our same-day care ensures your child gets relief quickly and compassionately.",
+      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
     }
   ];
 
@@ -54,15 +60,15 @@ const ServicesSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4 eveleth">
-            OUR <span className="text-primary">SERVICES</span>
+            Our  <span className="text-primary">Pediatric Dental Services</span>
           </h2>
-          <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
-            From routine check-ups and cleanings to specialized treatments, The Smile Lodge offers comprehensive pediatric dental care, ensuring every child's smile stays healthy, bright, and full of confidence.
+          <p className="text-[#4A3728] text-base md:text-lg max-w-4xl leading-relaxed">
+            Little smiles deserve big care, and we’re here to support every stage of your child’s dental journey. From tiny first teeth to confident teen grins, our gentle approach helps kids feel safe, happy, and excited to visit the dentist. Families throughout Hamilton Square (08690), Mercerville (08619), Robbinsville (08691), Lawrenceville (08648), West Windsor (08550), East Windsor (08512, 08520), and nearby communities love the convenient, kid-focused dental care available near you.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div 
               key={service.id}
@@ -121,10 +127,10 @@ const ServicesSection = () => {
 
                 {/* Buttons */}
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-accent hover:bg-[#C4B590] text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
+                  <button className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button className="flex-1 bg-transparent border-2 border-accent hover:border-[#C4B590] text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary">
+                  <button className="flex-1 bg-transparent border-2 border-accent hover:border-primary text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary">
                     Learn More
                   </button>
                 </div>

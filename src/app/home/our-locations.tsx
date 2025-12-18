@@ -5,13 +5,15 @@ interface Location {
   name: string;
   image: string;
   link: string;
+  description?: string;
 }
 
 const LocationsSection = () => {
   const locations: Location[] = [
     {
       id: 1,
-      name: "Trenton, NJ 08690",
+      name: "Hamilton, NJ 08690",
+      description:"2115 Rt 33, Hamilton, NJ 08690",
       image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&h=800&fit=crop",
       link: "/locations/clifton-park"
     }
@@ -48,7 +50,7 @@ const LocationsSection = () => {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold eveleth text-accent">
-            OUR <span className="text-primary">LOCATIONS</span>
+            Our <span className="text-primary">  Location</span>
           </h2>
         </div>
 
@@ -73,9 +75,12 @@ const LocationsSection = () => {
 
               {/* Content */}
               <div className="p-6 md:p-8">
-                <h3 className="text-2xl md:text-3xl font-bold text-[#4A3728] mb-6 eveleth">
+                <h3 className="text-2xl md:text-3xl font-bold text-accent eveleth">
                   {location.name}
                 </h3>
+                <p className="text-primary text-lg md:text-xl leading-relaxed mb-6">
+                  {location.description}
+                </p>
 
                 <button 
                   onClick={() => window.location.href = location.link}

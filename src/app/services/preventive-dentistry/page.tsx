@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import CTASection from '../home/call-to-action';
+import CTASection from "@/app/home/call-to-action";
+
 
 interface Service {
   id: number;
@@ -40,6 +40,30 @@ const ServicesSection = () => {
       id: 4,
       title: "Nutritional Counseling",
       description: "Simple guidance for parents and kids to support mouth-healthy choices at home and school.",
+      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      path: "/treatments/dental-emergencies",
+      decorativeIcon: "flower"
+    },
+    {
+      id: 5,
+      title: "Oral Hygiene Education",
+      description: "Interactive lessons make brushing and flossing exciting - turning good habits into daily routines.",
+      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      path: "/treatments/dental-emergencies",
+      decorativeIcon: "flower"
+    },
+    {
+      id: 6,
+      title: "Space Maintainers",
+      description: "Gentle support keeps perfect room for future grown-up teeth to come in straight and happy.",
+      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      path: "/treatments/dental-emergencies",
+      decorativeIcon: "flower"
+    },
+    {
+      id: 7,
+      title: "X-Rays & Imaging",
+      description: "Kid-safe technology helps us spot early changes below the gumline for better growth planning.",
       image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
       path: "/treatments/dental-emergencies",
       decorativeIcon: "flower"
