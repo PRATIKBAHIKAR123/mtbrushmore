@@ -72,8 +72,8 @@ const ServicesSection = () => {
           </h2>
           <p className="text-accent text-base md:text-lg max-w-2xl leading-relaxed">
             From tiny repairs to durable protection, our
-            <strong>pediatric restorative dentistry in Hamilton, NJ</strong>
-            helps kids maintain strong, confident smiles as they grow.
+            {" "}<strong>pediatric restorative dentistry in Hamilton, NJ</strong>
+            {" "}helps kids maintain strong, confident smiles as they grow.
           </p>
         </div>
 
