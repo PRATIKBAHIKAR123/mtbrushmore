@@ -24,32 +24,12 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-white transition-colors">
-                  Mission
+                  Offers
                 </a>
               </li>
               <li>
                 <a href="#" className="text-white transition-colors">
                   Team
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white transition-colors">
-                  Why Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white transition-colors">
-                  Giving Back
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white transition-colors">
-                  Fun Videos
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white transition-colors">
-                  Follow Us
                 </a>
               </li>
             </ul>
@@ -165,7 +145,7 @@ const Footer = () => {
       <div className="border-t border-amber-800">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <p className="text-center text-white text-sm">
-            Copyright © 2025 Patiently.com | Site Monitored & Protected by DMCA
+            Copyright © 2025 mtbrushmore.com | Site Monitored & Protected by DMCA
           </p>
         </div>
       </div>
