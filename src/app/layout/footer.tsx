@@ -135,12 +135,7 @@ const Footer = () => {
             <ul className="space-y-3 mb-6">
               <li>
                 <a href="#" className="text-white transition-colors">
-                  Clifton Park, NY
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white transition-colors">
-                  East Greenbush, NY
+                  Hamilton, NJ 08690
                 </a>
               </li>
             </ul>

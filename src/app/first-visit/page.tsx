@@ -6,7 +6,7 @@ export default function Page() {
 
 
   return (
-    <div className="bg-muted min-h-screen py-12">
+    <div className="bg-primary/10 min-h-screen py-12">
       {/* Paper Container */}
       <div className="mx-auto max-w-7xl bg-white rounded-[26px] px-6 py-12 md:px-12 shadow-sm">
         
@@ -33,7 +33,7 @@ export default function Page() {
             
             {/* WHAT IT IS */}
             <div className="flex items-center gap-3">
-                <div className="border border-sm border-accent bg-muted rounded-full p-10 w-12 h-12 flex items-center justify-center">
+                <div className="border border-sm border-accent bg-primary/10 rounded-full p-10 w-12 h-12 flex items-center justify-center">
                     <span className="text-3xl">1</span>
                 </div>
             <section>
@@ -47,7 +47,7 @@ export default function Page() {
             </div>
 
            <div className="flex items-center gap-3">
-                <div className="border border-sm border-accent bg-muted rounded-full p-10 w-12 h-12 flex items-center justify-center">
+                <div className="border border-sm border-accent bg-primary/10 rounded-full p-10 w-12 h-12 flex items-center justify-center">
                     <span className="text-3xl">2</span>
                 </div>
             <section>
@@ -61,7 +61,7 @@ export default function Page() {
             </div>
 
             <div className="flex items-center gap-3">
-                <div className="border border-sm border-accent bg-muted rounded-full p-10 w-12 h-12 flex items-center justify-center">
+                <div className="border border-sm border-accent bg-primary/10 rounded-full p-10 w-12 h-12 flex items-center justify-center">
                     <span className="text-3xl">3</span>
                 </div>
             <section>
@@ -74,7 +74,7 @@ export default function Page() {
             </section>
             </div>
             <div className="flex items-center gap-3">
-                <div className="border border-sm border-accent bg-muted rounded-full p-10 w-12 h-12 flex items-center justify-center">
+                <div className="border border-sm border-accent bg-primary/10 rounded-full p-10 w-12 h-12 flex items-center justify-center">
                     <span className="text-3xl">4</span>
                 </div>
             <section>

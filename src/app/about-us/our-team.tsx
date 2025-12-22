@@ -25,7 +25,7 @@ const TeamSection = () => {
       <div className="absolute top-0 right-0 w-96 h-96 opacity-10">
         <svg viewBox="0 0 400 400" fill="none" className="w-full h-full">
           <path d="M200 50 L250 150 L350 150 L270 220 L300 320 L200 260 L100 320 L130 220 L50 150 L150 150 Z" 
-                fill="#8B6F47" />
+                fill="var(--accent)" />
         </svg>
       </div>
 

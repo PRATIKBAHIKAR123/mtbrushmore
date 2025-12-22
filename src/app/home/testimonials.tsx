@@ -51,23 +51,16 @@ const TestimonialsSection = () => {
   const current = testimonials[currentIndex];
 
   return (
-    <section className="relative bg-[#dadada] py-16 px-4 md:py-24 overflow-hidden">
+    <section className="relative bg-[#dadada] py-12 px-4 md:py-24 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 left-0 w-full h-full opacity-10">
-        <svg className="absolute top-10 right-20 w-64 h-64" viewBox="0 0 200 200" fill="none">
-          <path d="M100 20 L120 60 L160 80 L120 100 L100 140 L80 100 L40 80 L80 60 Z" fill="#8B6F47" />
-        </svg>
-        <svg className="absolute bottom-10 left-20 w-48 h-48" viewBox="0 0 200 200" fill="none">
-          <circle cx="100" cy="100" r="80" fill="#8B6F47" />
-        </svg>
-      </div>
+      
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-block mb-4">
             <svg className="w-16 h-2" viewBox="0 0 60 8" fill="none">
-              <path d="M0 4 Q15 0, 30 4 T60 4" stroke="#4A3728" strokeWidth="2" fill="none" />
+              <path d="M0 4 Q15 0, 30 4 T60 4" stroke="var(--accent)" strokeWidth="2" fill="none" />
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-2 eveleth">
@@ -88,14 +81,7 @@ const TestimonialsSection = () => {
                 alt="Happy parent and child"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
-              {/* Decorative smile overlay */}
-              <div className="absolute top-8 right-8 w-32 h-32 bg-primary rounded-full flex items-center justify-center shadow-lg">
-                <svg className="w-20 h-20" viewBox="0 0 100 100" fill="none">
-                  <circle cx="30" cy="35" r="6" fill="#FFF9E6" />
-                  <circle cx="70" cy="35" r="6" fill="#FFF9E6" />
-                  <path d="M25 55 Q50 75, 75 55" stroke="#FFF9E6" strokeWidth="5" fill="none" strokeLinecap="round" />
-                </svg>
-              </div>
+              
             </div>
           </div>
 
@@ -109,13 +95,13 @@ const TestimonialsSection = () => {
             </div>
 
             {/* Author Info */}
-            <h3 className="text-2xl font-bold text-[#4A3728] mb-1">
+            <h3 className="text-2xl font-bold text-accent mb-1">
               {current.name}
             </h3>
             <p className="text-accent mb-6">{current.location}</p>
 
             {/* Testimonial Text */}
-            <p className="text-[#4A3728] leading-relaxed mb-8">
+            <p className="text-accent leading-relaxed mb-8">
               {current.text}
             </p>
 

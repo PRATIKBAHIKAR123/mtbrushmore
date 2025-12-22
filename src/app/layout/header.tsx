@@ -124,7 +124,7 @@ const Header = () => {
                 Book Now
               </button>
 
-              <a href="tel:5183731181" className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors">
+              <a href="tel:609-422-4700" className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors">
                 609-422-4700
               </a>
             </div>

@@ -9,7 +9,7 @@ import MapSection from "./components/MapSection";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-muted p-12">
+    <div className="min-h-screen bg-primary/10 p-12">
       <div className="max-w-7xl mx-auto ">
         {/* Header */}
         <div>

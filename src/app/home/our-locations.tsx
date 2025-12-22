@@ -26,18 +26,18 @@ const LocationsSection = () => {
   ];
 
   return (
-    <section className="relative bg-[#dadada] py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-12 md:py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-80 pointer-events-none">
         {/* Top left decorative shapes */}
         
         
         {/* Top right decorative shapes */}
-        <img src={'/Images/animals/trees-1.png'} alt="Decorative bird" className="absolute top-10 right-20 w-180 h-180 object-contain"/>
+        <img src={'/Images/animals/trees-1.png'} alt="Decorative bird" className="absolute bottom-0 md:top-10 right-20 w-60 md:w-180 h-60 md:h-180 object-contain"/>
 
         {/* Bottom decorative elements */}
         <svg className="absolute bottom-0 left-0 w-full h-64" viewBox="0 0 1440 256" fill="none">
-          <path d="M0 128 Q360 80, 720 128 T1440 128" stroke="#8B6F47" strokeWidth="2" fill="none" opacity="0.3" />
+          <path d="M0 128 Q360 80, 720 128 T1440 128" stroke="var(--accent)" strokeWidth="2" fill="none" opacity="0.3" />
         </svg>
       </div>
 
@@ -46,7 +46,7 @@ const LocationsSection = () => {
         <div className="mb-12 md:mb-16">
           <div className="mb-4">
             <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
+              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="var(--accent)" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold eveleth text-accent">
@@ -102,7 +102,7 @@ const LocationsSection = () => {
                   </svg>
                 </button>
               </div>
-              <img src={'/Images/animals/owl.png'} alt="Decorative bird" className="absolute bottom-0 right-10 w-48 h-48 object-contain"/>
+              <img src={'/Images/animals/owl.png'} alt="Decorative bird" className="absolute bottom-0 right-10 w-24 md:w-48 h-24 md:h-48 object-contain"/>
             </div>
           ))}
         </div>

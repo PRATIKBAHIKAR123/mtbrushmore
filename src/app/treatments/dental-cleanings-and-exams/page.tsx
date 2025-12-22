@@ -31,7 +31,7 @@ export default function TreatmentDetailsPage() {
 ];
 
   return (
-    <div className="bg-muted min-h-screen py-12">
+    <div className="bg-primary/10 min-h-screen py-12">
       {/* Paper Container */}
       <div className="mx-auto max-w-7xl bg-white rounded-[26px] px-6 py-12 md:px-12 shadow-sm">
         
@@ -67,7 +67,7 @@ export default function TreatmentDetailsPage() {
             
             {/* WHAT IT IS */}
             <section>
-              <h3 className="text-lg md:text-xl font-bold text-[#3B2C20] mb-2 uppercase">
+              <h3 className="text-lg md:text-xl font-bold text-accent mb-2 uppercase">
                 What It Is
               </h3>
               <p className=" leading-relaxed text-sm md:text-base">
@@ -78,7 +78,7 @@ export default function TreatmentDetailsPage() {
 
             {/* HOW IT WORKS */}
             <section>
-              <h3 className="text-lg md:text-xl font-bold text-[#3B2C20] mb-2 uppercase">
+              <h3 className="text-lg md:text-xl font-bold text-accent mb-2 uppercase">
                 How It Works
               </h3>
               <p className=" leading-relaxed text-sm md:text-base">
@@ -89,7 +89,7 @@ export default function TreatmentDetailsPage() {
 
             {/* HOW IT HELPS */}
             <section>
-              <h3 className="text-lg md:text-xl font-bold text-[#3B2C20] mb-2 uppercase">
+              <h3 className="text-lg md:text-xl font-bold text-accent mb-2 uppercase">
                 How It Helps
               </h3>
               <p className=" leading-relaxed text-sm md:text-base">
@@ -147,7 +147,7 @@ export default function TreatmentDetailsPage() {
               {faq.question}
             </AccordionTrigger>
 
-            <AccordionContent className=" text-sm md:text-base leading-relaxed pb-4">
+            <AccordionContent className="text-accent text-sm md:text-base leading-relaxed pb-4">
               {faq.answer}
             </AccordionContent>
           </AccordionItem>

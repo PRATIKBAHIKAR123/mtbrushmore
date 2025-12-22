@@ -86,7 +86,7 @@ export default function HomePage() {
       {/* Background Video */}
       <video
         ref={videoRef}
-        src="/videos/251262_small.mp4"
+        src="/videos/header video.mp4"
         autoPlay
         muted
         loop

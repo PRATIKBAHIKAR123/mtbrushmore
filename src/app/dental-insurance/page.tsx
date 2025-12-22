@@ -6,7 +6,7 @@ export default function Page() {
 
 
   return (
-    <div className="bg-muted min-h-screen py-12">
+    <div className="bg-primary/10 min-h-screen py-12">
       {/* Paper Container */}
       <div className="mx-auto max-w-7xl bg-white rounded-[26px] px-6 py-12 md:px-12 shadow-sm mb-4">
         

@@ -18,62 +18,57 @@ const ServicesSection = () => {
       id: 1,
       title: "Dental Cleanings & Exams",
       description: "We keep tiny teeth sparkling clean while checking that every smile is developing just right.",
-      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
-      decorativeIcon: "tooth",
+      image: "/Images/enthodontics.webp",
       path: "/treatments/dental-cleanings-and-exams"
     },
     {
       id: 2,
       title: "Dental Sealants",
       description: "A smooth, invisible shield protects cavity-prone areas so kids can enjoy snacks without worry.",
-      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
+      image: "/Images/Root Canal.webp",
       path: "/treatments/restorative-dentistry"
     },
     {
       id: 3,
       title: "Fluoride Treatments",
       description: "This quick strengthening boost gives enamel extra power to fight off sugar bugs and decay.",
-      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
+      image: "/Images/Tooth Extraction.webp",
       path: "/treatments/orthodontics"
     },
     {
       id: 4,
       title: "Nutritional Counseling",
       description: "Simple guidance for parents and kids to support mouth-healthy choices at home and school.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      image: "/Images/urgent-care-services/ImmigrationPhysicalsinBloomfield.jpg",
       path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
     },
     {
       id: 5,
       title: "Oral Hygiene Education",
       description: "Interactive lessons make brushing and flossing exciting - turning good habits into daily routines.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
-      path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
+      image: "/Images/urgent-care-services/SeasonalAllergyTreatmentinBloomfield.jpg",
+      path: "/treatments/dental-emergencies"
     },
     {
       id: 6,
       title: "Space Maintainers",
       description: "Gentle support keeps perfect room for future grown-up teeth to come in straight and happy.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
-      path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
+      image: "/Images/why patients choose.webp",
+      path: "/treatments/dental-emergencies"
     },
     {
       id: 7,
       title: "X-Rays & Imaging",
       description: "Kid-safe technology helps us spot early changes below the gumline for better growth planning.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
-      path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
+      image: "/Images/Banner3.webp",
+      path: "/treatments/dental-emergencies"
     }
   ];
 
   return (
-    <section className="relative bg-muted py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-16 px-2 md:px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 w-84 h-84 opacity-60">
+      <div className="absolute top-2 md:top-0 right-0 w-28 md:w-84 h-28 md:h-84 opacity-60">
         <img src="/Images/animals/deer.png" alt="Decorative Pattern" className="w-full h-full object-cover" />
       </div>
 
@@ -82,29 +77,29 @@ const ServicesSection = () => {
         <div className="mb-12">
           <div className="mb-4">
             <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
+              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="var(--accent)" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
            Preventive Dentistry  <span className="text-accent">
  in Hamilton, NJ</span>
           </h2>
-          <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
+          <p className="text-accent text-base md:text-lg max-w-2xl leading-relaxed">
             Helping little teeth stay strong and healthy with
-            <strong> gentle pediatric dental care in Hamilton, NJ</strong>
+            <strong> gentle pediatric dental care in Hamilton, NJ</strong>{" "}
             that prevents cavities early and supports confident, growing smiles.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="bg-[#E8DED3] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 rounded-3xl">
+        <div className="bg-primary/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-2 md:p-6 rounded-lg md:rounded-3xl">
           {services.map((service, index) => (
             <div 
               key={service.id}
-              className="group bg-[#F5EFE7] rounded-3xl overflow-hidden p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              className="group bg-white rounded-lg md:rounded-3xl overflow-hidden p-2 md:p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               {/* Image Container */}
-              <div className="relative h-64 rounded-3xl overflow-hidden">
+              <div className="relative h-64 rounded-lg md:rounded-3xl overflow-hidden">
                 <img
                   src={service.image}
                   alt={service.title}
@@ -147,10 +142,10 @@ const ServicesSection = () => {
 
               {/* Content */}
               <div className='mt-2'>
-                <h3 className="text-xl font-bold text-[#4A3728] mb-3">
+                <h3 className="text-xl font-bold text-accent mb-3">
                   {service.title}
                 </h3>
-                <p className="text-[#6B5D52] text-sm leading-relaxed mb-6">
+                <p className="text-accent text-sm leading-relaxed mb-6">
                   {service.description}
                 </p>
 

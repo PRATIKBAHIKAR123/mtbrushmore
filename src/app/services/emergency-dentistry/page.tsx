@@ -26,43 +26,43 @@ const ServicesSection = () => {
       id: 2,
       title: "Dental Abscesses",
       description: "Immediate relief for painful infections keeps children comfortable and prevents serious complications.",
-      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
+      image: "/Images/Same-day Dentistry.webp",
       path: "/treatments/restorative-dentistry"
     },
     {
       id: 3,
       title: "Knocked-Out Teeth",
       description: "Rapid care gives the best chance to save a permanent tooth and restore the smile after an accident.",
-      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
+      image: "/Images/Oral Surgery.webp",
       path: "/treatments/orthodontics"
     },
     {
       id: 4,
       title: "Lost Fillings or Crowns",
       description: "Swift restoration protects the tooth underneath and keeps everything stable until fully repaired. ",
-      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
+      image: "/Images/Root Canal.webp",
       path: "/treatments/restorative-dentistry"
     },
     {
       id: 5,
       title: "Orthodontic Emergencies",
       description: "Broken braces or poking wires are fixed fast to keep treatment on track and smiles growing strong.",
-      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
+      image: "/Images/tooth-extraction.webp",
       path: "/treatments/orthodontics"
     },
     {
       id: 6,
       title: "Soft Tissue Injuries",
       description: "Gentle treatment quickly soothes cuts, bites, or gum injuries so kids can heal comfortably.",
-      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
+      image: "/Images/Teeth Replacement.webp",
       path: "/treatments/restorative-dentistry"
     },
   ];
 
   return (
-    <section className="relative bg-muted py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-16 px-2 md:px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 w-84 h-84 opacity-60">
+      <div className="absolute top-2 md:top-0 right-0 w-28 md:w-84 h-28 md:h-84 opacity-60">
         <img src="/Images/animals/deer.png" alt="Decorative Pattern" className="w-full h-full object-cover" />
       </div>
 
@@ -71,27 +71,27 @@ const ServicesSection = () => {
         <div className="mb-12">
           <div className="mb-4">
             <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
+              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="var(--accent)" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
            Emergency Dentistry <span className="text-accent">
  in Hamilton, NJ</span>
           </h2>
-          <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
+          <p className="text-accent text-base md:text-lg max-w-2xl leading-relaxed">
             A knocked-out tooth or sudden toothache can feel scary, but families can count on gentle, fast emergency dental care in Hamilton, NJ that helps little smiles bounce back with confidence.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="bg-[#E8DED3] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 rounded-3xl">
+        <div className="bg-primary/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-2 md:p-6 rounded-lg md:rounded-3xl">
           {services.map((service, index) => (
             <div 
               key={service.id}
-              className="group bg-[#F5EFE7] rounded-3xl overflow-hidden p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              className="group bg-white rounded-lg md:rounded-3xl overflow-hidden p-2 md:p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               {/* Image Container */}
-              <div className="relative h-64 rounded-3xl overflow-hidden">
+              <div className="relative h-64 rounded-lg md:rounded-3xl overflow-hidden">
                 <img
                   src={service.image}
                   alt={service.title}
@@ -134,10 +134,10 @@ const ServicesSection = () => {
 
               {/* Content */}
               <div className='mt-2'>
-                <h3 className="text-xl font-bold text-[#4A3728] mb-3">
+                <h3 className="text-xl font-bold text-accent mb-3">
                   {service.title}
                 </h3>
-                <p className="text-[#6B5D52] text-sm leading-relaxed mb-6">
+                <p className="text-accent text-sm leading-relaxed mb-6">
                   {service.description}
                 </p>
 

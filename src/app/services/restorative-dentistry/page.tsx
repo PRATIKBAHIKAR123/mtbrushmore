@@ -19,7 +19,6 @@ const ServicesSection = () => {
       title: "Bonding",
       description: "A quick and seamless fix for small chips or gaps, restoring your child’s smile with natural-looking results.",
       image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
-      decorativeIcon: "tooth",
       path: "/treatments/dental-cleanings-and-exams"
     },
     {
@@ -33,31 +32,29 @@ const ServicesSection = () => {
       id: 3,
       title: "Fillings",
       description: "Tooth-colored repairs stop cavities early and blend perfectly with your child’s natural smile.",
-      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop",
+      image: "/Images/Oral Surgery.webp",
       path: "/treatments/orthodontics"
     },
     {
       id: 4,
       title: "Restoration of Decayed Teeth",
       description: "Gentle, effective solutions repair damaged teeth and help children chew, smile, and grow confidently.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      image: "/Images/enthodontics.webp",
       path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
     },
     {
       id: 5,
       title: "Tooth Extractions",
       description: "When a tooth can’t be saved, our team removes it gently to protect future growth and comfort.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      image: "/Images/Tooth Extraction.webp",
       path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
     }
   ];
 
   return (
-    <section className="relative bg-muted py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-16 px-2 md:px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 w-84 h-84 opacity-60">
+      <div className="absolute top-2 md:top-0 right-0 w-28 md:w-84 h-28 md:h-84 opacity-60">
         <img src="/Images/animals/deer.png" alt="Decorative Pattern" className="w-full h-full object-cover" />
       </div>
 
@@ -66,14 +63,14 @@ const ServicesSection = () => {
         <div className="mb-12">
           <div className="mb-4">
             <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
+              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="var(--accent)" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
            Restorative Dentistry  <span className="text-accent">
  in Hamilton, NJ</span>
           </h2>
-          <p className="text-[#4A3728] text-base md:text-lg max-w-2xl leading-relaxed">
+          <p className="text-accent text-base md:text-lg max-w-2xl leading-relaxed">
             From tiny repairs to durable protection, our
             <strong>pediatric restorative dentistry in Hamilton, NJ</strong>
             helps kids maintain strong, confident smiles as they grow.
@@ -81,14 +78,14 @@ const ServicesSection = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="bg-[#E8DED3] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 rounded-3xl">
+        <div className="bg-primary/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-2 md:p-6 rounded-lg md:rounded-3xl">
           {services.map((service, index) => (
             <div 
               key={service.id}
-              className="group bg-[#F5EFE7] rounded-3xl overflow-hidden p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              className="group bg-white rounded-lg md:rounded-3xl overflow-hidden p-2 md:p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               {/* Image Container */}
-              <div className="relative h-64 rounded-3xl overflow-hidden">
+              <div className="relative h-64 rounded-lg md:rounded-3xl overflow-hidden">
                 <img
                   src={service.image}
                   alt={service.title}
@@ -131,10 +128,10 @@ const ServicesSection = () => {
 
               {/* Content */}
               <div className='mt-2'>
-                <h3 className="text-xl font-bold text-[#4A3728] mb-3">
+                <h3 className="text-xl font-bold text-accent mb-3">
                   {service.title}
                 </h3>
-                <p className="text-[#6B5D52] text-sm leading-relaxed mb-6">
+                <p className="text-accent text-sm leading-relaxed mb-6">
                   {service.description}
                 </p>
 

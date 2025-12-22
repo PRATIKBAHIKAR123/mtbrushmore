@@ -33,21 +33,21 @@ const ServicesSection = () => {
       id: 4,
       title: "Sedation Dentistry",
       description: "Help anxious or sensitive children relax with safe, carefully monitored sedation tailored to their comfort.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      image: "/Images/beautiful-girl-sitting-dentist-s-office.webp",
       decorativeIcon: "flower"
     },
     {
       id: 5,
       title: "Emergency Dentistry",
       description:"From toothaches to dental injuries, our same-day care ensures your child gets relief quickly and compassionately.",
-      image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=800&h=600&fit=crop",
+      image: "/Images/emergency-dentistry.webp",
     }
   ];
 
   return (
-    <section className="relative bg-[#dadada] py-16 px-4 md:py-20 overflow-hidden">
+    <section className="relative bg-[#dadada] py-12 md:py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 opacity-50">
+      <div className="absolute top-12 right-0 w-48 md:w-48 h-64 md:h-96 opacity-50">
         <img src={'/Images/animals/bird.png'} alt="Decorative bird" className="object-contain" />
       </div>
 
@@ -56,13 +56,13 @@ const ServicesSection = () => {
         <div className="mb-12">
           <div className="mb-4">
             <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#0a73b1" strokeWidth="2.5" fill="none" />
+              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="var(--accent)" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4 eveleth">
             Our  <span className="text-primary">Pediatric Dental Services</span>
           </h2>
-          <p className="text-[#4A3728] text-base md:text-lg max-w-4xl leading-relaxed">
+          <p className="text-accent text-base md:text-lg max-w-4xl leading-relaxed">
             Little smiles deserve big care, and we’re here to support every stage of your child’s dental journey. From tiny first teeth to confident teen grins, our gentle approach helps kids feel safe, happy, and excited to visit the dentist. Families throughout Hamilton Square (08690), Mercerville (08619), Robbinsville (08691), Lawrenceville (08648), West Windsor (08550), East Windsor (08512, 08520), and nearby communities love the convenient, kid-focused dental care available near you.
           </p>
         </div>
@@ -118,10 +118,10 @@ const ServicesSection = () => {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-[#4A3728] mb-3 eveleth">
+                <h3 className="text-xl font-bold text-accent mb-3 eveleth">
                   {service.title}
                 </h3>
-                <p className="text-[#6B5D52] text-sm leading-relaxed mb-6">
+                <p className="text-accent text-sm leading-relaxed mb-6">
                   {service.description}
                 </p>
 

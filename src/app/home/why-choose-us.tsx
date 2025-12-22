@@ -13,7 +13,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
   cardImage2 = '/Images/Copy of Fox.png',
 }) => {
   return (
-    <section className="relative bg-[#dadada] pt-32 pb-16 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section className="relative bg-[#dadada] pt-[26px] md:pt-32 pb-6 md:pb-16 px-6 md:px-12 lg:px-20 overflow-hidden">
       {/* Floating + Marquee Boat — put this inside the hero/main container (parent should be relative) */}
       {/* <div className="boat-marquee-wrapper" aria-hidden>
         <div className="boat-marquee">
@@ -22,7 +22,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
       </div> */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none">
   <svg
-    className="relative block w-[calc(100%+1.3px)] h-[120px]"
+    className="relative block w-[calc(100%+1.3px)] h-[60px] md:h-[120px]"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 120"
     preserveAspectRatio="none"
@@ -45,11 +45,11 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           <div className="lg:w-1/2 mb-8 lg:mb-0">
             
             <div className='flex items-center justify-start'>
-            <h2 className="text-5xl md:text-6xl font-bold text-accent eveleth mb-6">
+            <h2 className="text-3xl md:text-6xl font-bold text-accent eveleth mb-6">
               {/* Decorative wave line */}
             <div className="mb-4">
               <svg width="80" height="20" viewBox="0 0 80 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 10 Q 10 0, 20 10 T 40 10 T 60 10 T 80 10" stroke="#6B5744" strokeWidth="2" fill="none"/>
+                <path d="M0 10 Q 10 0, 20 10 T 40 10 T 60 10 T 80 10" stroke="var(--accent)" strokeWidth="2" fill="none"/>
               </svg>
             </div>
               WHY US?
@@ -66,7 +66,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           </div>
           </div>
             
-            <p className="text-lg text-[#5A4A3A] leading-relaxed max-w-xl">
+            <p className="text-lg text-accent leading-relaxed max-w-xl">
               We provide gentle, expert pediatric dental care in a warm, kid-friendly environment. Our office is designed to spark curiosity and help children feel at ease from the moment they arrive. With advanced techniques and clear communication, we keep parents informed and kids confident - making every visit positive and stress-free.
             </p>
           </div>
@@ -78,10 +78,10 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
         {/* Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Card 1 - Expert Pediatric Care */}
-          <div className="bg-[#b5650d] rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
+          <div className="bg-[#b5650d] rounded-3xl p-6 md:p-10 text-white relative overflow-hidden">
             <div className="relative z-10">
-              <h3 className="text-6xl md:text-7xl font-bold text-white/30 mb-4 eveleth">01</h3>
-              <h4 className="text-2xl md:text-3xl font-bold mb-4 uppercase eveleth">
+              <h3 className="text-4xl md:text-7xl font-bold text-white/30 mb-4 eveleth">01</h3>
+              <h4 className="text-xl md:text-3xl font-bold mb-4 uppercase eveleth">
                 Expert Pediatric Care
               </h4>
               <p className="text-gray-200 leading-relaxed mb-8 max-w-md">
@@ -117,13 +117,13 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           </div>
 
           {/* Card 4 - Can be customized for additional content */}
-          <div className="bg-[#f59142] rounded-3xl p-8 md:p-10 relative overflow-hidden">
+          <div className="bg-[#f59142] rounded-3xl p-6 md:p-10 relative overflow-hidden">
             <div className="relative z-10">
-              <h3 className="text-6xl md:text-7xl font-bold text-[#4A3728]/20 mb-4 ">02</h3>
-              <h4 className="text-2xl md:text-3xl font-bold mb-4 text-[#4A3728] uppercase eveleth">
+              <h3 className="text-4xl md:text-7xl font-bold text-[#4A3728]/20 mb-4 ">02</h3>
+              <h4 className="text-xl md:text-3xl font-bold mb-4 text-accent uppercase eveleth">
                 Kid Friendly Environment
               </h4>
-              <p className="text-[#5A4A3A] leading-relaxed max-w-md">
+              <p className="text-accent leading-relaxed max-w-md">
                 Our mountain-themed office is designed with kids in mind - bright, engaging, and full of fun touches that turn every visit into a mini adventure. From the moment they walk in, children feel excited, curious, and completely at ease.
               </p>
             </div>

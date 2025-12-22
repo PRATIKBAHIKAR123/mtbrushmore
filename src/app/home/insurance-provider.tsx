@@ -33,7 +33,7 @@ const InsuranceSection = () => {
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-5">
         <svg className="absolute top-10 left-20 w-64 h-64" viewBox="0 0 200 200" fill="none">
-          <path d="M100 20 L120 80 L180 80 L130 120 L150 180 L100 140 L50 180 L70 120 L20 80 L80 80 Z" fill="#8B6F47" />
+          <path d="M100 20 L120 80 L180 80 L130 120 L150 180 L100 140 L50 180 L70 120 L20 80 L80 80 Z" fill="var(--accent)" />
         </svg>
         <svg className="absolute top-20 right-10 w-96 h-96" viewBox="0 0 200 200" fill="none">
           <circle cx="100" cy="40" r="30" fill="#8B6F47" />
@@ -48,13 +48,13 @@ const InsuranceSection = () => {
         <div className="mb-12">
           <div className="mb-4">
             <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="#4A3728" strokeWidth="2.5" fill="none" />
+              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="var(--accent)" strokeWidth="2.5" fill="none" />
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-accent eveleth mb-4">
             Affordable Care Made Easy
           </h2>
-          <p className="text-[#4A3728] text-base md:text-lg max-w-3xl leading-relaxed">
+          <p className="text-accent text-base md:text-lg max-w-3xl leading-relaxed">
             Dental care should never feel stressful - especially when it comes to payments. We make visits simple by accepting a wide range of insurance plans, so your child can receive the highest quality care without worry. Our team is always happy to help you understand your benefits and maximize coverage.
           </p>
         </div>
@@ -86,7 +86,7 @@ const InsuranceSection = () => {
                 {displayedProviders.map((provider, index) => (
                   <li 
                     key={index}
-                    className="flex items-start text-[#4A3728] text-base"
+                    className="flex items-start text-accent text-base"
                   >
                     <span className="inline-block w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span>{provider}</span>

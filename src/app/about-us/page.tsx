@@ -25,7 +25,7 @@ export default function AboutUs() {
                 <span className="text-accent">Where Little Smiles Grow Big & Confident</span>
               </h1>
 
-              <p className="text-gray-700 text-lg w-3xl leading-relaxed mb-8">
+              <p className="text-accent text-lg w-3xl leading-relaxed mb-8">
                 <span className="font-semibold">Mt. Brushmore Pediatric Dentistry</span> is where kids feel brave, parents feel supported, and healthy smiles shine brighter every day. Led by Dr. Manmeet Arora, DDS, our Hamilton, NJ pediatric dentist office specializes in gentle care for infants, children, and teens - from routine checkups and cavity prevention to orthodontics, emergencies, sedation dentistry, and special needs dental care. Families across Hamilton Square (08690), Mercerville (08619), Robbinsville (08691), Lawrenceville (08648), West Windsor (08550), East Windsor (08512, 08520) and surrounding neighborhoods trust us for friendly, modern care that makes every visit positive and stress-free. Searching for a pediatric dentist near me? You’ve found a dental home that puts comfort, safety, and fun first - because building a lifetime of confident smiles always starts with the right team by your child’s side.
                  
               </p>
