@@ -62,7 +62,7 @@ export default function TreatmentDetailsPage() {
           {/* Image Section */}
           <div className="relative rounded-2xl overflow-hidden">
             <Image
-              src="/Images/close-up-boy-dentist.jpg"  // ✅ replace with your image
+              src="/Images/Dental Cleanings & Exams.webp"  // ✅ replace with your image
               alt="Dental Cleaning"
               width={600}
               height={450}
