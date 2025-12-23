@@ -42,7 +42,7 @@ const services: Service[] = [
   {
     id: 4,
     title: "Lost Fillings or Crowns",
-    description: "Swift restoration protects the tooth underneath and keeps everything stable until fully repaired.",
+    description: "Swift restoration protects the tooth underneath and keeps everything stable until fully repaired. ",
     image: "/Images/Lost Fillings or Crowns.webp",
     path: "/treatments/restorative-dentistry"
   },

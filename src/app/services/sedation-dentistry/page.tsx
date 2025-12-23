@@ -20,45 +20,25 @@ interface Service {
 const services: Service[] = [
   {
     id: 1,
-    title: "Nitrous Oxide (Laughing Gas)",
-    description: "Light sedation keeps kids relaxed and comfortable while staying awake and responsive during treatment.",
-    image: "/Images/Nitrous Oxide.webp",
-    path: "/treatments/sedation-dentistry"
+    title: "IV Sedation",
+    description: "A fully monitored, restful solution for children who need extensive treatment or extra comfort during their visit.",
+    image: "/Images/IV Sedation.webp",
+    
+    path: "/treatments/dental-cleanings-and-exams"
   },
   {
     id: 2,
-    title: "Oral Sedation",
-    description: "A safe, gentle medication given before treatment helps anxious children relax into a calm, sleepy state.",
-    image: "/Images/Oral Sedation.webp",
-    path: "/treatments/sedation-dentistry"
+    title: "Laughing Gas",
+    description: "A light and calming option that helps kids stay relaxed and giggly while remaining awake and in control.",
+    image: "/Images/Laughing Gas.webp",
+    path: "/treatments/restorative-dentistry"
   },
   {
     id: 3,
-    title: "IV Sedation",
-    description: "Deeper sedation delivered through a vein provides maximum comfort for longer or more complex procedures.",
-    image: "/Images/IV Sedation.webp",
-    path: "/treatments/sedation-dentistry"
-  },
-  {
-    id: 4,
-    title: "General Anesthesia",
-    description: "Complete sleep ensures the safest, most comfortable care for children with high anxiety or special needs.",
-    image: "/Images/General Anesthesia.webp",
-    path: "/treatments/sedation-dentistry"
-  },
-  {
-    id: 5,
-    title: "Special Needs Care",
-    description: "Customized sedation support for children with developmental differences helps them receive optimal dental care.",
-    image: "/Images/Special Needs Care.webp",
-    path: "/treatments/sedation-dentistry"
-  },
-  {
-    id: 6,
-    title: "Post-Operative Care",
-    description: "Careful monitoring after sedation ensures safe recovery with detailed take-home instructions for parents.",
-    image: "/Images/Post-Operative Care.webp",
-    path: "/treatments/sedation-dentistry"
+    title: "Oral Sedation",
+    description: "A gentle, deeper relaxation choice that helps reduce worries so children can feel peaceful throughout care.",
+    image: "/Images/Oral Sedation.webp",
+    path: "/treatments/orthodontics"
   },
 ];
 

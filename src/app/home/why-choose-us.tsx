@@ -99,7 +99,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           </div>
 
           {/* Card 2 - Image Card */}
-          <div className="rounded-3xl overflow-hidden h-full min-h-[400px] relative">
+          <div className="rounded-3xl overflow-hidden h-full min-h-[200px] md:min-h-[400px] relative">
             <Image
               src={cardImage1}
               alt="Pediatric dental care"
@@ -109,7 +109,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           </div>
 
           {/* Card 3 - Image Card */}
-          <div className="rounded-3xl overflow-hidden h-full min-h-[400px] relative">
+          <div className="rounded-3xl overflow-hidden h-full min-h-[200px] md:min-h-[400px] relative">
             <Image
               src={cardImage2}
               alt="Dental supplies"

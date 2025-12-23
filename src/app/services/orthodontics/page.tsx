@@ -20,46 +20,39 @@ interface Service {
 const services: Service[] = [
   {
     id: 1,
-    title: "Traditional Braces",
-    description: "Time-tested metal brackets guide teeth into perfect alignment with steady, gentle pressure.",
-    image: "/Images/Traditional Braces.webp",
-    path: "/treatments/orthodontics"
+    title: "Braces (Traditional)",
+    description: "Reliable metal braces gently guide teeth into beautiful alignment for a healthier, more confident smile.",
+    image: "/Images/braces.webp",
+    path: "/treatments/dental-cleanings-and-exams"
   },
   {
     id: 2,
-    title: "Ceramic Braces",
-    description: "Tooth-colored brackets blend in beautifully while delivering the same reliable results as traditional braces.",
-    image: "/Images/Ceramic Braces.webp",
-    path: "/treatments/orthodontics"
+    title: "Clear Aligners",
+    description: "Nearly invisible aligners straighten teeth comfortably while letting kids eat, brush, and smile freely.",
+    image: "/Images/clear Aligners.webp",
+    path: "/treatments/restorative-dentistry"
   },
   {
     id: 3,
-    title: "Aligners",
-    description: "Clear, removable trays gradually straighten teeth without visible wires or brackets.",
-    image: "/Images/Aligners.webp",
+    title: "Early Orthodontic Assessments",
+    description: "Early checkups help us spot alignment changes sooner so treatment stays simpler and smiles grow strong from the start.",
+    image: "/Images/Early Orthodontic Assessments.webp",
     path: "/treatments/orthodontics"
   },
   {
     id: 4,
-    title: "Palatal Expanders",
-    description: "Gentle widening of the upper jaw creates space for teeth to erupt straight and naturally.",
-    image: "/Images/Palatal Expanders.webp",
-    path: "/treatments/orthodontics"
+    title: "Palate Expanders and Habit Appliances",
+    description: "Special appliances support healthy jaw growth and help end habits like thumb-sucking to protect future smiles.",
+    image: "/Images/Palate Expanders and Habit Appliances.webp",
+    path: "/treatments/dental-emergencies",
   },
   {
     id: 5,
     title: "Retainers",
-    description: "Custom-fit devices lock in beautiful results and keep smiles perfectly aligned for life.",
+    description: "Custom retainers keep teeth perfectly in place after treatment so confident results last as your child grows.",
     image: "/Images/Retainers.webp",
-    path: "/treatments/orthodontics"
-  },
-  {
-    id: 6,
-    title: "Early Intervention",
-    description: "Starting treatment at the right time prevents major problems and creates optimal bite and smile.",
-    image: "/Images/Early Intervention.webp",
-    path: "/treatments/orthodontics"
-  },
+    path: "/treatments/dental-emergencies",
+  }
 ];
 
 export default function OrthodonticsPage() {
