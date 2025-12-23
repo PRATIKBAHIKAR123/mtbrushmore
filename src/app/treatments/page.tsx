@@ -1,7 +1,14 @@
-"use client";
-
+import type { Metadata } from "next";
 import React from 'react';
 import CTASection from '../home/call-to-action';
+import { pageMetadata, createMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = createMetadata(
+  pageMetadata.treatments.title,
+  pageMetadata.treatments.description,
+  "/treatments",
+  pageMetadata.treatments.keywords
+);
 
 interface Service {
   id: number;

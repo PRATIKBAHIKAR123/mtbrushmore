@@ -8,25 +8,26 @@ export default function DoctorDetailsPage() {
   return (
     <div className="bg-[#E8DED3] min-h-screen py-12 px-2">
       {/* Paper Container */}
-      <div className="mx-auto max-w-7xl bg-[#F8F1E6] rounded-[26px] px-6 py-12 mb-3 md:px-12 shadow-sm">
+      <div className="mx-auto max-w-5xl bg-[#F8F1E6] rounded-[26px] px-6 py-12 mb-3 md:px-12 shadow-sm">
         
 
         {/* Content Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
           
           {/* Image Section */}
-          <div className="relative rounded-2xl overflow-hidden h-64 md:h-96 w-full md:w-auto">
+          <div className="w-full md:w-1/3 flex justify-center md:justify-start">
+          <div className="relative w-64 h-80 rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/Images/Dr. Manmeet Arora, DDS.webp"  // ✅ replace with your image
-              alt="Dental Cleaning"
-              className="object-contain w-full h-full"
+              src="/Images/Dr. Manmeet Arora, DDS.webp"
+              alt="Dr. Manmeet Arora, DDS"
+              className="object-cover object-center"
             /> 
           </div>
-
+</div>
           {/* Text Sections */}
-          <div className="space-y-8">
+          <div className="flex-1 w-full space-y-8">
             <h1
-            className="text-xl md:text-3xl font-bold mb-4 text-[#2F241C]"
+            className="text-xl md:text-3xl font-bold mb-4 text-accent"
             style={{ fontFamily: "'Eveleth', serif" }}
           >
             Dr. Manmeet Arora DDS
@@ -34,10 +35,10 @@ export default function DoctorDetailsPage() {
             {/* WHAT IT IS */}
             <section className="space-y-6">
   {/* Description */}
-  <p className="text-[#4A3A2A] leading-relaxed text-sm md:text-base">
+  <p className="text-accent leading-relaxed text-sm md:text-base">
     With a passion for helping children build confident, healthy smiles, Dr. Manmeet Arora is a board-eligible pediatric dentist who has dedicated her career to caring for young patients. She earned her DDS from the Herman Ostrow School of Dentistry at USC in 2014 and completed a General Practice Residency in 2016. Dr. Arora spent seven years serving families in Bridgeport, CT before completing her Pediatric Dental Residency at BronxCare Health Systems in 2025.
   </p>
-  <p className="text-[#4A3A2A] leading-relaxed text-sm md:text-base">
+  <p className="text-accent leading-relaxed text-sm md:text-base">
     Beyond dentistry, she enjoys creating memories with her family, contributing to her community, and experimenting with new recipes in the kitchen.
   </p>
 

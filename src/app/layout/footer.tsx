@@ -145,7 +145,7 @@ const Footer = () => {
       <div className="border-t border-accent">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <p className="text-center text-white text-sm">
-            Copyright © 2025 mtbrushmore.com | Site Monitored & Protected by DMCA
+            Copyright © 2025 mountbrushmore.dental
           </p>
         </div>
       </div>

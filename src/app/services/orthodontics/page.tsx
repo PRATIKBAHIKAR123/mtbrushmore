@@ -1,161 +1,75 @@
-"use client";
+import type { Metadata } from "next";
+import { pageMetadata, createMetadata } from "@/lib/metadata";
+import ServicesClient from "../services-client";
 
-import CTASection from "@/app/home/call-to-action";
-
+export const metadata: Metadata = createMetadata(
+  pageMetadata.orthodontics.title,
+  pageMetadata.orthodontics.description,
+  "/services/orthodontics",
+  pageMetadata.orthodontics.keywords
+);
 
 interface Service {
   id: number;
   title: string;
   description: string;
   image: string;
-  decorativeIcon?: string;
   path?: string;
 }
 
-const ServicesSection = () => {
-  const services: Service[] = [
-    {
-      id: 1,
-      title: "Braces (Traditional)",
-      description: "Reliable metal braces gently guide teeth into beautiful alignment for a healthier, more confident smile.",
-      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
-      decorativeIcon: "tooth",
-      path: "/treatments/dental-cleanings-and-exams"
-    },
-    {
-      id: 2,
-      title: "Clear Aligners",
-      description: "Nearly invisible aligners straighten teeth comfortably while letting kids eat, brush, and smile freely.",
-      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop",
-      path: "/treatments/restorative-dentistry"
-    },
-    {
-      id: 3,
-      title: "Early Orthodontic Assessments",
-      description: "Early checkups help us spot alignment changes sooner so treatment stays simpler and smiles grow strong from the start.",
-      image: "/Images/beautiful-girl-sitting-dentist-s-office.webp",
-      path: "/treatments/orthodontics"
-    },
-    {
-      id: 4,
-      title: "Palate Expanders and Habit Appliances",
-      description: "Special appliances support healthy jaw growth and help end habits like thumb-sucking to protect future smiles.",
-      image: "/Images/Oral Surgery.webp",
-      path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
-    },
-    {
-      id: 5,
-      title: "Retainers",
-      description: "Custom retainers keep teeth perfectly in place after treatment so confident results last as your child grows.",
-      image: "/Images/Tooth Extraction.webp",
-      path: "/treatments/dental-emergencies",
-      decorativeIcon: "flower"
-    }
-  ];
+const services: Service[] = [
+  {
+    id: 1,
+    title: "Traditional Braces",
+    description: "Time-tested metal brackets guide teeth into perfect alignment with steady, gentle pressure.",
+    image: "/Images/Traditional Braces.webp",
+    path: "/treatments/orthodontics"
+  },
+  {
+    id: 2,
+    title: "Ceramic Braces",
+    description: "Tooth-colored brackets blend in beautifully while delivering the same reliable results as traditional braces.",
+    image: "/Images/Ceramic Braces.webp",
+    path: "/treatments/orthodontics"
+  },
+  {
+    id: 3,
+    title: "Aligners",
+    description: "Clear, removable trays gradually straighten teeth without visible wires or brackets.",
+    image: "/Images/Aligners.webp",
+    path: "/treatments/orthodontics"
+  },
+  {
+    id: 4,
+    title: "Palatal Expanders",
+    description: "Gentle widening of the upper jaw creates space for teeth to erupt straight and naturally.",
+    image: "/Images/Palatal Expanders.webp",
+    path: "/treatments/orthodontics"
+  },
+  {
+    id: 5,
+    title: "Retainers",
+    description: "Custom-fit devices lock in beautiful results and keep smiles perfectly aligned for life.",
+    image: "/Images/Retainers.webp",
+    path: "/treatments/orthodontics"
+  },
+  {
+    id: 6,
+    title: "Early Intervention",
+    description: "Starting treatment at the right time prevents major problems and creates optimal bite and smile.",
+    image: "/Images/Early Intervention.webp",
+    path: "/treatments/orthodontics"
+  },
+];
 
+export default function OrthodonticsPage() {
   return (
-    <section className="relative bg-[#dadada] py-16 px-2 md:px-4 md:py-20 overflow-hidden">
-      {/* Decorative background elements */}
-      <div className="absolute top-2 md:top-0 right-0 w-28 md:w-84 h-28 md:h-84 opacity-60">
-        <img src="/Images/animals/deer.png" alt="Decorative Pattern" className="w-full h-full object-cover" />
-      </div>
-
-      <div className="max-w-7xl mx-auto relative z-10">
-        {/* Header */}
-        <div className="mb-12">
-          <div className="mb-4">
-            <svg className="w-20 h-3" viewBox="0 0 80 12" fill="none">
-              <path d="M0 6 Q20 2, 40 6 T80 6" stroke="var(--accent)" strokeWidth="2.5" fill="none" />
-            </svg>
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-           Orthodontics <span className="text-accent">
- in Hamilton, NJ</span>
-          </h2>
-          <p className="text-accent text-base md:text-lg max-w-2xl leading-relaxed">
-            Our pediatric orthodontics in Hamilton, NJ help growing smiles straighten with ease so kids can beam brighter and feel confident every step of the way.
-          </p>
-        </div>
-
-        {/* Services Grid */}
-        <div className="bg-primary/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-2 md:p-6 rounded-lg md:rounded-3xl">
-          {services.map((service, index) => (
-            <div 
-              key={service.id}
-              className="group bg-white rounded-lg md:rounded-3xl overflow-hidden p-2 md:p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-            >
-              {/* Image Container */}
-              <div className="relative h-64 rounded-lg md:rounded-3xl overflow-hidden">
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                
-                {/* Decorative Icons */}
-                {service.decorativeIcon === "tooth" && (
-                  <div className="absolute top-4 left-4">
-                    <svg className="w-16 h-16 text-[#C8B88A] opacity-80" viewBox="0 0 64 64" fill="currentColor">
-                      <path d="M32 8 C24 8 18 14 18 22 C18 26 18 42 20 50 C21 54 24 58 28 58 C30 58 31 56 32 54 C33 56 34 58 36 58 C40 58 43 54 44 50 C46 42 46 26 46 22 C46 14 40 8 32 8 Z" />
-                    </svg>
-                  </div>
-                )}
-                
-                {service.decorativeIcon === "flower" && (
-                  <div className="absolute bottom-4 left-4">
-                    <svg className="w-20 h-20 text-[#E89B7E] opacity-70" viewBox="0 0 100 100" fill="none">
-                      <circle cx="50" cy="50" r="8" fill="currentColor" />
-                      <ellipse cx="50" cy="25" rx="10" ry="18" fill="currentColor" />
-                      <ellipse cx="75" cy="50" rx="18" ry="10" fill="currentColor" />
-                      <ellipse cx="50" cy="75" rx="10" ry="18" fill="currentColor" />
-                      <ellipse cx="25" cy="50" rx="18" ry="10" fill="currentColor" />
-                      <ellipse cx="65" cy="35" rx="12" ry="15" fill="currentColor" transform="rotate(45 65 35)" />
-                      <ellipse cx="65" cy="65" rx="15" ry="12" fill="currentColor" transform="rotate(45 65 65)" />
-                      <ellipse cx="35" cy="65" rx="12" ry="15" fill="currentColor" transform="rotate(45 35 65)" />
-                      <ellipse cx="35" cy="35" rx="15" ry="12" fill="currentColor" transform="rotate(45 35 35)" />
-                    </svg>
-                  </div>
-                )}
-
-                {index === 3 && !service.decorativeIcon && (
-                  <div className="absolute bottom-4 right-4">
-                    <svg className="w-16 h-16 text-[#E89B7E] opacity-70" viewBox="0 0 64 64" fill="none">
-                      <path d="M32 8 L38 28 L58 28 L42 40 L48 60 L32 48 L16 60 L22 40 L6 28 L26 28 Z" fill="currentColor" />
-                    </svg>
-                  </div>
-                )}
-              </div>
-
-              {/* Content */}
-              <div className='mt-2'>
-                <h3 className="text-xl font-bold text-accent mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-accent text-sm leading-relaxed mb-6">
-                  {service.description}
-                </p>
-
-                {/* Buttons */}
-                <div className="flex gap-3">
-                  <button className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
-                    Book Now
-                  </button>
-                  <button className="flex-1 bg-transparent border-2 border-secondary hover:border-[#C4B590] text-secondary font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-[#D4C5A0]" onClick={() => {
-                    if (service.path) {
-                      window.location.href = service.path;
-                    }}}>
-                    Learn More
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <CTASection/>
-    </section>
+    <ServicesClient
+      title="Orthodontics"
+      subtitle="in Hamilton, NJ"
+      description="Building confident smiles with braces and aligners for children and teens. Modern orthodontics in Hamilton, NJ helps young patients achieve straight teeth and a healthy bite."
+      services={services}
+      decorativeImage="/Images/animals/deer.png"
+    />
   );
-};
-
-export default ServicesSection;
+}

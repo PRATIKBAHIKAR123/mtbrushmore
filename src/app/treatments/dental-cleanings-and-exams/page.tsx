@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Image from "next/image";
+import { pageMetadata, createMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = createMetadata(
+  pageMetadata.dentalCleanings.title,
+  pageMetadata.dentalCleanings.description,
+  "/treatments/dental-cleanings-and-exams",
+  pageMetadata.dentalCleanings.keywords
+);
 
 export default function TreatmentDetailsPage() {
   const faqs = [

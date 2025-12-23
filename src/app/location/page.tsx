@@ -3,8 +3,16 @@ import React from "react";
 import ContactForm from "./components/ContactForm";
 import ContactInfo from "./components/ContactInfo";
 import MapSection from "./components/MapSection";
+import { pageMetadata, createMetadata } from "@/lib/metadata";
 // import PartnerLogos from './components/PartnerLogos'
 // import NewsletterSection from './components/NewsletterSection'
+
+export const metadata: Metadata = createMetadata(
+  pageMetadata.location.title,
+  pageMetadata.location.description,
+  "/location",
+  pageMetadata.location.keywords
+);
 
 
 export default function ContactPage() {

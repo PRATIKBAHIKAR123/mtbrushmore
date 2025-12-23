@@ -1,6 +1,15 @@
+import type { Metadata } from "next";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Image from "next/image";
 import CTASection from "../home/call-to-action";
+import { pageMetadata, createMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = createMetadata(
+  pageMetadata.patientForms.title,
+  pageMetadata.patientForms.description,
+  "/patient-forms",
+  pageMetadata.patientForms.keywords
+);
 
 export default function Page() {
 

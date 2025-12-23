@@ -1,6 +1,15 @@
+import type { Metadata } from "next";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Image from "next/image";
 import CTASection from "../home/call-to-action";
+import { pageMetadata, createMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = createMetadata(
+  pageMetadata.firstVisit.title,
+  pageMetadata.firstVisit.description,
+  "/first-visit",
+  pageMetadata.firstVisit.keywords
+);
 
 export default function Page() {
 

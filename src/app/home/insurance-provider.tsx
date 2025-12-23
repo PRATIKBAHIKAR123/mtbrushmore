@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react';
 
 const InsuranceSection = () => {
@@ -26,7 +28,7 @@ const InsuranceSection = () => {
     "Anthem"
   ];
 
-  const displayedProviders = showFullList ? insuranceProviders : insuranceProviders.slice(0, 13);
+  const displayedProviders = showFullList ? insuranceProviders : insuranceProviders.slice(0, 7);
 
   return (
     <section className="relative bg-[#dadada] py-16 px-4 md:py-20 overflow-hidden">
@@ -65,7 +67,7 @@ const InsuranceSection = () => {
           <div className="relative h-full">
             <div className="bg-[#D4C5A0] rounded-3xl overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=900&fit=crop"
+                src="/Images/Affordable Care Made Easy.webp"
                 alt="Dental office interior"
                 className="w-full h-full object-cover opacity-90"
               />

@@ -6,6 +6,7 @@ interface Service {
   description: string;
   image: string;
   decorativeIcon?: string;
+  path?: string;
 }
 
 const ServicesSection = () => {
@@ -14,33 +15,38 @@ const ServicesSection = () => {
       id: 1,
       title: "Preventive Dentistry",
       description: "Protect growing smiles with regular cleanings, fluoride, and early cavity prevention designed just for kids.",
-      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop",
-      decorativeIcon: "tooth"
+      image: "/Images/preventive-dentistry.webp",
+      decorativeIcon: "tooth",
+      path: 'services/preventive-dentistry'
     },
     {
       id: 2,
       title: "Restorative Dentistry",
       description: "Gently repair and strengthen teeth using tooth-colored fillings and long-lasting pediatric crowns.",
-      image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=600&fit=crop"
+      image: "/Images/restorative.webp",
+      path: 'services/restorative-dentistry'
     },
     {
       id: 3,
       title: "Orthodontics",
       description: "Guide teeth into healthy alignment and boost confidence with braces, aligners, and early orthodontic evaluations.",
-      image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop"
+      image: "/Images/orthodontics.webp",
+      path: 'services/orthodontics'
     },
     {
       id: 4,
       title: "Sedation Dentistry",
       description: "Help anxious or sensitive children relax with safe, carefully monitored sedation tailored to their comfort.",
-      image: "/Images/beautiful-girl-sitting-dentist-s-office.webp",
-      decorativeIcon: "flower"
+      image: "/Images/sedation.webp",
+      decorativeIcon: "flower",
+      path: 'services/sedation-dentistry'
     },
     {
       id: 5,
       title: "Emergency Dentistry",
       description:"From toothaches to dental injuries, our same-day care ensures your child gets relief quickly and compassionately.",
-      image: "/Images/emergency-dentistry.webp",
+      image: "/Images/emergency.webp",
+      path: 'services/emergency-dentistry'
     }
   ];
 
@@ -130,7 +136,7 @@ const ServicesSection = () => {
                   <button className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button className="flex-1 bg-transparent border-2 border-accent hover:border-primary text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary">
+                  <button className="flex-1 bg-transparent border-2 border-accent hover:border-primary text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary" onClick={()=>window.location.href=`${service.path}`}>
                     Learn More
                   </button>
                 </div>

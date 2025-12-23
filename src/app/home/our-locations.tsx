@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 
 interface Location {
@@ -14,7 +16,7 @@ const LocationsSection = () => {
       id: 1,
       name: "Hamilton, NJ 08690",
       description:"2115 Rt 33, Hamilton, NJ 08690",
-      image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&h=800&fit=crop",
+      image: "/Images/our location.webp",
       link: "/locations/clifton-park"
     }
     // {
