@@ -20,7 +20,7 @@ export default function AboutUs() {
       <AboutUsClient/>
       <TeamSection/>
       <WhyUsSection/>
-      <TestimonialsSection/>
+      {/* <TestimonialsSection/> */}
       <LocationsSection/>
       <CTASection/>
       </>
