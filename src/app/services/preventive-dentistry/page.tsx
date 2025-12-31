@@ -22,15 +22,15 @@ const services: Service[] = [
     id: 1,
     title: "Dental Cleanings & Exams",
     description: "We keep tiny teeth sparkling clean while checking that every smile is developing just right.",
-    image: "/Images/Dental Cleanings & Exams.webp",
-    path: "/treatments/dental-cleanings-and-exams"
+    image: "/Images/Dental Cleanings  Exams.webp",
+    path: "/services/preventive-dentistry/dental-cleanings-hamilton-nj"
   },
   {
     id: 2,
     title: "Dental Sealants",
     description: "A smooth, invisible shield protects cavity-prone areas so kids can enjoy snacks without worry.",
     image: "/Images/dental Sealants.webp",
-    path: "/treatments/restorative-dentistry"
+    path: "/services/preventive-dentistry/dental-sealants-hamilton-nj"
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ const services: Service[] = [
     id: 7,
     title: "X-Rays & Imaging",
     description: "Kid-safe technology helps us spot early changes below the gumline for better growth planning.",
-    image: "/Images/X-Rays & Imaging.webp",
+    image: "/Images/X-Rays Imaging.webp",
     path: "/treatments/dental-emergencies"
   }
 ];

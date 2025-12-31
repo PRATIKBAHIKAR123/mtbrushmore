@@ -50,7 +50,7 @@ const services: Service[] = [
     id: 5,
     title: "Tooth Extractions",
     description: "When a tooth can't be saved, our team removes it gently to protect future growth and comfort.",
-    image: "/Images/tooth extraction.webp",
+    image: "/Images/toothextraction.webp",
     path: "/treatments/dental-emergencies"
   }
 ];

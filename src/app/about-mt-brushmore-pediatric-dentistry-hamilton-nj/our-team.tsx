@@ -16,7 +16,7 @@ const TeamSection = () => {
       id: 1,
       title: "Dr. Manmeet Arora DDS",
       description: "Protect your child's smile with cleanings, fluoride, and sealants.",
-      image: "/Images/Dr. Manmeet Arora, DDS.webp",
+      image: "/Images/Dr.ManmeetAroraDDS.webp",
       decorativeIcon: "tooth"
     },
   ];

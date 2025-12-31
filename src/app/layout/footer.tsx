@@ -145,7 +145,14 @@ const Footer = () => {
       <div className="border-t border-accent">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <p className="text-center text-white text-sm">
-            Copyright © 2025 mountbrushmore.dental
+            Copyright © 2025 <a
+              href="https://clearconceptsolutions.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-300"
+            >
+              Clear Concept Solutions
+            </a>
           </p>
         </div>
       </div>

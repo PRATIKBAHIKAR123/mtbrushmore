@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTASection = () => {
   return (
-    <section className="relative bg-muted py-20 px-4 md:py-24 overflow-hidden">
+    <section className="relative bg-muted py-20 px-4 md:py-24 overflow-hidden mt-2">
       <img src={'/Images/Mountains.png'} alt="Decorative mountains" className="absolute inset-0 w-full h-full object-cover opacity-40"/>
      
 
