@@ -12,28 +12,43 @@ export default function DentalCleaningsClient() {
     const faqs = [
         {
             question: "What makes pediatric dental cleanings different from adult cleanings?",
-            answer:
-                "Pediatric cleanings are designed for comfort and education - not just polishing teeth. They focus on cavity prevention, growth monitoring, and helping children build strong brushing habits early. Our team uses gentle, kid-friendly tools and language so children feel relaxed and proud of taking care of their own smile.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Pediatric cleanings are designed for comfort and education</strong> - not just polishing teeth. They focus on cavity prevention, growth monitoring, and helping children build strong brushing habits early. Our team uses gentle, kid-friendly tools and language so children feel relaxed and proud of taking care of their own smile.
+                </>
+            ),
         },
         {
             question: "Will my child need X-rays during every checkup?",
-            answer:
-                "Not every time. Our team only recommends X-rays when they provide valuable information - such as tracking tooth development, checking for hidden decay, or ensuring adult teeth are erupting correctly. We always use low-radiation digital imaging specifically designed for kids’ safety.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Not every time.</strong> Our team only recommends X-rays when they provide valuable information - such as tracking tooth development, checking for hidden decay, or ensuring adult teeth are erupting correctly. We always use low-radiation digital imaging specifically designed for kids’ safety.
+                </>
+            ),
         },
         {
             question: "How can I help my child feel confident about dental visits?",
-            answer:
-                "Confidence starts with familiarity. You can read books about the dentist, encourage role-play toothbrush games at home, or talk about the visit as something exciting. Our friendly team celebrates bravery at every step, which helps children build trust and look forward to coming back.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Confidence starts with familiarity.</strong> You can read books about the dentist, encourage role-play toothbrush games at home, or talk about the visit as something exciting. Our friendly team celebrates bravery at every step, which helps children build trust and look forward to coming back.
+                </>
+            ),
         },
         {
             question: "What age should my child start dental cleanings and exams?",
-            answer:
-                "We recommend the first pediatric dental visit by age 1 - or when the first tooth appears. Early checkups help us prevent dental issues from the start and give you helpful guidance to support healthy habits at home.",
+            answer: (
+                <>
+                    We recommend the <strong className="text-accent font-semibold">first pediatric dental visit by age 1</strong> - or when the first tooth appears. Early checkups help us prevent dental issues from the start and give you helpful guidance to support healthy habits at home.
+                </>
+            ),
         },
         {
             question: "Can routine cleanings really prevent bigger problems?",
-            answer:
-                "Absolutely - preventive care catches concerns before they become painful or costly. Cleanings remove bacteria that cause cavities and gum irritation, while exams help us spot early changes in growth so treatments are easier and more effective.",
+            answer: (
+                <>
+                    Absolutely - <strong className="text-accent font-semibold">preventive care catches concerns before they become painful or costly.</strong> Cleanings remove bacteria that cause cavities and gum irritation, while exams help us spot early changes in growth so treatments are easier and more effective.
+                </>
+            ),
         },
     ];
 

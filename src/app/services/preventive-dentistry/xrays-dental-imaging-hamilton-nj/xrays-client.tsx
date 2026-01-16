@@ -12,28 +12,43 @@ export default function XraysClient() {
     const faqs = [
         {
             question: "Are dental X-rays safe for children?",
-            answer:
-                "Yes - digital X-rays are very safe for children because they use extremely low levels of radiation, much lower than traditional film X-rays or even the exposure received during everyday outdoor activities. We follow strict safety guidelines, provide protective shielding, and only recommend X-rays when they play an important role in protecting your child’s oral health.",
+            answer: (
+                <>
+                    Yes - digital X-rays are very safe for children because they use <strong className="text-accent font-semibold">extremely low levels of radiation</strong>, much lower than traditional film X-rays or even the exposure received during everyday outdoor activities. We follow strict safety guidelines, provide protective shielding, and only recommend X-rays when they play an important role in protecting your child’s oral health.
+                </>
+            ),
         },
         {
             question: "Why would my child need an X-ray if their teeth look fine?",
-            answer:
-                "Some dental concerns can develop beneath the gums before any symptoms appear, especially in growing smiles. X-rays help us find early cavities between teeth, check how adult teeth are forming, and make sure the jaw and bite are developing correctly - so we can address issues early, when treatment is easier and more comfortable.",
+            answer: (
+                <>
+                    Some <strong className="text-accent font-semibold">dental concerns can develop beneath the gums</strong> before any symptoms appear, especially in growing smiles. X-rays help us find early cavities between teeth, check how adult teeth are forming, and make sure the jaw and bite are developing correctly - so we can address issues early, when treatment is easier and more comfortable.
+                </>
+            ),
         },
         {
             question: "How often should children get dental X-rays?",
-            answer:
-                "The frequency depends on your child’s age, cavity risk, and stage of development. Many children only need X-rays once a year, while those more prone to cavities may benefit from more frequent monitoring. Our team recommends X-rays only when they truly support your child’s oral health.",
+            answer: (
+                <>
+                    The <strong className="text-accent font-semibold">frequency depends on your child’s age</strong>, cavity risk, and stage of development. Many children only need X-rays once a year, while those more prone to cavities may benefit from more frequent monitoring. Our team recommends X-rays only when they truly support your child’s oral health.
+                </>
+            ),
         },
         {
             question: "Will getting X-rays hurt or feel scary?",
-            answer:
-                "Not at all - taking X-rays is quick, gentle, and doesn’t involve any discomfort. We use kid-sized sensors and simple, reassuring instructions. Most children find the process surprisingly easy, and some even think it’s fun to see pictures of their own teeth afterward.",
+            answer: (
+                <>
+                    Not at all - <strong className="text-accent font-semibold">taking X-rays is quick, gentle</strong>, and doesn’t involve any discomfort. We use <strong className="text-accent font-semibold">kid-sized sensors</strong> and simple, reassuring instructions. Most children find the process surprisingly easy, and some even think it’s fun to see pictures of their own teeth afterward.
+                </>
+            ),
         },
         {
             question: "Can I stay with my child during the X-ray?",
-            answer:
-                "Absolutely! We encourage parents to stay with their children during X-rays for comfort and reassurance. Our team is always here to support you and your child through the process.",
+            answer: (
+                <>
+                    Absolutely! We encourage <strong className="text-accent font-semibold">parents to stay close by</strong> during X-rays for comfort and reassurance. Our team is always here to support you and your child through the process.
+                </>
+            ),
         },
     ];
 
@@ -90,9 +105,8 @@ export default function XraysClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 During your child’s visit, our pediatric team guides them through a quick and easy imaging process. We use digital X-rays that take clear pictures in seconds, so there’s no waiting or discomfort. We explain each step in kid-friendly language to help children feel relaxed and confident - whether you’re visiting us from
-                                <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline"> fixed</Link> device that stays in place or a <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline"> removable</Link>  one. Each visit, we monitor the appliance and your child’s development to make sure their permanent teeth have the perfect path to come in - especially for kids in
-                                <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>
-                                {" "}or nearby Hamilton communities.
+                                <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>,
+                                or nearby Hamilton communities, you can trust our gentle approach.
                             </p>
                         </section>
 

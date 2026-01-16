@@ -12,28 +12,43 @@ export default function DentalSealantsClient() {
     const faqs = [
         {
             question: "Are dental sealants safe for children?",
-            answer:
-                "Yes - sealants are one of the safest and most trusted dental treatments available for children. They are made from a BPA-free resin that simply sits on top of the tooth’s surface without affecting the body. They act as a shield for the areas kids struggle to keep clean with brushing alone.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Yes - sealants are one of the safest</strong> and most trusted dental treatments available for children. They are made from a BPA-free resin that simply sits on top of the tooth’s surface without affecting the body. They act as a shield for the areas kids struggle to keep clean with brushing alone.
+                </>
+            ),
         },
         {
             question: "How long do sealants last?",
-            answer:
-                "Sealants can last several years and provide long-term protection during the cavity-prone childhood years. At each checkup, our team monitors them and can easily repair or touch them up so the protection lasts as your child’s smile grows and changes.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Sealants can last several years</strong> and provide long-term protection during the cavity-prone childhood years. At each checkup, our team monitors them and can easily repair or touch them up so the protection lasts as your child’s smile grows and changes.
+                </>
+            ),
         },
         {
             question: "Will my child feel anything during the procedure?",
-            answer:
-                "No - applying sealants does not involve drilling, needles, or any discomfort. Kids simply open wide while the tooth surface is cleaned, dried, and painted with the protective coating. Many children say it feels just like having their teeth brushed.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">No - applying sealants does not involve drilling</strong>, needles, or any discomfort. Kids simply open wide while the tooth surface is cleaned, dried, and painted with the protective coating. Many children say it feels just like having their teeth brushed.
+                </>
+            ),
         },
         {
             question: "Do sealants replace brushing and flossing?",
-            answer:
-                "Sealants help protect the grooves of the back teeth - but daily brushing, flossing, and healthy snacks are still the best defense against cavities. Sealants act like a strong backup system to give your child extra protection where needed most.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Sealants help protect the grooves</strong> of the back teeth - but daily brushing, flossing, and healthy snacks are still the best defense against cavities. Sealants act like a strong backup system to give your child extra protection where needed most.
+                </>
+            ),
         },
         {
             question: "When is the best time for my child to get sealants?",
-            answer:
-                "We typically recommend placing sealants as soon as the first permanent molars come in (around age 6) and again when second molars arrive (around age 12). This timing protects teeth right as they erupt - when they are most vulnerable to decay.",
+            answer: (
+                <>
+                    We typically recommend <strong className="text-accent font-semibold">placing sealants as soon as the first permanent molars come in</strong> (around age 6) and again when second molars arrive (around age 12). This timing protects teeth right as they erupt - when they are most vulnerable to decay.
+                </>
+            ),
         },
     ];
 
@@ -50,7 +65,7 @@ export default function DentalSealantsClient() {
                         Dental Sealants in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Protect your child’s teeth from cavities with long-lasting pediatric dental sealants in Hamilton, NJ, designed to safeguard hard-to-reach areas in growing smiles.
+                        Protect your child’s teeth from cavities with long-lasting <strong className="text-accent font-semibold">pediatric dental sealants in Hamilton, NJ</strong>, designed to safeguard hard-to-reach areas in growing smiles.
                     </p>
                 </div>
 

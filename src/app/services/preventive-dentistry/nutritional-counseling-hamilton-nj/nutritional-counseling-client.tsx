@@ -12,28 +12,43 @@ export default function NutritionalCounselingClient() {
     const faqs = [
         {
             question: "Does what my child eats really affect their teeth that much?",
-            answer:
-                "Yes - what children eat plays a huge role in their oral health because cavity-causing bacteria thrive on sugars and starches left behind after meals. Frequent snacking, sugary drinks, and sticky treats keep sugar on the teeth longer, increasing the chance of enamel weakening and decay. By choosing a nutrition plan that supports healthy teeth, you are also protecting your child’s overall health and confidence as they grow.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Yes - what children eat plays a huge role</strong> in their oral health because cavity-causing bacteria thrive on sugars and starches left behind after meals. Frequent snacking, sugary drinks, and sticky treats keep sugar on the teeth longer, increasing the chance of enamel weakening and decay. By choosing a nutrition plan that supports healthy teeth, you are also protecting your child’s overall health and confidence as they grow.
+                </>
+            ),
         },
         {
             question: "How do you help picky eaters make better choices?",
-            answer:
-                "We understand that many kids go through phases of selective eating, so our team offers solutions that are realistic, flexible, and fun. We suggest small changes - like swapping sugary treats for crunchy fruits, yogurt, or cheese - and teach kids how to spot “smile-friendly” snacks they actually enjoy. Our goal is to help families create positive food habits without stress or battles at mealtime.",
+            answer: (
+                <>
+                    We understand that <strong className="text-accent font-semibold">many kids go through phases</strong> of selective eating, so our team offers solutions that are realistic, flexible, and fun. We suggest small changes - like swapping sugary treats for crunchy fruits, yogurt, or cheese - and teach kids how to spot “smile-friendly” snacks they actually enjoy. Our goal is to help families create positive food habits without stress or battles at mealtime.
+                </>
+            ),
         },
         {
             question: "Should my child completely avoid sweets or snacks?",
-            answer:
-                "Not at all - kids can still enjoy their favorite treats! The key is balance and timing: pairing sweets with meals instead of grazing throughout the day, rinsing with water after sticky snacks, and practicing great tooth-brushing habits. We help parents build a healthy balance where children get to enjoy life while keeping their teeth strong and cavity-free.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Not at all</strong> - kids can still enjoy their favorite treats! <strong className="text-accent font-semibold">The key is balance</strong> and timing: pairing sweets with meals instead of grazing throughout the day, rinsing with water after sticky snacks, and practicing great tooth-brushing habits. We help parents build a healthy balance where children get to enjoy life while keeping their teeth strong and cavity-free.
+                </>
+            ),
         },
         {
             question: "What drinks are best for growing smiles?",
-            answer:
-                "Water is always the #1 choice, especially fluoridated tap water, which helps protect enamel. Milk is also a great option for growing teeth because it contains calcium and vitamin D. Drinks like fruit juice, soda, flavored milk, and sports beverages should be limited - even when they seem “healthy” - because their sugars and acids can cause cavities over time.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Water is always the #1 choice</strong>, especially fluoridated tap water, which helps protect enamel. Milk is also a great option for growing teeth because it contains calcium and vitamin D. Drinks like fruit juice, soda, flavored milk, and sports beverages should be limited - even when they seem “healthy” - because their sugars and acids can cause cavities over time.
+                </>
+            ),
         },
         {
             question: "Will nutritional counseling be personalized for my child?",
-            answer:
-                "Yes - every child has different preferences, routines, and nutritional needs, so we tailor all recommendations to fit your family’s lifestyle. Whether your child has allergies, sensory sensitivities, food aversions, or simply loves sugary snacks, our team works with you to create a realistic plan that motivates healthy habits and sets your child up for long-term success.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Yes - every child has different preferences</strong>, routines, and nutritional needs, so we tailor all recommendations to fit your family’s lifestyle. Whether your child has allergies, sensory sensitivities, food aversions, or simply loves sugary snacks, our team works with you to create a realistic plan that motivates healthy habits and sets your child up for long-term success.
+                </>
+            ),
         },
     ];
 
@@ -50,7 +65,7 @@ export default function NutritionalCounselingClient() {
                         Nutritional Counseling in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Support healthy teeth from the inside out with <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline">pediatric nutritional counseling in Hamilton, NJ</Link>  helping kids learn smart choices for strong smiles and healthy growth.
+                        Support healthy teeth from the inside out with <strong className="text-accent font-semibold">pediatric nutritional counseling in Hamilton, NJ</strong>  helping kids learn smart choices for strong smiles and healthy growth.
                     </p>
                 </div>
 
@@ -89,7 +104,6 @@ export default function NutritionalCounselingClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 During your visit, we chat with you and your child about favorite snacks, drinks, and daily habits. We offer simple swaps for sugary foods, tips for packing healthier lunches, and strategies to reduce snacking that feeds cavity-causing bacteria. We also share ways to make water, fruits, veggies, and dairy more exciting and accessible for picky eaters - especially for families in
-                                <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline">Our team</Link> will recommend how often fluoride should be used based on your child’s cavity risk, especially for families in
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>
                                 {" "}and nearby communities.
                             </p>

@@ -50,7 +50,7 @@ export default function DecayedTeethClient() {
                         Restoration of Decayed Teeth in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        When cavities or damage affect your child’s teeth, our <Link href="/" className="text-accent font-semibold hover:underline">gentle pediatric tooth restoration in Hamilton, NJ</Link>{" "}brings smiles back to full health - safely, comfortably, and with results that look completely natural.
+                        When cavities or damage affect your child’s teeth, our <strong className="text-accent font-semibold">gentle pediatric tooth restoration in Hamilton, NJ</strong>{" "}brings smiles back to full health - safely, comfortably, and with results that look completely natural.
                     </p>
                 </div>
 
@@ -80,7 +80,7 @@ export default function DecayedTeethClient() {
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Restoring decayed teeth means repairing areas affected by cavities to keep them healthy, functional, and pain-free. Our pediatric team uses
                                 <Link href="/services/restorative-dentistry/dental-fillings-hamilton-nj" className="text-accent font-semibold hover:underline"> tooth-colored, durable materials</Link>{" "}that blend beautifully and protect the tooth as it grows. This treatment is especially helpful for families seeking
-                                <Link href="/" className="text-accent font-semibold hover:underline"> children’s cavity repair near me</Link>{" "}and wanting to prevent bigger dental issues later on.
+                                <strong className="text-accent font-semibold"> children’s cavity repair near me</strong>{" "}and wanting to prevent bigger dental issues later on.
                             </p>
                         </section>
                         {/* HOW IT WORKS */}

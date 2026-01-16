@@ -262,6 +262,36 @@ export const pageMetadata = {
     description: "Keep smiles straight and beautiful with custom retainers in Hamilton, NJ. Mt. Brushmore Pediatric Dentistry provides comfortable retention options to protect your child’s orthodontic results for a lifetime.",
     keywords: ["orthodontic retainers", "retainers for kids", "teeth retention"],
   },
+  hamiltonSquare: {
+    title: "Pediatric Dentist in Hamilton Square, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Looking for a pediatric dentist in Hamilton Square, NJ? Mt. Brushmore Pediatric Dentistry offers fun, gentle, and comprehensive dental care for kids, just minutes from home. Book your visit today!",
+    keywords: ["pediatric dentist Hamilton Square", "kids dentist near me", "childrens dental care 08690"],
+  },
+  mercerville: {
+    title: "Pediatric Dentist in Mercerville, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Trusted pediatric dental care near Mercerville, NJ. Mt. Brushmore Pediatric Dentistry provides cleanings, braces, and emergency care in a kid-friendly environment families love.",
+    keywords: ["pediatric dentist Mercerville", "kids dentist 08619", "childrens dentistry"],
+  },
+  robbinsville: {
+    title: "Pediatric Dentist in Robbinsville, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Gentle, expert pediatric dentistry near Robbinsville, NJ. From first visits to teen orthodontics, Mt. Brushmore Pediatric Dentistry is here to help your child smile with confidence.",
+    keywords: ["pediatric dentist Robbinsville", "kids dentist 08691", "family dental care"],
+  },
+  lawrenceville: {
+    title: "Pediatric Dentist in Lawrenceville, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Mt. Brushmore Pediatric Dentistry serves families in Lawrenceville, NJ with fun, stress-free dental care. Schedule your child’s cleaning, braces consultation, or emergency visit today!",
+    keywords: ["pediatric dentist Lawrenceville", "kids dentist 08648", "childrens dentist near me"],
+  },
+  westWindsor: {
+    title: "Pediatric Dentist in West Windsor, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Searching for a pediatric dentist near West Windsor, NJ? Mt. Brushmore Pediatric Dentistry offers compassionate, specialized care for infants, kids, and teens in a welcoming setting.",
+    keywords: ["pediatric dentist West Windsor", "kids dentist 08550", "dentist for children"],
+  },
+  eastWindsor: {
+    title: "Pediatric Dentist in East Windsor, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Expert pediatric dental care near East Windsor, NJ. Mt. Brushmore Pediatric Dentistry makes dental visits easy and positive with gentle treatments and a fun, supportive team.",
+    keywords: ["pediatric dentist East Windsor", "kids dentist 08512", "childrens dental 08520"],
+  },
 };
 
 /**

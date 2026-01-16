@@ -12,28 +12,43 @@ export default function FluorideTreatmentsClient() {
     const faqs = [
         {
             question: "Are fluoride treatments safe for kids?",
-            answer:
-                " Yes - fluoride has been thoroughly studied and safely used in pediatric dentistry for decades. The small amount applied during treatment is perfectly safe for children and works directly on the enamel to strengthen teeth without affecting the rest of the body. It’s one of the most trusted and effective ways to help protect growing smiles from cavities.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Yes - fluoride has been thoroughly studied</strong> and safely used in pediatric dentistry for decades. The small amount applied during treatment is perfectly safe for children and works directly on the enamel to strengthen teeth without affecting the rest of the body. It’s one of the most trusted and effective ways to help protect growing smiles from cavities.
+                </>
+            ),
         },
         {
             question: "How often should my child get fluoride?",
-            answer:
-                "Most children benefit from a fluoride treatment every six months, typically during their routine checkups. However, our team may recommend more frequent applications if your child has a higher risk of cavities, braces, a sugary diet, or enamel that needs extra support as teeth grow.",
+            answer: (
+                <>
+                    Most children benefit from a <strong className="text-accent font-semibold">fluoride treatment every six months</strong>, typically during their routine checkups. However, our team may recommend more frequent applications if your child has a higher risk of cavities, braces, a sugary diet, or enamel that needs extra support as teeth grow.
+                </>
+            ),
         },
         {
             question: "Does fluoride taste bad for kids?",
-            answer:
-                "Not anymore! We use fun, kid-approved flavors so the experience feels just like a treat. The varnish or gel is applied quickly and comfortably, so even young children who are new to dental visits find it easy and pleasant.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Not anymore!</strong> We use fun, <strong className="text-accent font-semibold">kid-approved flavors</strong> so the experience feels just like a treat. The varnish or gel is applied quickly and comfortably, so even young children who are new to dental visits find it easy and pleasant.
+                </>
+            ),
         },
         {
             question: "Will my child need to avoid food or drinks afterward?",
-            answer:
-                "After a fluoride varnish, we may ask your child to wait about 30 minutes before eating or drinking to allow the fluoride to fully absorb into the enamel. There are no restrictions after that - kids can return to their regular meals, snacks, and activities right away.",
+            answer: (
+                <>
+                    After a fluoride varnish, we may ask your child to <strong className="text-accent font-semibold">wait about 30 minutes</strong> before eating or drinking to allow the fluoride to fully absorb into the enamel. There are no restrictions after that - kids can return to their regular meals, snacks, and activities right away.
+                </>
+            ),
         },
         {
             question: "Is fluoride only for children who get cavities?",
-            answer:
-                "Not at all! Fluoride is a preventive treatment, which means it helps stop cavities before they form. It’s recommended for all children as their enamel is still strengthening and can use a little extra protection - especially during the cavity-prone years.",
+            answer: (
+                <>
+                    Not at all! Fluoride is a <strong className="text-accent font-semibold">preventive treatment</strong>, which means it helps stop cavities before they form. It’s recommended for all children as their enamel is still strengthening and can use a little extra protection - especially during the cavity-prone years.
+                </>
+            ),
         },
     ];
 
@@ -78,7 +93,7 @@ export default function FluorideTreatmentsClient() {
                                 WHAT IT IS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                Fluoride treatments are simple preventive applications that boost the strength of your child’s enamel - the protective outer layer of teeth. This safe mineral helps fight off sugar, acid, and bacteria, which makes it especially helpful for little ones who are still mastering their brushing skills. Families searching for a
+                                Fluoride treatments are simple <strong className="text-accent font-semibold">preventive</strong> applications that boost the strength of your child’s enamel - the protective outer layer of teeth. This safe mineral helps fight off sugar, acid, and bacteria, which makes it especially helpful for little ones who are still mastering their brushing skills. Families searching for a
                                 {" "}<Link href="/" className="text-accent font-semibold hover:underline">pediatric dentist near me</Link> often choose fluoride as an easy way to support long-term dental health.
                             </p>
                         </section>

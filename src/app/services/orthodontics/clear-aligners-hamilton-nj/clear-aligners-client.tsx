@@ -79,7 +79,7 @@ export default function ClearAlignersClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Clear aligners are smooth, removable trays that help straighten teeth without brackets or wires. They are a great option for families looking for a
-                                <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline">more comfortable and discreet orthodontic treatment for kids and teens near me.</Link>{" "}Each set of aligners shifts teeth step-by-step, making it easier for children to clean their teeth and enjoy mealtime without restrictions - all while building a confident, aligned smile.
+                                {" "}<Link href="/services/orthodontics/clear-aligners-hamilton-nj" className="text-accent font-semibold hover:underline">more comfortable and discreet orthodontic treatment for kids and teens near me.</Link>{" "}Each set of aligners shifts teeth step-by-step, making it easier for children to clean their teeth and enjoy mealtime without restrictions - all while building a confident, aligned smile.
                             </p>
                         </section>
 

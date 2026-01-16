@@ -50,7 +50,7 @@ export default function ToothExtractionClient() {
                         Tooth Extractions in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        When a tooth needs to be removed to protect your child’s health, our <Link href="/" className="text-accent font-semibold hover:underline">gentle pediatric tooth extractions in Hamilton, NJ</Link>{" "}keep the process calm, comfortable, and stress-free for both kids and parents.
+                        When a tooth needs to be removed to protect your child’s health, our <strong className="text-accent font-semibold">gentle pediatric tooth extractions in Hamilton, NJ</strong>{" "}keep the process calm, comfortable, and stress-free for both kids and parents.
                     </p>
                 </div>
 
@@ -79,7 +79,7 @@ export default function ToothExtractionClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Tooth extractions are sometimes necessary when a tooth is too damaged to repair, is causing pain, or is blocking proper growth. Our pediatric dental team uses a comforting, kid-friendly approach to help children feel safe and relaxed throughout the visit. Many families searching for
-                                <Link href="/services/restorative-dentistry/dental-fillings-hamilton-nj" className="text-accent font-semibold hover:underline"> child tooth removal near me</Link>{" "}choose our supportive care to protect their child’s growing smile.
+                                <strong className="text-accent font-semibold"> child tooth removal near me</strong>{" "}choose our supportive care to protect their child’s growing smile.
                             </p>
                         </section>
 

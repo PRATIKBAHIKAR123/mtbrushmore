@@ -36,7 +36,7 @@ export default function DoctorDetailsClient() {
                         <section className="space-y-6">
                             {/* Description */}
                             <p className="text-accent leading-relaxed text-sm md:text-base">
-                                With a passion for helping children build confident, healthy smiles, Dr. Manmeet Arora is a board-eligible pediatric dentist who has dedicated her career to caring for young patients. She earned her DDS from the Herman Ostrow School of Dentistry at USC in 2014 and completed a General Practice Residency in 2016. Dr. Arora spent seven years serving families in Bridgeport, CT before completing her Pediatric Dental Residency at BronxCare Health Systems in 2025.
+                                With a passion for helping children build confident, healthy smiles, Dr. Manmeet Arora is a <strong className="text-accent font-semibold">board-eligible pediatric dentist</strong> who has dedicated her career to caring for young patients. She earned her DDS from the Herman Ostrow School of Dentistry at USC in 2014 and completed a General Practice Residency in 2016. Dr. Arora spent seven years serving families in Bridgeport, CT before completing her Pediatric Dental Residency at BronxCare Health Systems in 2025.
                             </p>
                             <p className="text-accent leading-relaxed text-sm md:text-base">
                                 Beyond dentistry, she enjoys creating memories with her family, contributing to her community, and experimenting with new recipes in the kitchen.

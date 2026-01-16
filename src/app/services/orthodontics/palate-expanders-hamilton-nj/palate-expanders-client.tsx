@@ -7,33 +7,33 @@ import Link from "next/link";
 import { useState } from "react";
 import BookingModal from "@/app/booking/bookingScreen";
 
-export default function EarlyOrthodonticAssessmentsClient() {
+export default function PalateExpandersClient() {
     const [isBookingOpen, setIsBookingOpen] = useState(false);
     const faqs = [
         {
-            question: "Why is age 7 the best time for the first orthodontic visit?",
+            question: "Why would my child need a palate expander?",
             answer:
-                "At age 7, children have a mix of baby and adult teeth, making it the ideal stage to spot concerns like crowding, bite problems, or jaw growth issues. Early evaluation helps us plan ahead and keep treatment simple when the time is right.",
+                "An expander is recommended when a child’s upper jaw is too narrow, causing crowding or a crossbite. By widening the arch while the bones are still developing, permanent teeth have room to come in correctly - making orthodontic care faster and more comfortable later.",
         },
         {
-            question: "What signs might mean my child needs early orthodontic support?",
+            question: "Is wearing an expander uncomfortable for kids?",
             answer:
-                "Trouble chewing, thumb-sucking beyond toddler years, early or late loss of baby teeth, mouth breathing, jaw clicking, or teeth that are crooked, spaced, or shifted can all be indicators. Even without visible concerns, early monitoring is still highly beneficial.",
+                "There may be a brief adjustment period, but discomfort is usually very mild. Most children adapt quickly and continue to eat, talk, and play as normal. We offer tips to help them feel confident from day one.",
         },
         {
-            question: "Will early orthodontic visits mean braces right away?",
+            question: "How do habit appliances help stop thumb-sucking or other habits?",
             answer:
-                "Not usually - most early evaluations simply involve watching growth. If treatment is needed early, it’s often brief and focused on guiding development, which can make future orthodontic care easier and more comfortable.",
+                "Habit appliances serve as a soft reminder that helps kids naturally stop the habit without stress or shame. Breaking these habits early protects the bite, reduces speech concerns, and helps teeth grow into healthier positions.",
         },
         {
-            question: "Are these visits uncomfortable for children?",
+            question: "How long will my child need to wear the appliance?",
             answer:
-                "Not at all! Early orthodontic checks are gentle and easy. We keep the experience playful and encouraging, so kids feel proud of taking care of their smile.",
+                "Treatment length depends on your child’s needs - expanders may be worn for several months, while habit appliances stay in place until the habit has been fully replaced with healthier patterns. We monitor progress closely to ensure the best results.",
         },
         {
-            question: "How often should my child be evaluated after the first checkup?",
+            question: "Will my child have trouble eating or speaking?",
             answer:
-                "It depends on their unique development. Some children only need yearly check-ins, while others benefit from more frequent monitoring. We customize the schedule to your child’s needs.",
+                "There may be a short adjustment period, but children usually adapt quickly. We provide fun tips and encouragement to help your child feel proud of their progress as their smile becomes stronger and healthier.",
         },
     ];
 
@@ -47,10 +47,10 @@ export default function EarlyOrthodonticAssessmentsClient() {
                     <h1
                         className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-accent eveleth"
                     >
-                        Early Orthodontic Assessments in Hamilton, NJ
+                        Palate Expanders & Habit Appliances in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Smart, early checkups help us guide little smiles as they grow - making orthodontic care easier, faster, and more comfortable for kids in Hamilton, NJ.
+                        Gentle orthodontic appliances help guide healthy jaw growth and support better alignment - giving growing smiles in Hamilton, NJ the best foundation for the future.
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function EarlyOrthodonticAssessmentsClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Early Orthodontic Assessments.webp"  // ✅ replace with your image
+                            src="/Images/Palate Expanders and Habit Appliances.webp"  // ✅ replace with your image
                             alt="Dental Cleaning"
                             width={600}
                             height={450}
@@ -78,8 +78,8 @@ export default function EarlyOrthodonticAssessmentsClient() {
                                 WHAT IT IS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                Early orthodontic assessments are growth-focused checkups where we evaluate how your child’s teeth, bite, and jaw are developing. The American Association of Orthodontists recommends the first orthodontic exam by <strong className="font-semibold text-accent">age 7</strong>{" "} because baby teeth and permanent teeth work together to shape the future smile. Parents searching for
-                                {" "}<Link href="/services/orthodontics/early-orthodontic-assessments-hamilton-nj" className="text-accent font-semibold hover:underline">early orthodontic care near me</Link>{" "}trust these visits to give their child the very best start.
+                                Palate expanders and habit appliances are special orthodontic tools that support healthy development in growing children. Expanders gently widen the upper jaw to make room for permanent teeth, while habit appliances help children stop habits like thumb-sucking or tongue thrusting that can affect tooth alignment. These early treatments keep smiles on the right track and make future orthodontic care easier.
+
                             </p>
                         </section>
 
@@ -89,9 +89,9 @@ export default function EarlyOrthodonticAssessmentsClient() {
                                 HOW IT WORKS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                During the appointment, our pediatric orthodontic team checks spacing, bite alignment, jaw growth, and how permanent teeth are forming under the gums. If needed, we take quick, comfortable digital images to see what’s happening behind the scenes. We explain every step in fun, kid-friendly ways so children feel confident - and families in
+                                Our pediatric orthodontic team custom-fits each appliance to match your child’s needs. Expanders apply light pressure over time to help the jaw grow properly, while habit appliances give gentle reminders that help break habits without stress. We explain everything step-by-step so kids feel comfortable - and families in
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>,
-                                feel fully supported as their child grows
+                                know exactly how to support their child’s progress at home.
                             </p>
                         </section>
 
@@ -101,7 +101,7 @@ export default function EarlyOrthodonticAssessmentsClient() {
                                 HOW IT HELPS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                By identifying concerns early, we can guide growth at the perfect time - which may help reduce overcrowding, shorten time in braces, and prevent more complex treatment later. Early checks support clear speech, easier chewing, and straighter smiles with less stress. Taking action early often leads to healthier, happier smiles for life.
+                                These appliances guide the smile while it’s still developing - creating space for teeth to come in straight, preventing crowding, improving breathing and bite function, and reducing the need for more complex treatment later. Stopping harmful oral habits early also protects the shape of the smile and boosts confidence as kids grow.
                             </p>
                         </section>
 

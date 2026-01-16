@@ -50,7 +50,7 @@ export default function FillingsClient() {
                         Dental Fillings in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Fix cavities gently and beautifully with <Link href="/" className="text-accent font-semibold hover:underline">tooth-colored pediatric fillings in Hamilton, NJ</Link>{" "}designed to keep little smiles healthy, strong, and confidently bright.
+                        Fix cavities gently and beautifully with <strong className="text-accent font-semibold">tooth-colored pediatric fillings in Hamilton, NJ</strong>{" "}designed to keep little smiles healthy, strong, and confidently bright.
                     </p>
                 </div>
 
@@ -89,7 +89,7 @@ export default function FillingsClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Our pediatric dental team carefully removes the tiny area of decay, then places a durable filling that bonds directly to the tooth. The material is shaped to match the natural tooth and then hardened with a gentle curing light
-                                - <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline">no discomfort and no long recovery.</Link>  Children from
+                                - <strong className="text-accent font-semibold">no discomfort and no long recovery.</strong>  Children from
 
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>
                                 {" "}often return right to their favorite foods and activities with a healthier, happier smile.

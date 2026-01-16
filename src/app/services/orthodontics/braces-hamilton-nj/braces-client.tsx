@@ -79,7 +79,7 @@ export default function BracesClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Traditional braces use small brackets and a thin wire to slowly move teeth into their best positions over time. They are one of the most effective orthodontic options for children and teens, especially when multiple alignment changes are needed. Many families searching for
-                                <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline">kids’ braces near me</Link>{" "}love how braces help create a strong bite and a confident smile that lasts a lifetime.
+                                {" "}<Link href="/services/orthodontics/braces-hamilton-nj" className="text-accent font-semibold hover:underline">kids’ braces near me</Link>{" "}love how braces help create a strong bite and a confident smile that lasts a lifetime.
                             </p>
                         </section>
 

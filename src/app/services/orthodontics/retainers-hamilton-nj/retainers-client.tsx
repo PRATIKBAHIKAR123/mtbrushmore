@@ -7,33 +7,33 @@ import Link from "next/link";
 import { useState } from "react";
 import BookingModal from "@/app/booking/bookingScreen";
 
-export default function EarlyOrthodonticAssessmentsClient() {
+export default function RetainersClient() {
     const [isBookingOpen, setIsBookingOpen] = useState(false);
     const faqs = [
         {
-            question: "Why is age 7 the best time for the first orthodontic visit?",
+            question: "How long will my child need to wear a retainer?",
             answer:
-                "At age 7, children have a mix of baby and adult teeth, making it the ideal stage to spot concerns like crowding, bite problems, or jaw growth issues. Early evaluation helps us plan ahead and keep treatment simple when the time is right.",
+                "Retainer wear depends on how much the teeth moved during orthodontic treatment and how quickly they stabilize afterward. Most children start by wearing their retainer full-time for several months, then transition to nighttime wear as their smile becomes more secure. Because teeth can shift over time due to natural growth, long-term retainer use - especially while sleeping - helps ensure the results last for years.",
         },
         {
-            question: "What signs might mean my child needs early orthodontic support?",
+            question: "Why is wearing a retainer so important after braces or aligners",
             answer:
-                "Trouble chewing, thumb-sucking beyond toddler years, early or late loss of baby teeth, mouth breathing, jaw clicking, or teeth that are crooked, spaced, or shifted can all be indicators. Even without visible concerns, early monitoring is still highly beneficial.",
+                "Once the braces or aligners come off, the jawbone and gums need time to adapt to the new tooth positions. Without a retainer, teeth can slowly shift back toward their original spots. Consistent retainer use protects all the hard work and investment that went into creating a beautiful smile, helping your child maintain their confidence and comfort as they grow.",
         },
         {
-            question: "Will early orthodontic visits mean braces right away?",
+            question: "Are retainers comfortable for kids to wear?",
             answer:
-                "Not usually - most early evaluations simply involve watching growth. If treatment is needed early, it’s often brief and focused on guiding development, which can make future orthodontic care easier and more comfortable.",
+                "Yes - retainers are custom-designed to feel smooth and comfortable in your child’s mouth. There may be a short adjustment period, but kids typically adapt within a few days and hardly notice it’s there. If anything ever feels uncomfortable, we make quick adjustments to ensure the perfect fit.",
         },
         {
-            question: "Are these visits uncomfortable for children?",
+            question: "If the retainer is removable, when should my child take it out?",
             answer:
-                "Not at all! Early orthodontic checks are gentle and easy. We keep the experience playful and encouraging, so kids feel proud of taking care of their smile.",
+                " Removable retainers should be taken out during meals, during tooth brushing and flossing, and when playing sports that require a mouthguard. This keeps both the retainer and teeth clean and protected from damage. We provide a protective case so the retainer stays safe whenever it’s not being worn.",
         },
         {
-            question: "How often should my child be evaluated after the first checkup?",
+            question: "How do we clean a retainer properly?",
             answer:
-                "It depends on their unique development. Some children only need yearly check-ins, while others benefit from more frequent monitoring. We customize the schedule to your child’s needs.",
+                "Daily cleaning is essential - just like brushing teeth. Removable retainers can be gently brushed with a soft toothbrush and non-abrasive soap to prevent plaque buildup. We also share helpful tips for deep cleaning and storage so the retainer stays clear, fresh, and hygienic.",
         },
     ];
 
@@ -47,10 +47,10 @@ export default function EarlyOrthodonticAssessmentsClient() {
                     <h1
                         className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-accent eveleth"
                     >
-                        Early Orthodontic Assessments in Hamilton, NJ
+                        Retainers for Kids in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Smart, early checkups help us guide little smiles as they grow - making orthodontic care easier, faster, and more comfortable for kids in Hamilton, NJ.
+                        After braces or aligners, retainers keep teeth beautifully in place - helping kids in Hamilton, NJ enjoy confident, long-lasting results from their orthodontic journey.
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function EarlyOrthodonticAssessmentsClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Early Orthodontic Assessments.webp"  // ✅ replace with your image
+                            src="/Images/Retainers.webp"  // ✅ replace with your image
                             alt="Dental Cleaning"
                             width={600}
                             height={450}
@@ -78,8 +78,10 @@ export default function EarlyOrthodonticAssessmentsClient() {
                                 WHAT IT IS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                Early orthodontic assessments are growth-focused checkups where we evaluate how your child’s teeth, bite, and jaw are developing. The American Association of Orthodontists recommends the first orthodontic exam by <strong className="font-semibold text-accent">age 7</strong>{" "} because baby teeth and permanent teeth work together to shape the future smile. Parents searching for
-                                {" "}<Link href="/services/orthodontics/early-orthodontic-assessments-hamilton-nj" className="text-accent font-semibold hover:underline">early orthodontic care near me</Link>{" "}trust these visits to give their child the very best start.
+                                Retainers are custom-made orthodontic devices worn after treatment to keep teeth from shifting back into old positions. Once a smile is straight and the bite is aligned, retainers protect those amazing results by giving teeth the support they need while the jaw continues to grow. They are an essential step for families searching for
+                                {" "}<strong className="text-accent font-semibold">kids’ retainers near me</strong>{" "}
+                                to maintain a healthy, confident smile.
+
                             </p>
                         </section>
 
@@ -89,9 +91,9 @@ export default function EarlyOrthodonticAssessmentsClient() {
                                 HOW IT WORKS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                During the appointment, our pediatric orthodontic team checks spacing, bite alignment, jaw growth, and how permanent teeth are forming under the gums. If needed, we take quick, comfortable digital images to see what’s happening behind the scenes. We explain every step in fun, kid-friendly ways so children feel confident - and families in
+                                Once braces or aligners come off, we create a retainer that fits your child’s newly aligned teeth perfectly. Depending on their needs, it may be removable or fixed in place. We guide your family on how and when to wear it - and schedule follow-ups to ensure a great fit. Kids and parents in
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>,
-                                feel fully supported as their child grows
+                                appreciate how simple this step is in keeping results strong.
                             </p>
                         </section>
 
@@ -101,7 +103,7 @@ export default function EarlyOrthodonticAssessmentsClient() {
                                 HOW IT HELPS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                By identifying concerns early, we can guide growth at the perfect time - which may help reduce overcrowding, shorten time in braces, and prevent more complex treatment later. Early checks support clear speech, easier chewing, and straighter smiles with less stress. Taking action early often leads to healthier, happier smiles for life.
+                                Retainers prevent teeth from shifting, protect all the hard work put into orthodontic care, and help children enjoy a smile they’ll love for years to come. When kids feel good about their smile, they feel more confident in every part of life - retainers help that confidence last.
                             </p>
                         </section>
 

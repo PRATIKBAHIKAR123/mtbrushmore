@@ -50,7 +50,7 @@ export default function CrownsClient() {
                         Dental Crowns in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Some teeth need extra strength as they grow - that’s where <Link href="/" className="text-accent font-semibold hover:underline">pediatric dental crowns in Hamilton, NJ</Link>- come in, giving little smiles, long-lasting protection and a confident, healthy bite.
+                        Some teeth need extra strength as they grow - that’s where <strong className="text-accent font-semibold">pediatric dental crowns in Hamilton, NJ</strong>- come in, giving little smiles, long-lasting protection and a confident, healthy bite.
                     </p>
                 </div>
 
@@ -79,7 +79,7 @@ export default function CrownsClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Dental crowns are strong, kid-friendly coverings that protect a tooth when a simple filling isn’t enough. They act like a little helmet for the tooth - keeping it safe from further damage and restoring its ability to chew, talk, and smile comfortably. Parents looking for
-                                <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj"> children’s restorative dental care near me</Link> choose crowns to help save and strengthen a tooth that has been weakened by decay or injury.
+                                <strong className="text-accent font-semibold"> children’s restorative dental care near me</strong> choose crowns to help save and strengthen a tooth that has been weakened by decay or injury.
                             </p>
                         </section>
 

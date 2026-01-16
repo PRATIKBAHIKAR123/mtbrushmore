@@ -12,28 +12,43 @@ export default function OralHygieneEducationClient() {
     const faqs = [
         {
             question: "How can I get my child excited about brushing?",
-            answer:
-                "Kids love routines that feel playful - not pressured. Using a 2-minute brushing song, a fun timer, character toothbrushes, or sticker reward charts can turn daily brushing into a positive challenge they want to complete. When brushing feels like an achievement, children become more motivated to take care of their smiles all on their own.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Kids love routines that feel playful</strong> - not pressured. Using a 2-minute brushing song, a fun timer, character toothbrushes, or sticker reward charts can turn daily brushing into a positive challenge they want to complete. When brushing feels like an achievement, children become more motivated to take care of their smiles all on their own.
+                </>
+            ),
         },
         {
             question: "What kind of toothbrush and toothpaste should my child use?",
-            answer:
-                "We recommend a soft-bristle, child-sized toothbrush that comfortably fits in small hands and mouths. For toothpaste, kids should use a fluoride-based formula (pea-sized amount for ages 3+ and a tiny smear for toddlers) to help strengthen enamel and prevent decay. Our team offers personalized suggestions if your child has sensitivity, gag concerns, or sensory challenges.",
+            answer: (
+                <>
+                    We recommend a <strong className="text-accent font-semibold">soft-bristle, child-sized toothbrush</strong> that comfortably fits in small hands and mouths. For toothpaste, kids should use a fluoride-based formula (pea-sized amount for ages 3+ and a tiny smear for toddlers) to help strengthen enamel and prevent decay. Our team offers personalized suggestions if your child has sensitivity, gag concerns, or sensory challenges.
+                </>
+            ),
         },
         {
             question: "How often should my child brush and floss?",
-            answer:
-                "Children should brush twice a day for two minutes, especially before bedtime, to remove sugars that sit on teeth overnight. Flossing should begin as soon as two teeth touch, since cavities love to hide between the teeth - a place brushes can’t reach. Starting early helps make these habits feel easy and automatic as children grow.",
+            answer: (
+                <>
+                    Children should <strong className="text-accent font-semibold">brush twice a day for two minutes</strong>, especially before bedtime, to remove sugars that sit on teeth overnight. Flossing should begin as soon as two teeth touch, since cavities love to hide between the teeth - a place brushes can’t reach. Starting early helps make these habits feel easy and automatic as children grow.
+                </>
+            ),
         },
         {
             question: "Can oral hygiene education help prevent cavities?",
-            answer:
-                "Yes - when children understand why brushing and flossing matter, they are more motivated to follow through at home. Learning proper technique helps remove plaque effectively, reducing the risk of cavities, gum irritation, and enamel damage. Education builds a strong foundation for long-term oral health and fewer dental visits for treatment.",
+            answer: (
+                <>
+                    Yes - <strong className="text-accent font-semibold">when children understand why brushing and flossing matter</strong>, they are more motivated to follow through at home. Learning proper technique helps remove plaque effectively, reducing the risk of cavities, gum irritation, and enamel damage. Education builds a strong foundation for long-term oral health and fewer dental visits for treatment.
+                </>
+            ),
         },
         {
             question: "What if my child struggles with brushing at home?",
-            answer:
-                "It’s very common for kids to resist brushing at different stages. Our team provides tips tailored to your child’s personality - whether they respond better to visuals, games, positive reinforcement, or gradual independence. We support parents with strategies that make brushing smoother and help kids feel capable and proud when they succeed.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">It’s very common for kids to resist brushing</strong> at different stages. Our team provides tips tailored to your child’s personality - whether they respond better to visuals, games, positive reinforcement, or gradual independence. We support parents with strategies that make brushing smoother and help kids feel capable and proud when they succeed.
+                </>
+            ),
         },
     ];
 
@@ -50,7 +65,7 @@ export default function OralHygieneEducationClient() {
                         Oral Hygiene Education in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Give your child the tools to care for their smile with fun, hands-on <Link href="/" className="text-accent font-semibold hover:underline">oral hygiene education in Hamilton, NJ</Link> designed to build confident brushing habits for life.
+                        Give your child the tools to care for their smile with fun, hands-on <strong className="text-accent font-semibold">oral hygiene education in Hamilton, NJ</strong> designed to build confident brushing habits for life.
                     </p>
                 </div>
 

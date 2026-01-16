@@ -50,7 +50,7 @@ export default function BondingClient() {
                         Dental Bonding in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Fix tiny chips and gaps with <Link href="/" className="text-accent font-semibold hover:underline">pediatric dental bonding in Hamilton, NJ</Link>- a fast, gentle way to keep little smiles looking their very best.
+                        Fix tiny chips and gaps with <strong className="text-accent font-semibold">pediatric dental bonding in Hamilton, NJ</strong>- a fast, gentle way to keep little smiles looking their very best.
                     </p>
                 </div>
 
@@ -79,7 +79,7 @@ export default function BondingClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Dental bonding is a gentle way to repair small chips, cracks, or gaps using a smooth, tooth-colored resin that looks just like natural enamel. It’s a popular service for families searching for
-                                <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj"> kids’ cosmetic dental care near me</Link> especially when everyday play leads to tiny tooth surprises. Bonding helps protect growing smiles while keeping teeth looking strong, healthy, and picture-perfect.
+                                <strong className="text-accent font-semibold"> kids’ cosmetic dental care near me</strong> especially when everyday play leads to tiny tooth surprises. Bonding helps protect growing smiles while keeping teeth looking strong, healthy, and picture-perfect.
                             </p>
                         </section>
 
@@ -90,9 +90,9 @@ export default function BondingClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Our pediatric dental team prepares the tooth with a light cleaning, then brushes on a strong, enamel-colored material that is shaped perfectly to match your child’s natural tooth. A special curing light hardens it within seconds
-                                -<Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline"> no drilling, no shots, and no discomfort</Link> Kids can head right back to school or play, with smiles that look as good as new. Families from
+                                -<strong className="text-accent font-semibold"> no drilling, no shots, and no discomfort</strong> Kids can head right back to school or play, with smiles that look as good as new. Families from
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>
-                                {" "}this visit can be.
+                                {" "}love how quick and easy this visit can be.
                             </p>
                         </section>
 

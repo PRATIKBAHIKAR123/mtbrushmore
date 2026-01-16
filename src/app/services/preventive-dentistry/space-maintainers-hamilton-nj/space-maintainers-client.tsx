@@ -12,28 +12,43 @@ export default function SpaceMaintainersClient() {
     const faqs = [
         {
             question: "Why would my child need a space maintainer?",
-            answer:
-                "When a baby tooth is lost too soon - whether from a cavity, injury, or natural early loss - the surrounding teeth may drift into the empty space. This can block the permanent tooth trying to come in later and lead to crowding or crooked alignment. A space maintainer keeps that spot open so the adult tooth can erupt in the right position, helping your child avoid more complex orthodontic treatment in the future.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">When a baby tooth is lost too soon</strong> - whether from a cavity, injury, or natural early loss - the surrounding teeth may drift into the empty space. This can block the permanent tooth trying to come in later and lead to crowding or crooked alignment. A space maintainer keeps that spot open so the adult tooth can erupt in the right position, helping your child avoid more complex orthodontic treatment in the future.
+                </>
+            ),
         },
         {
             question: "Will a space maintainer feel uncomfortable or affect speech?",
-            answer:
-                "There may be a brief adjustment period as your child gets used to something new in their mouth. However, space maintainers are small, low-profile appliances that children typically adapt to very quickly - most forget they even have one after a few days. Speech changes are rare and usually temporary as the tongue adjusts to the new device.",
+            answer: (
+                <>
+                    There may be a <strong className="text-accent font-semibold">brief adjustment period</strong> as your child gets used to something new in their mouth. However, space maintainers are small, low-profile appliances that children typically adapt to very quickly - most forget they even have one after a few days. Speech changes are rare and usually temporary as the tongue adjusts to the new device.
+                </>
+            ),
         },
         {
             question: "How long does my child need to wear a space maintainer?",
-            answer:
-                "The appliance stays in place only until the permanent tooth is ready to come in - this timeline varies from child to child. Our team monitors the tooth’s development at each visit so we can remove the device as soon as it has served its purpose. This ensures teeth grow properly with minimal disruption to your child’s daily routine.",
+            answer: (
+                <>
+                    The <strong className="text-accent font-semibold">appliance stays in place only until the permanent tooth is ready</strong> to come in - this timeline varies from child to child. Our team monitors the tooth’s development at each visit so we can remove the device as soon as it has served its purpose. This ensures teeth grow properly with minimal disruption to your child’s daily routine.
+                </>
+            ),
         },
         {
             question: "How do we properly care for a space maintainer at home?",
-            answer:
-                "Good brushing and flossing around the appliance are important to keep the area clean and free of trapped food. We also recommend avoiding sticky foods like gum, caramel, or chewy candy since they can loosen or damage the device. Encouraging your child not to push on the appliance with fingers or tongue will help keep it securely in place.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">Good brushing and flossing around the appliance are important</strong> to keep the area clean and free of trapped food. We also recommend avoiding sticky foods like gum, caramel, or chewy candy since they can loosen or damage the device. Encouraging your child not to push on the appliance with fingers or tongue will help keep it securely in place.
+                </>
+            ),
         },
         {
             question: "Will my child still need braces later?",
-            answer:
-                "A space maintainer doesn’t replace orthodontic treatment, but it does help reduce the risk or severity of alignment problems later on. By guiding teeth into proper positions early, it supports healthy jaw development and can make future orthodontic care simpler, shorter, and more effective if needed.",
+            answer: (
+                <>
+                    A space maintainer doesn’t replace orthodontic treatment, but it does help <strong className="text-accent font-semibold">reduce the risk or severity of alignment problems</strong> later on. By guiding teeth into proper positions early, it supports healthy jaw development and can make future orthodontic care simpler, shorter, and more effective if needed.
+                </>
+            ),
         },
     ];
 
@@ -79,7 +94,7 @@ export default function SpaceMaintainersClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Space maintainers are small dental appliances that gently
-                                <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj"> hold open the space</Link> where a baby tooth has fallen out too soon. Because baby teeth help guide adult teeth into the correct position, losing one early can cause teeth to shift and crowd. Space maintainers protect that space and ensure the smile continues to develop properly.
+                                <strong className="text-accent font-semibold"> hold open the space</strong> where a baby tooth has fallen out too soon. Because baby teeth help guide adult teeth into the correct position, losing one early can cause teeth to shift and crowd. Space maintainers protect that space and ensure the smile continues to develop properly.
                             </p>
                         </section>
 
@@ -90,7 +105,7 @@ export default function SpaceMaintainersClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Our pediatric dental team custom-fits a tiny appliance to the area where the tooth is missing. Depending on your child’s needs, it may be a
-                                <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline"> fixed</Link> device that stays in place or a <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline"> removable</Link>  one. Each visit, we monitor the appliance and your child’s development to make sure their permanent teeth have the perfect path to come in - especially for kids in
+                                <strong className="text-accent font-semibold"> fixed</strong> device that stays in place or a <strong className="text-accent font-semibold"> removable</strong>  one. Each visit, we monitor the appliance and your child’s development to make sure their permanent teeth have the perfect path to come in - especially for kids in
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>
                                 {" "}and surrounding Hamilton, NJ communities.
                             </p>
@@ -103,7 +118,7 @@ export default function SpaceMaintainersClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 By preventing teeth from drifting or twisting, space maintainers help avoid bite problems, crowding, and the need for more complex orthodontic treatment later on. They support
-                                <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline"> proper spacing, healthy alignment, and confident smiles</Link> during the most important years of oral development.
+                                <strong className="text-accent font-semibold"> proper spacing, healthy alignment, and confident smiles</strong> during the most important years of oral development.
                             </p>
                         </section>
 

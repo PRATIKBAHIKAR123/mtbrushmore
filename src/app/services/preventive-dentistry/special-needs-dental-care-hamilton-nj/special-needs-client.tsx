@@ -12,28 +12,43 @@ export default function SpecialNeedsClient() {
     const faqs = [
         {
             question: "How do you make dental visits more comfortable for children with different needs?",
-            answer:
-                "We take time to understand each child’s personality, communication style, and any sensory preferences before beginning. Whether your child benefits from a quieter room, step-by-step guidance, breaks during care, or a slower pace, we adjust the experience so they feel safe and respected throughout the visit.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">We take time to understand each child’s personality</strong>, communication style, and any sensory preferences before beginning. Whether your child benefits from a quieter room, step-by-step guidance, breaks during care, or a slower pace, we adjust the experience so they feel safe and respected throughout the visit.
+                </>
+            ),
         },
         {
             question: "Can I stay with my child during the appointment?",
-            answer:
-                "Absolutely. We believe parents and caregivers are an essential source of comfort and support. You are always welcome to stay close, participate, and help guide what helps your child feel relaxed and confident.",
+            answer: (
+                <>
+                    Absolutely. We believe <strong className="text-accent font-semibold">parents and caregivers are an essential source</strong> of comfort and support. You are always welcome to stay close, participate, and help guide what helps your child feel relaxed and confident.
+                </>
+            ),
         },
         {
             question: "What if my child has anxiety or difficulty sitting still?",
-            answer:
-                "That’s completely okay - many children feel more comfortable when they can move, explore, or take breaks. Our team uses visual tools, positive reinforcement, and calming techniques to help children feel in control. We can also schedule longer appointments so there is no pressure or rush.",
+            answer: (
+                <>
+                    That’s completely okay - <strong className="text-accent font-semibold">many children feel more comfortable</strong> when they can move, explore, or take breaks. Our team uses visual tools, positive reinforcement, and calming techniques to help children feel in control. We can also schedule longer appointments so there is no pressure or rush.
+                </>
+            ),
         },
         {
             question: "Do you offer options to help children with sensory sensitivities?",
-            answer:
-                "Yes - we can dim lights, reduce noise, use weighted blankets, show tools before use, or incorporate visual storytelling. We listen carefully to what your child responds to best and make the environment as comfortable as possible.",
+            answer: (
+                <>
+                    Yes - we can <strong className="text-accent font-semibold">dim lights, reduce noise</strong>, use weighted blankets, show tools before use, or incorporate visual storytelling. We listen carefully to what your child responds to best and make the environment as comfortable as possible.
+                </>
+            ),
         },
         {
             question: "How do you prepare a child for a new dental experience?",
-            answer:
-                "We introduce each step slowly and clearly, letting children touch or see instruments before use if that helps them feel assured. Small wins are always celebrated - even just sitting in the chair - because confidence grows one success at a time.",
+            answer: (
+                <>
+                    <strong className="text-accent font-semibold">We introduce each step slowly and clearly</strong>, letting children touch or see instruments before use if that helps them feel assured. Small wins are always celebrated - even just sitting in the chair - because confidence grows one success at a time.
+                </>
+            ),
         },
     ];
 
