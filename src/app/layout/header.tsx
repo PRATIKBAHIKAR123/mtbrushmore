@@ -7,6 +7,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isParentsOpen, setIsParentsOpen] = useState(false);
+  const [isServiceAreasOpen, setIsServiceAreasOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,9 +38,8 @@ const Header = () => {
           <img
             src="/Images/mt-brushmore-main-logo-trsnprnt.png"
             alt="Brushmore Logo"
-            className={`transition-all duration-300 ${
-              isScrolled ? "h-12 md:h-16" : "h-20 md:h-42"
-            }`}
+            className={`transition-all duration-300 ${isScrolled ? "h-12 md:h-16" : "h-20 md:h-42"
+              }`}
             onClick={() => (window.location.href = "/")}
           />
         </div>
@@ -83,9 +83,9 @@ const Header = () => {
 
                 <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all z-50">
                   <ul className="py-1">
-                    <li><a href="/first-visit" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">First Visit</a></li>
+                    <li><a href="/first-visit-hamilton-nj" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">First Visit</a></li>
                     <li><a href="/insurance-hamilton-nj" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Insurance</a></li>
-                    <li><a href="/dental-financing" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Financing</a></li>
+                    <li><a href="/financing-hamilton-nj" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Financing</a></li>
                   </ul>
                 </div>
               </div>
@@ -181,9 +181,9 @@ const Header = () => {
               <div className={`mx-6 mt-3 rounded-2xl bg-white/10 backdrop-blur overflow-hidden transition-all duration-500 ${isParentsOpen ? "max-h-72 opacity-100" : "max-h-0 opacity-0"}`}>
                 <ul className="py-2">
                   {[
-                    ["First Visit", "/first-visit"],
+                    ["First Visit", "/first-visit-hamilton-nj"],
                     ["Insurance", "/insurance-hamilton-nj"],
-                    ["Financing", "/dental-financing"],
+                    ["Financing", "/financing-hamilton-nj"],
                   ].map(([label, href]) => (
                     <li key={label}>
                       <a href={href} className="block py-3 text-white hover:bg-primary/30 transition">
@@ -196,6 +196,39 @@ const Header = () => {
             </div>
 
             <a href="/location" className="text-white hover:text-primary">Contact Us</a>
+            <a href="/dental-blog" className="text-white hover:text-primary">Blogs</a>
+
+            {/* Services Mobile */}
+            <div className="w-full">
+              <button
+                onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
+                className="text-white inline-flex items-center justify-center gap-2"
+              >
+                Service Areas
+                <svg className={`w-5 h-5 transition-transform ${isServiceAreasOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <div className={`mx-6 mt-3 rounded-2xl bg-white/10 backdrop-blur overflow-hidden transition-all duration-500 ${isServiceAreasOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
+                <ul className="py-2">
+                  {[
+                    ["Hamilton Square, NJ", "/service-areas/hamilton-square-nj-dentist-near-you"],
+                    ["Mercerville, NJ", "/service-areas/mercerville-nj-dentist-near-you"],
+                    ["Robbinsville, NJ", "/service-areas/robbinsville-nj-dentist-near-you"],
+                    ["Lawrenceville, NJ", "/service-areas/lawrenceville-nj-dentist-near-you"],
+                    ["West Windsor, NJ", "/service-areas/west-windsor-nj-dentist-near-you"],
+                    ["East Windsor, NJ", "/service-areas/east-windsor-nj-dentist-near-you"],
+                  ].map(([label, href]) => (
+                    <li key={label}>
+                      <a href={href} className="block py-3 text-white hover:bg-primary/30 transition">
+                        {label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
 
             <div className="flex flex-col space-y-4 pt-6">
               <button className="bg-secondary text-white px-8 py-3 rounded-full hover:bg-primary">Book Now</button>
