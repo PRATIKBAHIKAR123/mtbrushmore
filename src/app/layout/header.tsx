@@ -27,7 +27,7 @@ const Header = () => {
       {/* Top Banner */}
       <div className="bg-primary text-white py-3 text-center">
         <a href="#locations" className="hover:underline">
-          Get Direction →
+          OPENING SOON
         </a>
       </div>
 
@@ -84,13 +84,34 @@ const Header = () => {
                 <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all z-50">
                   <ul className="py-1">
                     <li><a href="/first-visit" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">First Visit</a></li>
-                    <li><a href="/dental-insurance" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Insurance</a></li>
+                    <li><a href="/insurance-hamilton-nj" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Insurance</a></li>
                     <li><a href="/dental-financing" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Financing</a></li>
                   </ul>
                 </div>
               </div>
+              <a href="/dental-blog" className="text-white hover:text-primary">Blogs</a>
 
               <a href="/location" className="text-white hover:text-primary">Contact Us</a>
+              {/* Services Desktop */}
+              <div className="relative group">
+                <button className="text-white hover:text-primary inline-flex items-center">
+                  Service Areas
+                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all z-50">
+                  <ul className="py-1">
+                    <li><a href="/service-areas/hamilton-square-nj-dentist-near-you" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Hamilton Square, NJ</a></li>
+                    <li><a href="/service-areas/mercerville-nj-dentist-near-you" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Mercerville, NJ</a></li>
+                    <li><a href="/service-areas/robbinsville-nj-dentist-near-you" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Robbinsville, NJ</a></li>
+                    <li><a href="/service-areas/lawrenceville-nj-dentist-near-you" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">Lawrenceville, NJ</a></li>
+                    <li><a href="/service-areas/east-windsor-nj-dentist-near-you" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">East Windsor, NJ</a></li>
+                    <li><a href="/service-areas/west-windsor-nj-dentist-near-you" className="block px-4 py-2 text-gray-700 hover:bg-[#F5EFE7]">West Windsor, NJ</a></li>
+                  </ul>
+                </div>
+              </div>
               <button className="bg-secondary text-white px-6 py-2 rounded-full hover:bg-primary">Book Now</button>
               <a href="tel:609-422-4700" className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-primary">609-422-4700</a>
             </div>
@@ -109,7 +130,7 @@ const Header = () => {
         </div>
 
         {/* ================= MOBILE MENU (UI IMPROVED) ================= */}
-        <div className={`fixed inset-0 bg-accent z-40 transition-transform ${isMenuOpen ? "translate-x-0" : "translate-x-full"} lg:hidden`}>
+        <div className={`fixed inset-0 bg-accent z-99 transition-transform ${isMenuOpen ? "translate-x-0" : "translate-x-full"} lg:hidden`}>
           <div className="flex flex-col items-center justify-center h-full space-y-6 text-xl text-center">
 
             <a href="/about-mt-brushmore-pediatric-dentistry-hamilton-nj" className="text-white hover:text-primary">About Us</a>
@@ -161,7 +182,7 @@ const Header = () => {
                 <ul className="py-2">
                   {[
                     ["First Visit", "/first-visit"],
-                    ["Insurance", "/dental-insurance"],
+                    ["Insurance", "/insurance-hamilton-nj"],
                     ["Financing", "/dental-financing"],
                   ].map(([label, href]) => (
                     <li key={label}>

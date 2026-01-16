@@ -18,7 +18,7 @@ export default function DoctorDetailsPage() {
           <div className="w-full md:w-1/3 flex justify-center md:justify-start">
           <div className="relative w-64 h-80 rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/Images/Dr. Manmeet Arora, DDS.webp"
+              src="/Images/Dr.ManmeetAroraDDS.webp"
               alt="Dr. Manmeet Arora, DDS"
               className="object-cover object-center"
             /> 

@@ -24,21 +24,21 @@ const services: Service[] = [
     description: "A fully monitored, restful solution for children who need extensive treatment or extra comfort during their visit.",
     image: "/Images/IV Sedation.webp",
     
-    path: "/treatments/dental-cleanings-and-exams"
+    path: "/services/sedation-dentistry/iv-sedation-hamilton-nj"
   },
   {
     id: 2,
     title: "Laughing Gas",
     description: "A light and calming option that helps kids stay relaxed and giggly while remaining awake and in control.",
     image: "/Images/Laughing Gas.webp",
-    path: "/treatments/restorative-dentistry"
+    path: "/services/sedation-dentistry/laughing-gas-hamilton-nj"
   },
   {
     id: 3,
     title: "Oral Sedation",
     description: "A gentle, deeper relaxation choice that helps reduce worries so children can feel peaceful throughout care.",
     image: "/Images/Oral Sedation.webp",
-    path: "/treatments/orthodontics"
+    path: "/services/sedation-dentistry/oral-sedation-hamilton-nj"
   },
 ];
 

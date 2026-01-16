@@ -89,7 +89,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
               <p className="text-gray-200 leading-relaxed mb-8 max-w-md">
                 With advanced pediatric dental training and a personalized approach, we ensure every child receives high-quality care in a soothing, child-centered space designed for comfort.
               </p>
-              <button className="bg-[#D4B896] text-[#4A3728] px-8 py-3 rounded-full font-semibold hover:bg-[#C4A789] transition-colors">
+              <button onClick={()=>{location.href='/about-mt-brushmore-pediatric-dentistry-hamilton-nj'}} className="bg-[#D4B896] text-[#4A3728] px-8 py-3 rounded-full font-semibold hover:bg-[#C4A789] transition-colors">
                 Our Team
               </button>
             </div>

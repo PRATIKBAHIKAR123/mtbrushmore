@@ -1,3 +1,5 @@
+
+
 import type { Metadata } from "next";
 import { pageMetadata, createMetadata } from "@/lib/metadata";
 import ServicesClient from "../services-client";
@@ -37,35 +39,42 @@ const services: Service[] = [
     title: "Fluoride Treatments",
     description: "This quick strengthening boost gives enamel extra power to fight off sugar bugs and decay.",
     image: "/Images/Fluoride treatment.webp",
-    path: "/treatments/orthodontics"
+    path: "/services/preventive-dentistry/fluoride-treatments-hamilton-nj"
   },
   {
     id: 4,
     title: "Nutritional Counseling",
     description: "Simple guidance for parents and kids to support mouth-healthy choices at home and school.",
     image: "/Images/Nutritional Counseling.webp",
-    path: "/treatments/dental-emergencies",
+    path: "/services/preventive-dentistry/nutritional-counseling-hamilton-nj",
   },
   {
     id: 5,
     title: "Oral Hygiene Education",
     description: "Interactive lessons make brushing and flossing exciting - turning good habits into daily routines.",
     image: "/Images/Oral Hygiene Education.webp",
-    path: "/treatments/dental-emergencies"
+    path: "/services/preventive-dentistry/oral-hygiene-education-hamilton-nj"
   },
   {
     id: 6,
     title: "Space Maintainers",
+    description: "Personalized care that supports comfort, confidence, and positive experiences for every child.",
+    image: "/Images/Space Maintainers.webp",
+    path: "/services/preventive-dentistry/space-maintainers-hamilton-nj"
+  },
+    {
+    id: 7,
+    title: "Special Needs",
     description: "Gentle support keeps perfect room for future grown-up teeth to come in straight and happy.",
     image: "/Images/Space Maintainers.webp",
-    path: "/treatments/dental-emergencies"
+    path: "/services/preventive-dentistry/special-needs-dental-care-hamilton-nj"
   },
   {
-    id: 7,
+    id: 8,
     title: "X-Rays & Imaging",
     description: "Kid-safe technology helps us spot early changes below the gumline for better growth planning.",
     image: "/Images/X-Rays Imaging.webp",
-    path: "/treatments/dental-emergencies"
+    path: "/services/preventive-dentistry/xrays-dental-imaging-hamilton-nj"
   }
 ];
 

@@ -7,7 +7,7 @@ import { pageMetadata, createMetadata } from "@/lib/metadata";
 export const metadata: Metadata = createMetadata(
   pageMetadata.dentalInsurance.title,
   pageMetadata.dentalInsurance.description,
-  "/dental-insurance",
+  "/insurance-hamilton-nj",
   pageMetadata.dentalInsurance.keywords
 );
 

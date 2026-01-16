@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import CTASection from "@/app/home/call-to-action";
 

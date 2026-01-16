@@ -10,10 +10,12 @@ import InsuranceSection from './insurance-provider';
 import LocationsSection from './our-locations';
 import CTASection from './call-to-action';
 import { Star } from 'lucide-react';
+import BookingModal from '../booking/bookingScreen';
 
 export default function HomePageClient() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(true);
+    const [isBookingOpen, setIsBookingOpen] = useState(false);
 
   const togglePlay = () => {
     const video = videoRef.current;
@@ -57,8 +59,8 @@ export default function HomePageClient() {
               </div> */}
               {/* <p className="text-accent font-semibold text-lg mb-3">Over 6,000 5-star reviews</p> */}
               <div className='flex gap-2 md:gap-3 mb-2'>
-                <Button variant={'secondary'} className='rounded-full text-lg font-bold' size={'lg'}>Book Now</Button>
-                <Button variant={'accent'} className='rounded-full text-lg font-bold' size={'lg'}>Insurance</Button>
+                <Button onClick={() => setIsBookingOpen(true)} variant={'secondary'} className='rounded-full text-lg font-bold' size={'lg'}>Book Now</Button>
+                <Button onClick={()=>{location.href='/insurance-hamilton-nj'}} variant={'accent'} className='rounded-full text-lg font-bold' size={'lg'}>Insurance</Button>
               </div>
             </div>
 
@@ -125,6 +127,7 @@ export default function HomePageClient() {
         </svg>
         <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
       </button>
+            <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
     </div>
   );
 }

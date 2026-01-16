@@ -23,35 +23,35 @@ const services: Service[] = [
     title: "Bonding",
     description: "A quick and seamless fix for small chips or gaps, restoring your child's smile with natural-looking results.",
     image: "/Images/bonding.webp",
-    path: "/treatments/dental-cleanings-and-exams"
+    path: "/services/restorative-dentistry/dental-bonding-hamilton-nj"
   },
   {
     id: 2,
     title: "Crowns",
     description: "Durable protection for damaged or weakened teeth, keeping little smiles strong for years to come.",
     image: "/Images/Crowns.webp",
-    path: "/treatments/restorative-dentistry"
+    path: "/services/restorative-dentistry/dental-crowns-hamilton-nj"
   },
   {
     id: 3,
     title: "Fillings",
     description: "Tooth-colored repairs stop cavities early and blend perfectly with your child's natural smile.",
     image: "/Images/fillings.webp",
-    path: "/treatments/orthodontics"
+    path: "/services/restorative-dentistry/dental-fillings-hamilton-nj"
   },
   {
     id: 4,
     title: "Restoration of Decayed Teeth",
     description: "Gentle, effective solutions repair damaged teeth and help children chew, smile, and grow confidently.",
     image: "/Images/Restoration of Decayed Teeth.webp",
-    path: "/treatments/dental-emergencies"
+    path: "/services/restorative-dentistry/decayed-teeth-restoration-hamilton-nj"
   },
   {
     id: 5,
     title: "Tooth Extractions",
     description: "When a tooth can't be saved, our team removes it gently to protect future growth and comfort.",
     image: "/Images/toothextraction.webp",
-    path: "/treatments/dental-emergencies"
+    path: "/services/restorative-dentistry/tooth-extractions-hamilton-nj"
   }
 ];
 
