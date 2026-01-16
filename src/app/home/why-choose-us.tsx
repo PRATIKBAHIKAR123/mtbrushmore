@@ -15,7 +15,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
   cardImage2 = '/Images/Copy of Fox.png',
 }) => {
   return (
-    <section className="relative bg-[#dadada] pt-[26px] md:pt-32 pb-6 md:pb-16 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section className="relative bg-[#dadada] pt-[26px] md:pt-32 pb-24 md:pb-32 px-6 md:px-12 lg:px-20 overflow-hidden">
       {/* Floating + Marquee Boat — put this inside the hero/main container (parent should be relative) */}
       {/* <div className="boat-marquee-wrapper" aria-hidden>
         <div className="boat-marquee">
@@ -119,7 +119,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           </div>
 
           {/* Card 4 - Can be customized for additional content */}
-          <div className="bg-[#f59142] rounded-3xl p-6 md:p-10 relative overflow-hidden">
+          <div className="bg-[#f59142] rounded-3xl p-6 md:p-10 relative">
             <div className="relative z-10">
               <h3 className="text-4xl md:text-7xl font-bold text-[#4A3728]/20 mb-4 ">02</h3>
               <h4 className="text-xl md:text-3xl font-bold mb-4 text-accent uppercase eveleth">
@@ -129,6 +129,8 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
                 Our mountain-themed office is designed with kids in mind - bright, engaging, and full of fun touches that turn every visit into a mini adventure. From the moment they walk in, children feel excited, curious, and completely at ease.
               </p>
             </div>
+
+            <img src={'/Images/animals/fox-.png'} alt="Decorative fox" className="absolute -bottom-22  md:-bottom-22 -right-5 md:right-10 w-48 md:w-64 h-48 md:h-64 object-contain" />
 
             {/* Decorative circles */}
             <div className="absolute top-10 right-10 w-32 h-32 border-4 border-white/30 rounded-full"></div>
