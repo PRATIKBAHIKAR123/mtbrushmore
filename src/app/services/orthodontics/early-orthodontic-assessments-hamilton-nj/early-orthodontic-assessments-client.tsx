@@ -7,33 +7,33 @@ import Link from "next/link";
 import { useState } from "react";
 import BookingModal from "@/app/booking/bookingScreen";
 
-export default function ChippedToothClient() {
+export default function EarlyOrthodonticAssessmentsClient() {
     const [isBookingOpen, setIsBookingOpen] = useState(false);
     const faqs = [
         {
-            question: "What should I do right away if my child chips or breaks a tooth?",
+            question: "Why is age 7 the best time for the first orthodontic visit?",
             answer:
-                "Rinse their mouth gently with water and look for any loose tooth pieces, but do not try to glue anything back. Call us immediately - quick care helps prevent pain and further damage. If there is swelling, a cold compress can help until you arrive.",
+                "At age 7, children have a mix of baby and adult teeth, making it the ideal stage to spot concerns like crowding, bite problems, or jaw growth issues. Early evaluation helps us plan ahead and keep treatment simple when the time is right.",
         },
         {
-            question: "Is a chipped baby tooth still considered an emergency?",
+            question: "What signs might mean my child needs early orthodontic support?",
             answer:
-                "Yes - even baby teeth play a big role in chewing, speech, and guiding permanent teeth. We recommend being seen as soon as possible to protect the area and prevent future complications. ",
+                "Trouble chewing, thumb-sucking beyond toddler years, early or late loss of baby teeth, mouth breathing, jaw clicking, or teeth that are crooked, spaced, or shifted can all be indicators. Even without visible concerns, early monitoring is still highly beneficial.",
         },
         {
-            question: "Will my child be in a lot of pain?",
+            question: "Will early orthodontic visits mean braces right away?",
             answer:
-                "Many chipped teeth cause little pain, but deeper breaks can expose sensitive tooth layers. We work fast to relieve discomfort and use kid-friendly techniques to keep your child relaxed throughout their visit.",
+                "Not usually - most early evaluations simply involve watching growth. If treatment is needed early, it’s often brief and focused on guiding development, which can make future orthodontic care easier and more comfortable.",
         },
         {
-            question: "How do you repair a chipped or broken tooth?",
+            question: "Are these visits uncomfortable for children?",
             answer:
-                "Depending on the severity, we may smooth the edge, rebuild the tooth with bonding, or add a protective crown. Our goal is always to restore natural function and appearance while preserving your child’s tooth structure.",
+                "Not at all! Early orthodontic checks are gentle and easy. We keep the experience playful and encouraging, so kids feel proud of taking care of their smile.",
         },
         {
-            question: "Can the tooth stay healthy after treatment?",
+            question: "How often should my child be evaluated after the first checkup?",
             answer:
-                "Absolutely! With timely care and routine checkups, repaired teeth can stay strong for years, supporting confident, healthy growth.",
+                "It depends on their unique development. Some children only need yearly check-ins, while others benefit from more frequent monitoring. We customize the schedule to your child’s needs.",
         },
     ];
 
@@ -47,10 +47,10 @@ export default function ChippedToothClient() {
                     <h1
                         className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-accent eveleth"
                     >
-                        Chipped or Broken Tooth Treatment for Kids in Hamilton, NJ
+                        Early Orthodontic Assessments in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Small accidents happen - and when they do, our pediatric emergency dental care in Hamilton, NJ quickly restores comfort, function, and confidence so your child can keep smiling without worry.
+                        Smart, early checkups help us guide little smiles as they grow - making orthodontic care easier, faster, and more comfortable for kids in Hamilton, NJ.
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function ChippedToothClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Chipped or Broken Teeth.webp"  // ✅ replace with your image
+                            src="/Images/Early Orthodontic Assessments.webp"  // ✅ replace with your image
                             alt="Dental Cleaning"
                             width={600}
                             height={450}
@@ -78,8 +78,8 @@ export default function ChippedToothClient() {
                                 WHAT IT IS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                A chipped or broken tooth is one of the most common dental emergencies in children. Whether caused by a fall, sports injury, or a bite into something extra crunchy, our pediatric team is here to help. We provide fast, gentle care that protects the injured tooth, prevents infection, and restores its natural look - giving families peace of mind when the unexpected happens.
-
+                                Early orthodontic assessments are growth-focused checkups where we evaluate how your child’s teeth, bite, and jaw are developing. The American Association of Orthodontists recommends the first orthodontic exam by <strong className="font-semibold text-accent">age 7</strong>{" "} because baby teeth and permanent teeth work together to shape the future smile. Parents searching for
+                                {" "}<Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline">early orthodontic care near me</Link>{" "}trust these visits to give their child the very best start.
                             </p>
                         </section>
 
@@ -89,9 +89,9 @@ export default function ChippedToothClient() {
                                 HOW IT WORKS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                During your child’s visit, we assess the injury, relieve any discomfort, and determine the best treatment solution, such as bonding, smoothing rough edges, or placing a protective restoration. We focus on keeping your child calm and supported from start to finish. Families across
+                                During the appointment, our pediatric orthodontic team checks spacing, bite alignment, jaw growth, and how permanent teeth are forming under the gums. If needed, we take quick, comfortable digital images to see what’s happening behind the scenes. We explain every step in fun, kid-friendly ways so children feel confident - and families in
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>,
-                                and nearby areas trust us for quick, reassuring care when a dental mishap occurs.
+                                feel fully supported as their child grows
                             </p>
                         </section>
 
@@ -101,7 +101,7 @@ export default function ChippedToothClient() {
                                 HOW IT HELPS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                Prompt treatment prevents bigger problems like fractures, sensitivity, or infection - while restoring your child’s ability to eat, speak, and smile comfortably. Early care also protects long-term oral development, ensuring growing teeth stay on a healthy path and children feel confident showing their smile again.
+                                By identifying concerns early, we can guide growth at the perfect time - which may help reduce overcrowding, shorten time in braces, and prevent more complex treatment later. Early checks support clear speech, easier chewing, and straighter smiles with less stress. Taking action early often leads to healthier, happier smiles for life.
                             </p>
                         </section>
 

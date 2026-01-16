@@ -3,6 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import Image from "next/image";
 import CTASection from "../home/call-to-action";
 import { pageMetadata, createMetadata } from "@/lib/metadata";
+import Link from "next/link";
 
 export const metadata: Metadata = createMetadata(
   pageMetadata.financingHamiltonNJ.title,
@@ -40,7 +41,7 @@ export default function Page() {
               We believe cost should never come between a child and the care they deserve. By working with your dental insurance and offering flexible payment choices, we help families plan confidently and move forward with care that keeps smiles growing strong.
             </p>
             <p className="text-accent mb-8 max-w-3xl">
-              Families across <strong>Hamilton Square (08690), Mercerville (08619), Robbinsville (08691), Lawrenceville (08648), West Windsor (08550), East Windsor (08512, 08520), and nearby communities</strong> rely on us to help them understand and maximize their benefits. Our friendly team assists with claim submissions, coverage questions, and payment arrangements so everything feels clear and stress-free from the start.
+              Families across <strong><Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>, and nearby communities</strong> rely on us to help them understand and maximize their benefits. Our friendly team assists with claim submissions, coverage questions, and payment arrangements so everything feels clear and stress-free from the start.
             </p>
             <p className="text-accent mb-8 max-w-3xl">
               No surprises. No pressure. Just supportive guidance and care that keeps your child smiling bright - now and in the future.

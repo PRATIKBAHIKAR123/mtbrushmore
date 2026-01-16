@@ -5,6 +5,7 @@ import Image from "next/image";
 import CTASection from "@/app/home/call-to-action";
 import { useState } from "react";
 import BookingModal from "@/app/booking/bookingScreen";
+import Link from "next/link";
 
 export default function DentalCleaningsClient() {
     const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -87,7 +88,7 @@ export default function DentalCleaningsClient() {
                                 HOW IT WORKS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                During a cleaning, our pediatric dental team carefully counts, cleans, and polishes every tooth using child-friendly tools and techniques. Our team checks the teeth, gums, and bite to ensure healthy growth and development. If needed, we may recommend protective treatments like fluoride or sealants to help prevent cavities and strengthen growing smiles - especially for children in Hamilton Square (08690), Mercerville (08619), Robbinsville (08691), Lawrenceville (08648), West Windsor (08550), East Windsor (08512, 08520), and nearby areas.
+                                During a cleaning, our pediatric dental team carefully counts, cleans, and polishes every tooth using child-friendly tools and techniques. Our team checks the teeth, gums, and bite to ensure healthy growth and development. If needed, we may recommend protective treatments like fluoride or sealants to help prevent cavities and strengthen growing smiles - especially for children in <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>, and nearby areas.
                             </p>
                         </section>
 

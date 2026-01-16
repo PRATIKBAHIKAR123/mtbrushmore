@@ -237,6 +237,31 @@ export const pageMetadata = {
     description: "Tooth pain can’t wait - we offer immediate comfort and expert diagnosis for children with toothaches in Hamilton, NJ so they feel better fast.",
     keywords: ["tooth extraction", "pediatric dentistry", "gentle dental care"],
   },
+  braces: {
+    title: "Braces for Kids in Hamilton, NJ | Mt. Brushmore Pediatric Dentistry | Gentle Kids Orthodontics",
+    description: "Reliable metal braces in Hamilton, NJ help guide straight, healthy smiles for children and teens. Mt. Brushmore Pediatric Dentistry offers expert orthodontic care to improve bites and boost confidence.",
+    keywords: ["braces for kids", "pediatric orthodontics", "metal braces"],
+  },
+  clearAligners: {
+    title: "Clear Aligners for Kids in Hamilton, NJ | Mt. Brushmore Pediatric Dentistry | Gentle Kids Orthodontics",
+    description: "Straighten teeth discreetly with clear aligners in Hamilton, NJ. Mt. Brushmore Pediatric Dentistry provides comfortable, removable orthodontic options for kids and teens who want a confident, invisible smile.",
+    keywords: ["clear aligners", "invisible braces", "teen orthodontics"],
+  },
+  earlyOrthodonticAssessments: {
+    title: "Early Orthodontic Assessments in Hamilton, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Start your child’s smile journey right with early orthodontic assessments in Hamilton, NJ. Mt. Brushmore Pediatric Dentistry monitors growth and development to catch issues early and make future treatment easier.",
+    keywords: ["early orthodontics", "interceptive orthodontics", "orthodontic evaluation"],
+  },
+  palateExpanders: {
+    title: "Palate Expanders & Habit Appliances in Hamilton, NJ | Mt. Brushmore Pediatric Dentistry",
+    description: "Support healthy jaw growth with palate expanders and habit appliances in Hamilton, NJ. Mt. Brushmore Pediatric Dentistry offers gentle orthodontic solutions to correct bites and stop thumb-sucking habits early.",
+    keywords: ["palate expander", "habit appliance", "orthodontic appliances"],
+  },
+  retainers: {
+    title: "Retainers for Kids in Hamilton, NJ | Mt. Brushmore Pediatric Dentistry | Gentle Kids Orthodontics",
+    description: "Keep smiles straight and beautiful with custom retainers in Hamilton, NJ. Mt. Brushmore Pediatric Dentistry provides comfortable retention options to protect your child’s orthodontic results for a lifetime.",
+    keywords: ["orthodontic retainers", "retainers for kids", "teeth retention"],
+  },
 };
 
 /**

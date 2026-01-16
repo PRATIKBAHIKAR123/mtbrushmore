@@ -7,33 +7,33 @@ import Link from "next/link";
 import { useState } from "react";
 import BookingModal from "@/app/booking/bookingScreen";
 
-export default function ChippedToothClient() {
+export default function ClearAlignersClient() {
     const [isBookingOpen, setIsBookingOpen] = useState(false);
     const faqs = [
         {
-            question: "What should I do right away if my child chips or breaks a tooth?",
+            question: "Are clear aligners safe and effective for kids?",
             answer:
-                "Rinse their mouth gently with water and look for any loose tooth pieces, but do not try to glue anything back. Call us immediately - quick care helps prevent pain and further damage. If there is swelling, a cold compress can help until you arrive.",
+                "Yes - when used at the right stage of dental development, aligners can safely and effectively improve alignment and bite issues. We evaluate each child carefully to make sure aligners will achieve the desired results for their unique smile.",
         },
         {
-            question: "Is a chipped baby tooth still considered an emergency?",
+            question: "How often do aligners need to be worn?",
             answer:
-                "Yes - even baby teeth play a big role in chewing, speech, and guiding permanent teeth. We recommend being seen as soon as possible to protect the area and prevent future complications. ",
+                "Aligners work best when worn 20–22 hours a day. They should only be removed for eating, brushing, flossing, and sports with a mouthguard. Consistent wear is key to making progress on schedule - and we help kids stay motivated with simple, encouraging guidance.",
         },
         {
-            question: "Will my child be in a lot of pain?",
+            question: "Will wearing aligners hurt?",
             answer:
-                "Many chipped teeth cause little pain, but deeper breaks can expose sensitive tooth layers. We work fast to relieve discomfort and use kid-friendly techniques to keep your child relaxed throughout their visit.",
+                "Your child may feel mild pressure for a day or two each time they switch to a new set - that means their teeth are moving! Most kids find clear aligners very comfortable because there are no brackets or wires to irritate their cheeks and lips.",
         },
         {
-            question: "How do you repair a chipped or broken tooth?",
+            question: "How do we keep track of aligners at school or activities?",
             answer:
-                "Depending on the severity, we may smooth the edge, rebuild the tooth with bonding, or add a protective crown. Our goal is always to restore natural function and appearance while preserving your child’s tooth structure.",
+                "We provide cases for safe storage whenever aligners are taken out. With a routine in place - like always putting them in the case before eating - kids quickly learn to keep their aligners safe and secure.",
         },
         {
-            question: "Can the tooth stay healthy after treatment?",
+            question: "What happens if my child loses an aligner?",
             answer:
-                "Absolutely! With timely care and routine checkups, repaired teeth can stay strong for years, supporting confident, healthy growth.",
+                "Don’t worry - it’s common for kids to misplace items. We’ll review the situation and either replace the aligner or move ahead to the next set, depending on the progress. We’re flexible and always here to support your family.",
         },
     ];
 
@@ -47,10 +47,10 @@ export default function ChippedToothClient() {
                     <h1
                         className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-accent eveleth"
                     >
-                        Chipped or Broken Tooth Treatment for Kids in Hamilton, NJ
+                        Clear Aligners for Kids in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Small accidents happen - and when they do, our pediatric emergency dental care in Hamilton, NJ quickly restores comfort, function, and confidence so your child can keep smiling without worry.
+                        Nearly invisible aligners straighten teeth comfortably while letting kids eat, brush, and smile freely - with gentle orthodontic care right here in Hamilton, NJ.
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function ChippedToothClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Chipped or Broken Teeth.webp"  // ✅ replace with your image
+                            src="/Images/clear Aligners.webp"  // ✅ replace with your image
                             alt="Dental Cleaning"
                             width={600}
                             height={450}
@@ -78,8 +78,8 @@ export default function ChippedToothClient() {
                                 WHAT IT IS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                A chipped or broken tooth is one of the most common dental emergencies in children. Whether caused by a fall, sports injury, or a bite into something extra crunchy, our pediatric team is here to help. We provide fast, gentle care that protects the injured tooth, prevents infection, and restores its natural look - giving families peace of mind when the unexpected happens.
-
+                                Clear aligners are smooth, removable trays that help straighten teeth without brackets or wires. They are a great option for families looking for a
+                                <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline">more comfortable and discreet orthodontic treatment for kids and teens near me.</Link>{" "}Each set of aligners shifts teeth step-by-step, making it easier for children to clean their teeth and enjoy mealtime without restrictions - all while building a confident, aligned smile.
                             </p>
                         </section>
 
@@ -89,9 +89,9 @@ export default function ChippedToothClient() {
                                 HOW IT WORKS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                During your child’s visit, we assess the injury, relieve any discomfort, and determine the best treatment solution, such as bonding, smoothing rough edges, or placing a protective restoration. We focus on keeping your child calm and supported from start to finish. Families across
+                                We begin with a digital scan to design aligners that fit your child’s unique smile perfectly. Your child will switch to a new set every few weeks as their teeth gradually move into better alignment. Since the aligners are removable, brushing, flossing, and eating stay simple. Kids in
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>,
-                                and nearby areas trust us for quick, reassuring care when a dental mishap occurs.
+                                love that clear aligners feel comfortable and offer a more flexible orthodontic experience.
                             </p>
                         </section>
 
@@ -101,7 +101,7 @@ export default function ChippedToothClient() {
                                 HOW IT HELPS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                Prompt treatment prevents bigger problems like fractures, sensitivity, or infection - while restoring your child’s ability to eat, speak, and smile comfortably. Early care also protects long-term oral development, ensuring growing teeth stay on a healthy path and children feel confident showing their smile again.
+                                Clear aligners straighten teeth in a way that supports healthy bites, easier brushing, and long-term oral health - without the appearance of traditional braces. They boost confidence, especially for older children and teens who want a low-profile approach. With fewer food restrictions and easier hygiene, aligners help make orthodontic care feel more empowering and fun.
                             </p>
                         </section>
 

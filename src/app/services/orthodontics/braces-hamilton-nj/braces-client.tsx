@@ -7,33 +7,33 @@ import Link from "next/link";
 import { useState } from "react";
 import BookingModal from "@/app/booking/bookingScreen";
 
-export default function ChippedToothClient() {
+export default function BracesClient() {
     const [isBookingOpen, setIsBookingOpen] = useState(false);
     const faqs = [
         {
-            question: "What should I do right away if my child chips or breaks a tooth?",
+            question: "What age should my child start braces?",
             answer:
-                "Rinse their mouth gently with water and look for any loose tooth pieces, but do not try to glue anything back. Call us immediately - quick care helps prevent pain and further damage. If there is swelling, a cold compress can help until you arrive.",
+                "While every child grows differently, braces typically begin once most permanent teeth have arrived - often between ages 10–14. However, the American Association of Orthodontists recommends an initial evaluation around age 7. Early monitoring allows us to catch bite concerns before they become bigger, giving your child the best timing and making treatment easier and faster when the time comes.",
         },
         {
-            question: "Is a chipped baby tooth still considered an emergency?",
+            question: "Do braces hurt or bother kids?",
             answer:
-                "Yes - even baby teeth play a big role in chewing, speech, and guiding permanent teeth. We recommend being seen as soon as possible to protect the area and prevent future complications. ",
+                "Braces do not hurt during placement, and children usually adapt quickly. There may be a short period of mild soreness after each adjustment as teeth begin moving, but it usually lasts only a day or two. We share helpful tips like soft foods and orthodontic wax to keep your child completely comfortable while they adjust to their new smile journey.",
         },
         {
-            question: "Will my child be in a lot of pain?",
+            question: "How long does treatment with braces usually take?",
             answer:
-                "Many chipped teeth cause little pain, but deeper breaks can expose sensitive tooth layers. We work fast to relieve discomfort and use kid-friendly techniques to keep your child relaxed throughout their visit.",
+                "Most children complete treatment within 18–24 months, but the exact timing depends on the complexity of their case and how their teeth respond to movement. Attending checkups, following care instructions, and avoiding brace-damaging foods can all help keep treatment running smoothly and on schedule.",
         },
         {
-            question: "How do you repair a chipped or broken tooth?",
+            question: "Will braces affect my child’s ability to eat and speak?",
             answer:
-                "Depending on the severity, we may smooth the edge, rebuild the tooth with bonding, or add a protective crown. Our goal is always to restore natural function and appearance while preserving your child’s tooth structure.",
+                "Speaking remains almost exactly the same, especially after the first few days as kids get used to the brackets. Eating continues to be easy too - we’ll simply recommend avoiding sticky, crunchy, and very chewy foods to protect the braces. Kids usually discover braces don’t limit their fun or favorite meals very much at all.",
         },
         {
-            question: "Can the tooth stay healthy after treatment?",
+            question: "How do we keep teeth clean while wearing braces?",
             answer:
-                "Absolutely! With timely care and routine checkups, repaired teeth can stay strong for years, supporting confident, healthy growth.",
+                "Good brushing and flossing habits are extra important during orthodontic treatment. We’ll show your child simple techniques and tools - such as floss threaders and special orthodontic brushes - to make cleaning easier. Keeping teeth and gums healthy throughout braces helps ensure their final smile looks amazing.",
         },
     ];
 
@@ -47,10 +47,10 @@ export default function ChippedToothClient() {
                     <h1
                         className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-accent eveleth"
                     >
-                        Chipped or Broken Tooth Treatment for Kids in Hamilton, NJ
+                        Braces for Kids in Hamilton, NJ
                     </h1>
                     <p className=" max-w-2xl text-base md:text-lg">
-                        Small accidents happen - and when they do, our pediatric emergency dental care in Hamilton, NJ quickly restores comfort, function, and confidence so your child can keep smiling without worry.
+                        Reliable metal braces gently guide teeth into beautiful alignment for a healthier, more confident smile - all with support from our friendly pediatric orthodontic team in Hamilton, NJ.
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function ChippedToothClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Chipped or Broken Teeth.webp"  // ✅ replace with your image
+                            src="/Images/braces.webp"  // ✅ replace with your image
                             alt="Dental Cleaning"
                             width={600}
                             height={450}
@@ -78,8 +78,8 @@ export default function ChippedToothClient() {
                                 WHAT IT IS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                A chipped or broken tooth is one of the most common dental emergencies in children. Whether caused by a fall, sports injury, or a bite into something extra crunchy, our pediatric team is here to help. We provide fast, gentle care that protects the injured tooth, prevents infection, and restores its natural look - giving families peace of mind when the unexpected happens.
-
+                                Traditional braces use small brackets and a thin wire to slowly move teeth into their best positions over time. They are one of the most effective orthodontic options for children and teens, especially when multiple alignment changes are needed. Many families searching for
+                                <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline">kids’ braces near me</Link>{" "}love how braces help create a strong bite and a confident smile that lasts a lifetime.
                             </p>
                         </section>
 
@@ -89,9 +89,9 @@ export default function ChippedToothClient() {
                                 HOW IT WORKS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                During your child’s visit, we assess the injury, relieve any discomfort, and determine the best treatment solution, such as bonding, smoothing rough edges, or placing a protective restoration. We focus on keeping your child calm and supported from start to finish. Families across
+                                Braces are gently bonded to each tooth and adjusted during regular check-ins to guide growth step-by-step. Our pediatric orthodontic team uses kid-friendly communication to explain each visit so children feel in control and excited about their progress. Whether your child lives in
                                 <Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline"> Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>,
-                                and nearby areas trust us for quick, reassuring care when a dental mishap occurs.
+                                braces keep treatment consistent, predictable, and highly effective for growing smiles.
                             </p>
                         </section>
 
@@ -101,7 +101,7 @@ export default function ChippedToothClient() {
                                 HOW IT HELPS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                Prompt treatment prevents bigger problems like fractures, sensitivity, or infection - while restoring your child’s ability to eat, speak, and smile comfortably. Early care also protects long-term oral development, ensuring growing teeth stay on a healthy path and children feel confident showing their smile again.
+                                Straight teeth are healthier teeth - braces help reduce cavities, improve speech, support face and jaw development, and make brushing easier. They also boost confidence and encourage kids to love their smile. By treating alignment early, we create a strong foundation that benefits your child for life.
                             </p>
                         </section>
 

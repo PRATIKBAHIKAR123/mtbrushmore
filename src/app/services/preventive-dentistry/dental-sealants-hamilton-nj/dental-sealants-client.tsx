@@ -78,7 +78,7 @@ export default function DentalSealantsClient() {
                                 WHAT IT IS
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
-                                Dental sealants are <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj">thin, protective coatings</Link> applied to the chewing surfaces of molars - where cavities like to hide. This quick and painless treatment creates a smooth barrier that helps kids avoid decay, especially as their back teeth come in. Many parents searching for a
+                                Dental sealants are <Link href="/services/preventive-dentistry/fluoride-treatments-hamilton-nj" className="text-accent font-semibold hover:underline">thin, protective coatings</Link> applied to the chewing surfaces of molars - where cavities like to hide. This quick and painless treatment creates a smooth barrier that helps kids avoid decay, especially as their back teeth come in. Many parents searching for a
                                 {" "}<Link href="/" className="text-accent font-semibold hover:underline">pediatric dentist near me</Link> choose sealants as an extra layer of protection for active, snack-loving little ones.
                             </p>
                         </section>
@@ -90,7 +90,7 @@ export default function DentalSealantsClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 After a gentle cleaning, we carefully paint a safe, tooth-colored resin onto the grooves of your child’s molars. The material is hardened with a special light so it bonds instantly - no numbing, no discomfort, and no downtime. Our team ensures every sealant is perfectly placed so cavities have a much harder time sneaking in, especially for children in
-                                {" "}<Link href="/locations/hamilton-nj-pediatric-dentist" className="text-accent font-semibold hover:underline">Hamilton Square (08690)</Link>, <Link href="/locations/mercerville-nj-pediatric-dentist" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/locations/robbinsville-nj-pediatric-dentist" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/locations/lawrenceville-nj-pediatric-dentist" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/locations/west-windsor-nj-pediatric-dentist" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/locations/east-windsor-nj-pediatric-dentist" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>
+                                {" "}<Link href="/service-areas/hamilton-square-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Hamilton Square (08690)</Link>, <Link href="/service-areas/mercerville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Mercerville (08619)</Link>, <Link href="/service-areas/robbinsville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Robbinsville (08691)</Link>, <Link href="/service-areas/lawrenceville-nj-dentist-near-you" className="text-accent font-semibold hover:underline">Lawrenceville (08648)</Link>, <Link href="/service-areas/west-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">West Windsor (08550)</Link>, <Link href="/service-areas/east-windsor-nj-dentist-near-you" className="text-accent font-semibold hover:underline">East Windsor (08512, 08520)</Link>
                                 and surrounding communities.
                             </p>
                         </section>
@@ -102,7 +102,7 @@ export default function DentalSealantsClient() {
                             </h3>
                             <p className=" leading-relaxed text-sm md:text-base">
                                 Sealants can reduce the risk of cavities on back teeth by
-                                {" "}<Link href="/services/preventive-dentistry/dental-sealants-hamilton-nj" className="text-accent font-semibold hover:underline">up to 80%</Link>, making them one of the most effective preventive treatments available for kids. They last for years, protect teeth during cavity-prone stages, and keep little smiles healthier between checkups. With sealants, you’re giving your child a simpler, stronger defense against tooth decay - and fewer trips for dental treatment later on!
+                                {" "}<strong className="text-accent font-semibold">up to 80%</strong>, making them one of the most effective preventive treatments available for kids. They last for years, protect teeth during cavity-prone stages, and keep little smiles healthier between checkups. With sealants, you’re giving your child a simpler, stronger defense against tooth decay - and fewer trips for dental treatment later on!
                             </p>
                         </section>
 
