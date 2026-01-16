@@ -5,6 +5,7 @@ interface Service {
   title: string;
   description: string;
   image: string;
+  alt?: string;
   decorativeIcon?: string;
   path?: string;
 }
@@ -16,6 +17,7 @@ const ServicesSection = () => {
       title: "Preventive Dentistry",
       description: "Protect growing smiles with regular cleanings, fluoride, and early cavity prevention designed just for kids.",
       image: "/Images/preventive-dentistry.webp",
+      alt: "Pediatric dental cleanings and exams at Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
       decorativeIcon: "tooth",
       path: 'services/preventive-dentistry'
     },
@@ -24,6 +26,7 @@ const ServicesSection = () => {
       title: "Restorative Dentistry",
       description: "Gently repair and strengthen teeth using tooth-colored fillings and long-lasting pediatric crowns.",
       image: "/Images/restorative.webp",
+      alt: "Restoring decayed teeth in children at Mt. Brushmore Pediatric Dentistry in Hamilton NJ",
       path: 'services/restorative-dentistry'
     },
     {
@@ -31,6 +34,7 @@ const ServicesSection = () => {
       title: "Orthodontics",
       description: "Guide teeth into healthy alignment and boost confidence with braces, aligners, and early orthodontic evaluations.",
       image: "/Images/orthodontics.webp",
+      alt: "Orthodontic advice for growing smiles in Hamilton NJ",
       path: 'services/orthodontics'
     },
     {
@@ -38,14 +42,16 @@ const ServicesSection = () => {
       title: "Sedation Dentistry",
       description: "Help anxious or sensitive children relax with safe, carefully monitored sedation tailored to their comfort.",
       image: "/Images/sedation.webp",
+      alt: "Laughing gas for children’s dental care in Hamilton NJ",
       decorativeIcon: "flower",
       path: 'services/sedation-dentistry'
     },
     {
       id: 5,
       title: "Emergency Dentistry",
-      description:"From toothaches to dental injuries, our same-day care ensures your child gets relief quickly and compassionately.",
+      description: "From toothaches to dental injuries, our same-day care ensures your child gets relief quickly and compassionately.",
       image: "/Images/emergency.webp",
+      alt: "Emergency dental care for kids in Hamilton NJ",
       path: 'services/emergency-dentistry'
     }
   ];
@@ -76,7 +82,7 @@ const ServicesSection = () => {
         {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <div 
+            <div
               key={service.id}
               className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
@@ -84,10 +90,10 @@ const ServicesSection = () => {
               <div className="relative h-64 overflow-hidden">
                 <img
                   src={service.image}
-                  alt={service.title}
+                  alt={service.alt || service.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                
+
                 {/* Decorative Icons */}
                 {service.decorativeIcon === "tooth" && (
                   <div className="absolute top-4 left-4">
@@ -96,7 +102,7 @@ const ServicesSection = () => {
                     </svg>
                   </div>
                 )}
-                
+
                 {service.decorativeIcon === "flower" && (
                   <div className="absolute bottom-4 left-4">
                     <svg className="w-20 h-20 text-[#E89B7E] opacity-70" viewBox="0 0 100 100" fill="none">
@@ -136,7 +142,7 @@ const ServicesSection = () => {
                   <button className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button className="flex-1 bg-transparent border-2 border-accent hover:border-primary text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary" onClick={()=>window.location.href=`${service.path}`}>
+                  <button className="flex-1 bg-transparent border-2 border-accent hover:border-primary text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary" onClick={() => window.location.href = `${service.path}`}>
                     Learn More
                   </button>
                 </div>

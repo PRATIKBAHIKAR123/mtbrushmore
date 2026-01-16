@@ -75,8 +75,8 @@ export default function FluorideTreatmentsClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Fluoride treatment.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Fluoride treatment.webp"
+                            alt="Fluoride treatments for children in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

@@ -75,8 +75,8 @@ export default function DentalSealantsClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/dental Sealants.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/dental Sealants.webp"
+                            alt="Dental sealants for kids at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

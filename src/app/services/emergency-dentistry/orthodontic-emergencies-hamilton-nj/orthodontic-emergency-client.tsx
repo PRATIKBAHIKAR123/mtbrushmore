@@ -60,8 +60,8 @@ export default function OrthodonticEmergencyClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Orthodontic Emergencies.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Orthodontic Emergencies.webp"
+                            alt="Emergency dental care for kids in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

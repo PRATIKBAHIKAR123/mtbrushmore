@@ -29,7 +29,7 @@ export default function ServiceAreaClient() {
                             <div className="main-image">
                                 <Image
                                     src="/Images/service-page.webp"
-                                    alt="Main Banner"
+                                    alt="Pediatric dentist near Hamilton Square NJ"
                                     className="rounded-xl w-full h-auto"
                                     width={1200}
                                     height={800}

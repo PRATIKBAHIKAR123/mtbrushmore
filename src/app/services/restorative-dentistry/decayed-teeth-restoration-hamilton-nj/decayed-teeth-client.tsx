@@ -60,8 +60,8 @@ export default function DecayedTeethClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Restoration of Decayed Teeth.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Restoration of Decayed Teeth.webp"
+                            alt="Restoring decayed teeth in children at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

@@ -23,18 +23,18 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
         </div>
       </div> */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none">
-  <svg
-    className="relative block w-[calc(100%+1.3px)] h-[60px] md:h-[120px]"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1440 120"
-    preserveAspectRatio="none"
-  >
-    <path
-      d="M0,40 C120,80 240,0 360,20 480,40 600,100 720,90 840,80 960,20 1080,10 1200,0 1320,40 1440,30 L1440,0 L0,0 Z"
-      fill="#F5EFE7"
-    />
-  </svg>
-</div>
+        <svg
+          className="relative block w-[calc(100%+1.3px)] h-[60px] md:h-[120px]"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,40 C120,80 240,0 360,20 480,40 600,100 720,90 840,80 960,20 1080,10 1200,0 1320,40 1440,30 L1440,0 L0,0 Z"
+            fill="#F5EFE7"
+          />
+        </svg>
+      </div>
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
         <div className="absolute top-10 left-10 w-64 h-64 bg-[#C4A789] rounded-full blur-3xl"></div>
@@ -45,36 +45,36 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row items-start justify-between mb-12">
           <div className="lg:w-1/2 mb-8 lg:mb-0">
-            
+
             <div className='flex items-center justify-start'>
-            <h2 className="text-3xl md:text-6xl font-bold text-accent eveleth mb-6">
-              {/* Decorative wave line */}
-            <div className="mb-4">
-              <svg width="80" height="20" viewBox="0 0 80 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 10 Q 10 0, 20 10 T 40 10 T 60 10 T 80 10" stroke="var(--accent)" strokeWidth="2" fill="none"/>
-              </svg>
+              <h2 className="text-3xl md:text-6xl font-bold text-accent eveleth mb-6">
+                {/* Decorative wave line */}
+                <div className="mb-4">
+                  <svg width="80" height="20" viewBox="0 0 80 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 10 Q 10 0, 20 10 T 40 10 T 60 10 T 80 10" stroke="var(--accent)" strokeWidth="2" fill="none" />
+                  </svg>
+                </div>
+                WHY US?
+              </h2>
+              <div className="flex justify-end">
+                <div className="relative w-32 h-32 md:w-42 md:h-42 animate-float">
+                  <Image
+                    src={heroImage}
+                    alt="Decorative leaf"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </div>
             </div>
-              WHY US?
-            </h2>
-            <div className="flex justify-end">
-            <div className="relative w-32 h-32 md:w-42 md:h-42 animate-float">
-              <Image
-                src={heroImage}
-                alt="Decorative leaf"
-                fill
-                className="object-contain"
-              />
-            </div>
-          </div>
-          </div>
-            
+
             <p className="text-lg text-accent leading-relaxed max-w-xl">
               We provide gentle, expert pediatric dental care in a warm, kid-friendly environment. Our office is designed to spark curiosity and help children feel at ease from the moment they arrive. With advanced techniques and clear communication, we keep parents informed and kids confident - making every visit positive and stress-free.
             </p>
           </div>
 
           {/* Hero Image */}
-          
+
         </div>
 
         {/* Cards Grid */}
@@ -89,11 +89,11 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
               <p className="text-gray-200 leading-relaxed mb-8 max-w-md">
                 With advanced pediatric dental training and a personalized approach, we ensure every child receives high-quality care in a soothing, child-centered space designed for comfort.
               </p>
-              <button onClick={()=>{location.href='/about-mt-brushmore-pediatric-dentistry-hamilton-nj'}} className="bg-[#D4B896] text-[#4A3728] px-8 py-3 rounded-full font-semibold hover:bg-[#C4A789] transition-colors">
+              <button onClick={() => { location.href = '/about-mt-brushmore-pediatric-dentistry-hamilton-nj' }} className="bg-[#D4B896] text-[#4A3728] px-8 py-3 rounded-full font-semibold hover:bg-[#C4A789] transition-colors">
                 Our Team
               </button>
             </div>
-            
+
             {/* Background decorative shape */}
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-2xl"></div>
           </div>
@@ -102,7 +102,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           <div className="rounded-3xl overflow-hidden h-full min-h-[200px] md:min-h-[400px] relative">
             <Image
               src={cardImage1}
-              alt="Pediatric dental care"
+              alt="Happy child dental checkup at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
               fill
               className="object-cover"
             />
@@ -112,7 +112,7 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           <div className="rounded-3xl overflow-hidden h-full min-h-[200px] md:min-h-[400px] relative">
             <Image
               src={cardImage2}
-              alt="Dental supplies"
+              alt="Kid-friendly teeth cleaning at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
               fill
               className="object-cover"
             />
@@ -129,14 +129,14 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
                 Our mountain-themed office is designed with kids in mind - bright, engaging, and full of fun touches that turn every visit into a mini adventure. From the moment they walk in, children feel excited, curious, and completely at ease.
               </p>
             </div>
-            
+
             {/* Decorative circles */}
             <div className="absolute top-10 right-10 w-32 h-32 border-4 border-white/30 rounded-full"></div>
             <div className="absolute bottom-10 left-10 w-24 h-24 border-4 border-white/30 rounded-full"></div>
           </div>
         </div>
       </div>
-            <style jsx>{`
+      <style jsx>{`
         @keyframes float {
           0%, 100% {
             transform: translateY(0px) rotate(0deg);
@@ -149,8 +149,8 @@ const WhyUsSection: React.FC<WhyUsProps> = ({
           animation: float 3s ease-in-out infinite;
         }
       `}</style>
-      
-<style jsx>{`
+
+      <style jsx>{`
   /* wrapper sits at bottom, full width, hides overflow */
   .boat-marquee-wrapper {
     position: absolute;

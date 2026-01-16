@@ -60,8 +60,8 @@ export default function PalateExpandersClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Palate Expanders and Habit Appliances.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Palate Expanders and Habit Appliances.webp"
+                            alt="Palate expanders and habit appliances for kids in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

@@ -60,8 +60,8 @@ export default function BracesClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/braces.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/braces.webp"
+                            alt="Braces for kids at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

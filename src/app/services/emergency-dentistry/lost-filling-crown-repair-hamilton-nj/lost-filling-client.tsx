@@ -65,8 +65,8 @@ export default function LostFillingClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Lost Fillings or Crowns.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Lost Fillings or Crowns.webp"
+                            alt="Emergency dental care for kids in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

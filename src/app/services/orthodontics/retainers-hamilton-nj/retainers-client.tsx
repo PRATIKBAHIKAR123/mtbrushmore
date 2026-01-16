@@ -60,8 +60,8 @@ export default function RetainersClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Retainers.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Retainers.webp"
+                            alt="Pediatric retainers for straight teeth in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

@@ -60,8 +60,8 @@ export default function EarlyOrthodonticAssessmentsClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Early Orthodontic Assessments.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Early Orthodontic Assessments.webp"
+                            alt="Early orthodontic evaluations for children in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

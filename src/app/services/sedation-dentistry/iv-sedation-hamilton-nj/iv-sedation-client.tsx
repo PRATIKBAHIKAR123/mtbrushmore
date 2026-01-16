@@ -60,8 +60,8 @@ export default function IVSedationClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/IV Sedation.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/IV Sedation.webp"
+                            alt="IV sedation for kids at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

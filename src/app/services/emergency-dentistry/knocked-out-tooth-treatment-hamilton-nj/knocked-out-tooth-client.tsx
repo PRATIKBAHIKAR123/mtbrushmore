@@ -60,8 +60,8 @@ export default function KnockedOutToothClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Knocked-Out Teeth.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Knocked-Out Teeth.webp"
+                            alt="Pediatric dental injury treatment in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

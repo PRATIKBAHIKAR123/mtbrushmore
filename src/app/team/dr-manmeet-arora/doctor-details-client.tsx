@@ -19,7 +19,7 @@ export default function DoctorDetailsClient() {
                         <div className="relative w-64 h-80 rounded-lg overflow-hidden shadow-lg">
                             <img
                                 src="/Images/Dr.ManmeetAroraDDS.webp"
-                                alt="Dr. Manmeet Arora, DDS"
+                                alt="Pediatric dentist at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                                 className="object-cover object-center"
                             />
                         </div>

@@ -75,8 +75,8 @@ export default function SpaceMaintainersClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Space Maintainers.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Space Maintainers.webp"
+                            alt="Space maintainers for kids at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

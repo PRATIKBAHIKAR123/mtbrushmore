@@ -75,8 +75,8 @@ export default function NutritionalCounselingClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Nutritional Counseling.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Nutritional Counseling.webp"
+                            alt="Nutritional counseling for kids’ healthy teeth in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

@@ -8,15 +8,15 @@ export interface BlogPost {
 }
 
 export const blogPostsData: BlogPost[] = [
-    {
-  slug: "dental-emergencies-kids-hamilton-nj",
-  title:
-    "5 Most Common Dental Emergencies in Kids & How to Handle Them | Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
-  image: "/Images/Blogs/blog-1.webp",
-  datetime: "Oct 10, 2025",
-  shortDescription:
-    "If you're a parent, you know kids find endless ways to get themselves into unexpected situations - including dental emergencies. Whether it's a knocked-out tooth during a backyard game or a sudden toothache before bedtime, these moments can feel overwhelming. The good news? When you know what steps to take, you can prevent further damage and keep your child calm and safe.",
-  detailsDescription: `
+  {
+    slug: "dental-emergencies-kids-hamilton-nj",
+    title:
+      "5 Most Common Dental Emergencies in Kids & How to Handle Them | Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
+    image: "/Images/Blogs/common-dental-emergency.webp",
+    datetime: "Oct 10, 2025",
+    shortDescription:
+      "If you're a parent, you know kids find endless ways to get themselves into unexpected situations - including dental emergencies. Whether it's a knocked-out tooth during a backyard game or a sudden toothache before bedtime, these moments can feel overwhelming. The good news? When you know what steps to take, you can prevent further damage and keep your child calm and safe.",
+    detailsDescription: `
     <section class="mb-8">
     
     <h2 class="text-md md:text-2xl font-bold mb-4">Introduction to Pediatric Dental Emergencies</h2>
@@ -190,16 +190,16 @@ If your child experiences any dental emergency, quick action and professional at
         </section>
 
 `,
-},
+  },
   {
-  slug: "child-tooth-extraction-recovery-hamilton-nj",
-  title:
-    "How to Help Your Child Recover After a Tooth Extraction in Hamilton, NJ with Mt. Brushmore Pediatric Dentistry",
-  image: "/Images/Blogs/blog-2.webp",
-  datetime: "Oct 17, 2025",
-  shortDescription:
-    "A tooth extraction can feel like a big deal for both kids and parents. Whether your child needed the extraction because of crowding, decay, or an infection, the healing period afterward is just as important as the procedure itself. With the right care at home and the support of trusted pediatric professionals, your child can recover comfortably and safely.",
-  detailsDescription: `
+    slug: "child-tooth-extraction-recovery-hamilton-nj",
+    title:
+      "How to Help Your Child Recover After a Tooth Extraction in Hamilton, NJ with Mt. Brushmore Pediatric Dentistry",
+    image: "/Images/Blogs/how to help your child recover after extraction.webp",
+    datetime: "Oct 17, 2025",
+    shortDescription:
+      "A tooth extraction can feel like a big deal for both kids and parents. Whether your child needed the extraction because of crowding, decay, or an infection, the healing period afterward is just as important as the procedure itself. With the right care at home and the support of trusted pediatric professionals, your child can recover comfortably and safely.",
+    detailsDescription: `
     <section class="mb-8">
     
     <h2 class="text-md md:text-2xl font-bold mb-4">Introduction</h2>
@@ -470,17 +470,17 @@ If you ever have concerns during the healing process, don't hesitate to reach ou
         </section>
 
 `,
-},
+  },
   {
-  slug: "does-my-child-need-braces-hamilton-nj",
-  title:
-    "Does My Child Need Braces? Expert Orthodontic Insights from Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
-  image: "/Images/Blogs/blog-3.webp",
-  //alt: "Child orthodontic evaluation at Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
-  datetime: "Dec 26, 2025",
-  shortDescription:
-    "Crooked teeth, bite problems, and overcrowding often leave parents wondering if their child needs braces. Early orthodontic evaluations help guide proper jaw and tooth development and can prevent more complex issues later in life.",
-  detailsDescription: `
+    slug: "does-my-child-need-braces-hamilton-nj",
+    title:
+      "Does My Child Need Braces? Expert Orthodontic Insights from Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
+    image: "/Images/Blogs/does my child need braces.webp",
+    //alt: "Child orthodontic evaluation at Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
+    datetime: "Dec 26, 2025",
+    shortDescription:
+      "Crooked teeth, bite problems, and overcrowding often leave parents wondering if their child needs braces. Early orthodontic evaluations help guide proper jaw and tooth development and can prevent more complex issues later in life.",
+    detailsDescription: `
 <section class="mb-8">
   <h2 class="text-md md:text-2xl font-bold mb-4">Introduction</h2>
   <p>
@@ -666,7 +666,7 @@ If you ever have concerns during the healing process, don't hesitate to reach ou
   </div>
 </section>
 `,
-}
+  }
 
 
 

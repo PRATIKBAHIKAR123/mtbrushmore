@@ -75,8 +75,8 @@ export default function DentalCleaningsClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Dental Cleanings  Exams.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Dental Cleanings  Exams.webp"
+                            alt="Pediatric dental cleanings and exams at Mt. Brushmore Pediatric Dentistry in Hamilton, NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

@@ -75,8 +75,8 @@ export default function XraysClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/X-Rays Imaging.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/X-Rays Imaging.webp"
+                            alt="Pediatric dental X-rays in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

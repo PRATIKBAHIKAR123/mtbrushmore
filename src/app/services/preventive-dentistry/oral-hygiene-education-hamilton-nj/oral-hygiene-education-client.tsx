@@ -75,8 +75,8 @@ export default function OralHygieneEducationClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Oral Hygiene Education.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Oral Hygiene Education.webp"
+                            alt="Oral hygiene education for children at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"

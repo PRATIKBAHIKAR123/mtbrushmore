@@ -60,8 +60,8 @@ export default function LaughingGasClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Laughing Gas.webp"  // ✅ replace with your image
-                            alt="Dental Cleaning"
+                            src="/Images/Laughing Gas.webp"
+                            alt="Laughing gas for children’s dental care in Hamilton NJ"
                             width={600}
                             height={450}
                             className="object-cover w-full h-full"
