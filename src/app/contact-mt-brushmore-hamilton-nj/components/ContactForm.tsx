@@ -71,7 +71,7 @@ export default function ContactForm() {
         setSubmitStatus("success");
         setStatusMessage(
           result.message ||
-            "Message sent successfully! We'll get back to you soon."
+          "Message sent successfully! We'll get back to you soon."
         );
 
         // Reset form after successful submission
@@ -124,11 +124,10 @@ export default function ContactForm() {
           {/* Status Message */}
           {submitStatus !== "idle" && (
             <div
-              className={`p-4 rounded-xl flex items-center gap-3 ${
-                submitStatus === "success"
+              className={`p-4 rounded-xl flex items-center gap-3 ${submitStatus === "success"
                   ? "bg-green-50 text-green-800 border border-green-200"
                   : "bg-red-50 text-red-800 border border-red-200"
-              }`}
+                }`}
             >
               {submitStatus === "success" ? (
                 <CheckCircle className="h-5 w-5 flex-shrink-0" />

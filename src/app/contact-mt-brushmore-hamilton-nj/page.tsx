@@ -17,7 +17,7 @@ export const metadata: Metadata = createMetadata(
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-primary/10 p-12">
+    <div className="min-h-screen bg-primary/10 p-4 md:p-12">
       <div className="max-w-7xl mx-auto ">
         {/* Header */}
         <div>
@@ -27,7 +27,7 @@ export default function ContactPage() {
             </svg>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
- Reach Out to the <span className="text-accent">Mt. Brushmore Smile Team!</span>
+            Reach Out to the <span className="text-accent">Mt. Brushmore Smile Team!</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">
             We're Always Here to Support Your Child’s Best Smile
@@ -37,7 +37,7 @@ export default function ContactPage() {
 
       {/* Contact Us Section */}
       <div>
-        <section className="max-w-7xl mx-auto px-4 py-16">
+        <section className="max-w-7xl mx-auto px-2 md:px-4 py-6 md:py-16">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <ContactForm />

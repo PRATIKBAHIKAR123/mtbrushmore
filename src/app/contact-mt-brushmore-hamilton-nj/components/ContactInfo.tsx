@@ -60,7 +60,7 @@ export default function ContactInfo() {
                 className="underline"
               >
                 {" "}
-                 {contactDetails.email}
+                {contactDetails.email}
               </a>
             </p>
           </div>
@@ -91,27 +91,24 @@ export default function ContactInfo() {
                   <div
                     key={index}
                     className={`flex justify-between items-center py-1 px-2 rounded transition-all duration-300
-        ${
-          isToday
-            ? "bg-cyan-500/20 border-l-4 border-secondary shadow-lg relative z-10 scale-[1.02]"
-            : ""
-        }`}
+        ${isToday
+                        ? "bg-cyan-500/20 border-l-4 border-secondary shadow-lg relative z-10 scale-[1.02]"
+                        : ""
+                      }`}
                   >
                     <span
-                      className={`text-sm font-medium ${
-                        isToday ? "text-cyan-200" : "text-white/90"
-                      }`}
+                      className={`text-sm font-medium ${isToday ? "text-cyan-200" : "text-white/90"
+                        }`}
                     >
                       {hour.day}:
                     </span>
                     <span
-                      className={`text-sm ${
-                        isClosed
+                      className={`text-sm ${isClosed
                           ? "text-red-500 font-medium"
                           : isToday
-                          ? "text-cyan-200 font-semibold"
-                          : "text-white/80"
-                      }`}
+                            ? "text-cyan-200 font-semibold"
+                            : "text-white/80"
+                        }`}
                     >
                       {hour.time}
                     </span>

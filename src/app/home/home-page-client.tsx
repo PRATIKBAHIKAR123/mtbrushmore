@@ -15,7 +15,7 @@ import BookingModal from '../booking/bookingScreen';
 export default function HomePageClient() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(true);
-    const [isBookingOpen, setIsBookingOpen] = useState(false);
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
 
   const togglePlay = () => {
     const video = videoRef.current;
@@ -59,18 +59,18 @@ export default function HomePageClient() {
               </div> */}
               {/* <p className="text-accent font-semibold text-lg mb-3">Over 6,000 5-star reviews</p> */}
               <div className='flex gap-2 md:gap-3 mb-2'>
-                <Button onClick={() => setIsBookingOpen(true)} variant={'secondary'} className='rounded-full text-lg font-bold' size={'lg'}>Book Now</Button>
-                <Button onClick={()=>{location.href='/insurance-hamilton-nj'}} variant={'accent'} className='rounded-full text-lg font-bold' size={'lg'}>Insurance</Button>
+                <Button onClick={() => setIsBookingOpen(true)} variant={'secondary'} className='rounded-full text-md md:text-lg font-bold' size={'lg'}>Book Now</Button>
+                <Button onClick={() => { location.href = '/insurance-hamilton-nj' }} variant={'accent'} className='rounded-full text-md md:text-lg font-bold' size={'lg'}>Insurance</Button>
               </div>
             </div>
 
             <div className='h-24 md:h-48 w-auto absolute z-9 bottom-0 right-0'>
-              <img src={'/Images/animals/bear-baby-bear.png'} className='h-full w-full'/>
+              <img src={'/Images/animals/bear-baby-bear.png'} className='h-full w-full' />
             </div>
 
             {/* Decorative Bear */}
             <div className="absolute inset-0">
-              <img src={"/Images/banner.png"} className='w-full h-full object-cover opacity-20'/>
+              <img src={"/Images/banner.png"} className='w-full h-full object-cover opacity-20' />
             </div>
           </div>
 
@@ -94,7 +94,7 @@ export default function HomePageClient() {
                 </div>
               </div>
               <div className="absolute inset-0">
-                <img src={"/Images/Mountains.png"} className='w-full h-full object-cover opacity-10'/>
+                <img src={"/Images/Mountains.png"} className='w-full h-full object-cover opacity-10' />
               </div>
             </div>
 
@@ -113,12 +113,12 @@ export default function HomePageClient() {
         </div>
       </main>
 
-      <WhyUsSection/>
+      <WhyUsSection />
       {/* <TestimonialsSection/> */}
-      <ServicesSection/>
-      <InsuranceSection/>
-      <LocationsSection/>
-      <CTASection/>
+      <ServicesSection />
+      <InsuranceSection />
+      <LocationsSection />
+      <CTASection />
 
       {/* Floating Chat Button */}
       <button className="fixed bottom-6 left-6 bg-teal-500 text-white rounded-full p-4 shadow-lg hover:bg-teal-600 transition-colors z-50">
@@ -127,7 +127,7 @@ export default function HomePageClient() {
         </svg>
         <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
       </button>
-            <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
+      <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
     </div>
   );
 }

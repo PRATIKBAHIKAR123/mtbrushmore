@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram } from 'lucide-react';
+import { contactDetails } from '@/lib/hooks/addressDetails';
 
 const Footer = () => {
   return (
@@ -118,25 +119,12 @@ const Footer = () => {
                   2115 Rt 33, Hamilton, NJ 08690
                 </a>
               </li>
+              <li>
+                <a href={`mailto:${contactDetails.email}`} className="text-white transition-colors">
+                  {contactDetails.email}
+                </a>
+              </li>
             </ul>
-
-            {/* Social Media Icons */}
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-amber-200 transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5 text-amber-900" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-amber-200 transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5 text-amber-900" />
-              </a>
-            </div>
           </div>
         </div>
       </div>

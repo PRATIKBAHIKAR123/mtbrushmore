@@ -29,8 +29,8 @@ export default function AboutUsClient() {
 
 
             <div className='flex gap-2 md:gap-3 mb-2'>
-              <Button onClick={() => setIsBookingOpen(true)} variant={'secondary'} className='rounded-full text-lg font-bold' size={'lg'}>Book Now</Button>
-              <Button variant={'accent'} className='rounded-full text-lg font-bold' size={'lg'}>Call Us</Button>
+              <Button onClick={() => setIsBookingOpen(true)} variant={'secondary'} className='rounded-full text-md md:text-lg font-bold' size={'lg'}>Book Now</Button>
+              <Button variant={'accent'} className='rounded-full text-md md:text-lg font-bold' size={'lg'}>Call Us</Button>
             </div>
 
           </div>
