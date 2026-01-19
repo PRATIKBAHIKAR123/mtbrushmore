@@ -133,6 +133,13 @@ const Header = () => {
 
         {/* ================= MOBILE MENU (UI IMPROVED) ================= */}
         <div className={`fixed inset-0 bg-accent z-99 transition-transform ${isMenuOpen ? "translate-x-0" : "translate-x-full"} lg:hidden`}>
+          <div className="absolute top-4 right-6">
+            <button onClick={() => setIsMenuOpen(false)} className="text-white">
+              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
           <div className="flex flex-col items-center justify-center h-full space-y-6 text-xl text-center">
 
             <a href="/about-mt-brushmore-pediatric-dentistry-hamilton-nj" className="text-white hover:text-primary">About Us</a>
