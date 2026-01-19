@@ -111,11 +111,11 @@ const Footer = () => {
 
           {/* Locations Column */}
           <div>
-            <h3 className="text-xl font-bold mb-6 text-white">LOCATIONS</h3>
+            <h3 className="text-xl font-bold mb-6 text-white">Address</h3>
             <ul className="space-y-3 mb-6">
               <li>
-                <a href="/contact-mt-brushmore-hamilton-nj" className="text-white transition-colors">
-                  Hamilton, NJ 08690
+                <a href="https://www.google.com/maps/place/2115+NJ-33,+Hamilton+Township,+NJ+08690,+USA/@40.2225767,-74.6484335,17z/data=!3m1!4b1!4m6!3m5!1s0x89c15f08cb1732f7:0xeddd0750c9f8b12d!8m2!3d40.2225726!4d-74.6458586!16s%2Fg%2F11ymj_v2kc?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="text-white transition-colors">
+                  2115 Rt 33, Hamilton, NJ 08690
                 </a>
               </li>
             </ul>
@@ -145,7 +145,7 @@ const Footer = () => {
       <div className="border-t border-accent">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <p className="text-center text-white text-sm">
-            Copyright © 2025 <a
+            Copyright © 2026 <a
               href="https://clearconceptsolutions.com/"
               target="_blank"
               rel="noopener noreferrer"

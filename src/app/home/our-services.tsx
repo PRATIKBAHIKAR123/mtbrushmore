@@ -1,4 +1,7 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
+import BookingModal from '../booking/bookingScreen';
 
 interface Service {
   id: number;
@@ -11,6 +14,7 @@ interface Service {
 }
 
 const ServicesSection = () => {
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
   const services: Service[] = [
     {
       id: 1,
@@ -139,7 +143,7 @@ const ServicesSection = () => {
 
                 {/* Buttons */}
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
+                  <button onClick={() => setIsBookingOpen(true)} className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
                   <button className="flex-1 bg-transparent border-2 border-accent hover:border-primary text-accent font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-primary" onClick={() => window.location.href = `${service.path}`}>
@@ -151,6 +155,7 @@ const ServicesSection = () => {
           ))}
         </div>
       </div>
+      <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
     </section>
   );
 };

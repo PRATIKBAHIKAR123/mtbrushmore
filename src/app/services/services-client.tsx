@@ -1,6 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import CTASection from "@/app/home/call-to-action";
+import BookingModal from "../booking/bookingScreen";
 
 interface Service {
   id: number;
@@ -26,6 +28,8 @@ export default function ServicesClient({
   services,
   decorativeImage,
 }: ServicesClientProps) {
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
+
   return (
     <section className="relative bg-[#dadada] py-16 px-2 md:px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
@@ -52,7 +56,7 @@ export default function ServicesClient({
         {/* Services Grid */}
         <div className="bg-primary/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-2 md:p-6 rounded-lg md:rounded-3xl">
           {services.map((service) => (
-            <div 
+            <div
               key={service.id}
               className="group bg-white rounded-lg md:rounded-3xl overflow-hidden p-2 md:p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
@@ -76,10 +80,10 @@ export default function ServicesClient({
 
                 {/* Buttons */}
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
+                  <button onClick={() => setIsBookingOpen(true)} className="flex-1 bg-accent hover:bg-secondary text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm">
                     Book Now
                   </button>
-                  <button 
+                  <button
                     className="flex-1 bg-transparent border-2 border-secondary hover:border-[#C4B590] text-secondary font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm hover:bg-[#D4C5A0]"
                     onClick={() => {
                       if (service.path) {
@@ -95,7 +99,8 @@ export default function ServicesClient({
           ))}
         </div>
       </div>
-      <CTASection/>
+      <CTASection />
+      <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
     </section>
   );
 }

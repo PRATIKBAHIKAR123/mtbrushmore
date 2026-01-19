@@ -1,9 +1,12 @@
 "use client"
 
+import { useState } from "react";
 import CTASection from "@/app/home/call-to-action";
 import Image from "next/image";
+import BookingModal from "@/app/booking/bookingScreen";
 
 export default function DoctorDetailsClient() {
+    const [isBookingOpen, setIsBookingOpen] = useState(false);
 
     return (
         <div className="bg-[#E8DED3] min-h-screen py-12 px-2">
@@ -47,6 +50,7 @@ export default function DoctorDetailsClient() {
                         {/* CTA */}
                         <div className="pt-6">
                             <button
+                                onClick={() => setIsBookingOpen(true)}
                                 className="inline-flex items-center justify-center gap-2
       bg-accent hover:bg-secondary
       text-white font-semibold
@@ -62,6 +66,7 @@ export default function DoctorDetailsClient() {
                 </div>
             </div>
             <CTASection />
+            <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
         </div>
     );
 }

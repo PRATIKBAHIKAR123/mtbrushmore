@@ -292,6 +292,11 @@ export const pageMetadata = {
     description: "Expert pediatric dental care near East Windsor, NJ. Mt. Brushmore Pediatric Dentistry makes dental visits easy and positive with gentle treatments and a fun, supportive team.",
     keywords: ["pediatric dentist East Windsor", "kids dentist 08512", "childrens dental 08520"],
   },
+  patientForms: {
+    title: "Patient Forms | Mt. Brushmore Pediatric Dentistry | Hamilton, NJ",
+    description: "Complete your new patient forms online for Mt. Brushmore Pediatric Dentistry in Hamilton, NJ. Save time at your first visit by filling out your paperwork comfortably from home.",
+    keywords: ["patient forms", "dental forms", "new patient paperwork"],
+  },
 };
 
 /**

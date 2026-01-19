@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import BookingModal from '../booking/bookingScreen';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -8,6 +9,7 @@ const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isParentsOpen, setIsParentsOpen] = useState(false);
   const [isServiceAreasOpen, setIsServiceAreasOpen] = useState(false);
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -112,7 +114,7 @@ const Header = () => {
                   </ul>
                 </div>
               </div>
-              <button className="bg-secondary text-white px-6 py-2 rounded-full hover:bg-primary">Book Now</button>
+              <button onClick={() => setIsBookingOpen(true)} className="bg-secondary text-white px-6 py-2 rounded-full hover:bg-primary">Book Now</button>
               <a href="tel:609-422-4700" className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-primary">609-422-4700</a>
             </div>
 
@@ -231,7 +233,7 @@ const Header = () => {
             </div>
 
             <div className="flex flex-col space-y-4 pt-6">
-              <button className="bg-secondary text-white px-8 py-3 rounded-full hover:bg-primary">Book Now</button>
+              <button onClick={() => setIsBookingOpen(true)} className="bg-secondary text-white px-8 py-3 rounded-full hover:bg-primary">Book Now</button>
               <a href="tel:609-422-4700" className="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-primary">
                 609-422-4700
               </a>
@@ -240,6 +242,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
     </>
   );
 };

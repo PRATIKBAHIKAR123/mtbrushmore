@@ -1,6 +1,7 @@
 "use client"
 
-import React from 'react';
+import React, { useState } from 'react';
+import BookingModal from '../booking/bookingScreen';
 
 interface Location {
   id: number;
@@ -11,6 +12,7 @@ interface Location {
 }
 
 const LocationsSection = () => {
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
   const locations: Location[] = [
     {
       id: 1,
@@ -85,10 +87,10 @@ const LocationsSection = () => {
                 </p>
 
                 <button
-                  onClick={() => window.location.href = location.link}
+                  onClick={() => setIsBookingOpen(true)}
                   className="bg-secondary hover:bg-[#C4B590] text-[#4A3728] font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg inline-flex items-center gap-2 group/button"
                 >
-                  See Location
+                  Book Now
                   <svg
                     className="w-4 h-4 group-hover/button:translate-x-1 transition-transform"
                     viewBox="0 0 16 16"
@@ -110,6 +112,7 @@ const LocationsSection = () => {
         </div>
 
       </div>
+      <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
     </section>
   );
 };

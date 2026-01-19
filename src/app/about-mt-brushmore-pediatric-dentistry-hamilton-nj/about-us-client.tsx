@@ -1,9 +1,13 @@
 "use client"
 
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import BookingModal from "../booking/bookingScreen";
 
 export default function AboutUsClient() {
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
+
   return (
     <main className="container mx-auto px-4 md:px-6 py-12">
       <div>
@@ -25,7 +29,7 @@ export default function AboutUsClient() {
 
 
             <div className='flex gap-2 md:gap-3 mb-2'>
-              <Button variant={'secondary'} className='rounded-full text-lg font-bold' size={'lg'}>Book Now</Button>
+              <Button onClick={() => setIsBookingOpen(true)} variant={'secondary'} className='rounded-full text-lg font-bold' size={'lg'}>Book Now</Button>
               <Button variant={'accent'} className='rounded-full text-lg font-bold' size={'lg'}>Call Us</Button>
             </div>
 
@@ -42,6 +46,7 @@ export default function AboutUsClient() {
         </div>
 
       </div>
+      <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
     </main>
   );
 }
