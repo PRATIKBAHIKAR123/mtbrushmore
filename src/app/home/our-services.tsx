@@ -23,7 +23,7 @@ const ServicesSection = () => {
       image: "/Images/preventive-dentistry.webp",
       alt: "Pediatric dental cleanings and exams at Mt. Brushmore Pediatric Dentistry in Hamilton, NJ",
       decorativeIcon: "tooth",
-      path: 'services/preventive-dentistry'
+      path: '/services/preventive-dentistry'
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const ServicesSection = () => {
       description: "Gently repair and strengthen teeth using tooth-colored fillings and long-lasting pediatric crowns.",
       image: "/Images/restorative.webp",
       alt: "Restoring decayed teeth in children at Mt. Brushmore Pediatric Dentistry in Hamilton NJ",
-      path: 'services/restorative-dentistry'
+      path: '/services/restorative-dentistry'
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const ServicesSection = () => {
       description: "Guide teeth into healthy alignment and boost confidence with braces, aligners, and early orthodontic evaluations.",
       image: "/Images/orthodontics.webp",
       alt: "Orthodontic advice for growing smiles in Hamilton NJ",
-      path: 'services/orthodontics'
+      path: '/services/orthodontics'
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ const ServicesSection = () => {
       image: "/Images/sedation.webp",
       alt: "Laughing gas for children’s dental care in Hamilton NJ",
       decorativeIcon: "flower",
-      path: 'services/sedation-dentistry'
+      path: '/services/sedation-dentistry'
     },
     {
       id: 5,
@@ -56,7 +56,7 @@ const ServicesSection = () => {
       description: "From toothaches to dental injuries, our same-day care ensures your child gets relief quickly and compassionately.",
       image: "/Images/emergency.webp",
       alt: "Emergency dental care for kids in Hamilton NJ",
-      path: 'services/emergency-dentistry'
+      path: '/services/emergency-dentistry'
     }
   ];
 

@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
 import { CheckCircle } from 'lucide-react';
+import BookingModal from '../booking/bookingScreen';
 import './addresses.css';
 
 export default function LocationTabs() {
@@ -30,6 +31,7 @@ export default function LocationTabs() {
         fetchLocations();
     }, []);
 
+    const [isBookingOpen, setIsBookingOpen] = useState(false);
     const { workingHours, loading, getCurrentStatus } = useWorkingHours(selectedLocation?.id);
 
     return (
@@ -72,8 +74,8 @@ export default function LocationTabs() {
                             <p>Email: {contactDetails.email}</p>
                         </div>
                         <div className="location-buttons">
-                            <Button asChild>
-                                <Link href="/booking">Book Appointment</Link>
+                            <Button onClick={() => setIsBookingOpen(true)}>
+                                Book Appointment
                             </Button>
                             <Button asChild variant="outline">
                                 <Link href={`https://www.google.com/maps/dir/?api=1&destination=${selectedLocation.address}`}>Get Directions</Link>
@@ -95,6 +97,7 @@ export default function LocationTabs() {
                     </div>
                 </div>
             )}
+            <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen} />
         </div>
     );
 }

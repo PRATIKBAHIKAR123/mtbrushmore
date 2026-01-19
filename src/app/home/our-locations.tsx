@@ -30,7 +30,7 @@ const LocationsSection = () => {
   ];
 
   return (
-    <section className="relative bg-[#dadada] py-12 md:py-16 px-4 md:py-20 overflow-hidden">
+    <section id="locations" className="relative bg-[#dadada] py-12 md:py-16 px-4 md:py-20 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-80 pointer-events-none">
         {/* Top left decorative shapes */}

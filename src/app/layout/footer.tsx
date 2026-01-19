@@ -102,11 +102,11 @@ const Footer = () => {
                   Terms of Service
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-white transition-colors">
                   Accessibility
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
