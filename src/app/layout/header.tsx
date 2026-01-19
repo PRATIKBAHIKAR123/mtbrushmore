@@ -91,7 +91,7 @@ const Header = () => {
               </div>
               <a href="/dental-blog" className="text-white hover:text-primary">Blogs</a>
 
-              <a href="/location" className="text-white hover:text-primary">Contact Us</a>
+              <a href="/contact-mt-brushmore-hamilton-nj" className="text-white hover:text-primary">Contact Us</a>
               {/* Services Desktop */}
               <div className="relative group">
                 <button className="text-white hover:text-primary inline-flex items-center">
@@ -195,7 +195,7 @@ const Header = () => {
               </div>
             </div>
 
-            <a href="/location" className="text-white hover:text-primary">Contact Us</a>
+            <a href="/contact-mt-brushmore-hamilton-nj" className="text-white hover:text-primary">Contact Us</a>
             <a href="/dental-blog" className="text-white hover:text-primary">Blogs</a>
 
             {/* Services Mobile */}

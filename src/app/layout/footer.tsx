@@ -17,18 +17,18 @@ const Footer = () => {
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-amber-100">
-          
+
           {/* About Us Column */}
           <div>
             <h3 className="text-xl font-bold mb-6 text-white">ABOUT US</h3>
             <ul className="space-y-3">
-              <li>
+              {/* <li>
                 <a href="#" className="text-white transition-colors">
                   Offers
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/team/dr-manmeet-arora" className="text-white transition-colors">
                   Team
                 </a>
               </li>
@@ -40,32 +40,32 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-white">SERVICES</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/services/preventive-dentistry" className="text-white transition-colors">
                   Preventive Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/services/restorative-dentistry" className="text-white transition-colors">
                   Restorative Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/services/orthodontics" className="text-white transition-colors">
                   Orthodontics
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/services/sedation-dentistry" className="text-white transition-colors">
                   Sedation Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/services/emergency-dentistry" className="text-white transition-colors">
                   Emergency Dentistry
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/services/preventive-dentistry/special-needs-dental-care-hamilton-nj" className="text-white transition-colors">
                   Special Needs Dentistry
                 </a>
               </li>
@@ -77,27 +77,27 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-white">FOR PARENTS</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/first-visit-hamilton-nj" className="text-white transition-colors">
                   First Visit
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/insurance-hamilton-nj" className="text-white transition-colors">
                   Insurance
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/financing-hamilton-nj" className="text-white transition-colors">
                   Financing
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/privacy-policy" className="text-white transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/terms-and-conditions" className="text-white transition-colors">
                   Terms of Service
                 </a>
               </li>
@@ -114,23 +114,23 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-white">LOCATIONS</h3>
             <ul className="space-y-3 mb-6">
               <li>
-                <a href="#" className="text-white transition-colors">
+                <a href="/contact-mt-brushmore-hamilton-nj" className="text-white transition-colors">
                   Hamilton, NJ 08690
                 </a>
               </li>
             </ul>
-            
+
             {/* Social Media Icons */}
             <div className="flex gap-4">
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-amber-200 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5 text-amber-900" />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-amber-200 transition-colors"
                 aria-label="Instagram"
               >
