@@ -62,11 +62,11 @@ const services: Service[] = [
     image: "/Images/Space Maintainers.webp",
     path: "/services/preventive-dentistry/space-maintainers-hamilton-nj"
   },
-    {
+  {
     id: 7,
     title: "Special Needs",
     description: "Gentle support keeps perfect room for future grown-up teeth to come in straight and happy.",
-    image: "/Images/Space Maintainers.webp",
+    image: "/Images/close-up-boy-dentist (1).webp",
     path: "/services/preventive-dentistry/special-needs-dental-care-hamilton-nj"
   },
   {

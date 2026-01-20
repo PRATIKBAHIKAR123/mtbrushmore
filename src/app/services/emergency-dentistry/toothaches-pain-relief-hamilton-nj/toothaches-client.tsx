@@ -60,7 +60,7 @@ export default function ToothacheClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Soft Tissue Injuries.webp"
+                            src="/Images/sad-little-boy-child-with-toothache.webp"
                             alt="Toothache treatment for children in Hamilton NJ"
                             width={600}
                             height={450}

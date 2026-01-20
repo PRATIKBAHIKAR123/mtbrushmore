@@ -28,7 +28,7 @@ export default function ServiceAreaPage() {
                         <div className="image_section-cover">
                             <div className="main-image">
                                 <Image
-                                    src="/Images/service-page.webp"
+                                    src="/Images/areas/Fairless Hills.webp"
                                     alt="Pediatric dentist near East Windsor NJ"
                                     className="rounded-xl w-full h-auto"
                                     width={1200}
@@ -143,7 +143,7 @@ export default function ServiceAreaPage() {
                     </div>
                     <div className="wcu-img-section">
                         <Image
-                            src="/Images/service-page-1.webp"
+                            src="/Images/areas/Fairless Hills-1.webp"
                             alt="Family & Cosmetic Dentistry"
                             className="rounded-xl block"
                             width={800}

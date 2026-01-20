@@ -75,7 +75,7 @@ export default function SpecialNeedsClient() {
                     {/* Image Section */}
                     <div className="relative rounded-2xl overflow-hidden">
                         <Image
-                            src="/Images/Space Maintainers.webp"
+                            src="/Images/close-up-boy-dentist (1).webp"
                             alt="Special needs pediatric dentistry at Mt. Brushmore Pediatric Dentistry in Hamilton NJ"
                             width={600}
                             height={450}

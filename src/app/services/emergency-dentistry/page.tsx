@@ -64,7 +64,7 @@ const services: Service[] = [
     id: 7,
     title: "Toothaches and Pain Relief",
     description: "We identify the cause of discomfort and provide soothing treatment to help kids feel like themselves again.",
-    image: "/Images/Soft Tissue Injuries.webp",
+    image: "/Images/sad-little-boy-child-with-toothache.webp",
     path: "/services/emergency-dentistry/toothaches-pain-relief-hamilton-nj"
   }
 ];
