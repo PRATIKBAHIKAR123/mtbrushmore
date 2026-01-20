@@ -67,6 +67,11 @@ export const pageMetadata = {
     description: "Dr. Manmeet Arora is a board-eligible pediatric dentist specializing in children's dental care. Learn more about her background and experience.",
     keywords: ["pediatric dentist", "Dr. Manmeet Arora", "children dentistry"],
   },
+  doctorProfile2: {
+    title: "Dr. Neetu Bhanushali, DDS  - Mt. Brushmore Dental",
+    description: "Dr. Neetu Bhanushali is a compassionate and caring dentist who would go great lengths to make their patients comfortable and relaxed during the procedure",
+    keywords: ["pediatric dentist", "Dr. Neetu Bhanushali", "children dentistry"],
+  },
   services: {
     title: "Dental Services - Mt. Brushmore Dental",
     description: "Explore our comprehensive range of dental services designed to meet all your oral health needs.",

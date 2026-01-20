@@ -6,6 +6,7 @@ interface Team {
   id: number;
   title: string;
   description: string;
+  url: string;
   image: string;
   decorativeIcon?: string;
 }
@@ -17,6 +18,15 @@ const TeamSection = () => {
       title: "Dr. Manmeet Arora DDS",
       description: "Protect your child's smile with cleanings, fluoride, and sealants.",
       image: "/Images/Dr.ManmeetAroraDDS.webp",
+      decorativeIcon: "tooth",
+      url: "/team/dr-manmeet-arora"
+    },
+    {
+      id: 2,
+      title: "Dr. Neetu Bhanushali, DDS",
+      url: "/team/dr-neetu-bhanushali",
+      description: "Dr. Neetu Bhanushali is a compassionate and caring dentist who would go great lengths to make their patients comfortable and relaxed during the procedure. She brings in a wealth of knowledge and would explain the process and options to help patients make educated decisions. She received her D.D.S. (Doctor of Dental Surgery) from the University of California San Francisco.",
+      image: "/Images/Neetu Bhanushali.webp",      
       decorativeIcon: "tooth"
     },
   ];
@@ -45,7 +55,7 @@ const TeamSection = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center flex-wrap gap-8">
           {team.map((service, index) => (
             <div 
               key={service.id}
@@ -71,7 +81,7 @@ const TeamSection = () => {
                 {/* Buttons */}
                 <div className="flex">
                   <button className="flex-1 bg-primary hover:bg-accent text-white font-semibold py-2.5 px-4 rounded-full transition-colors duration-300 text-sm"
-                  onClick={()=>{window.location.href='/team/dr-manmeet-arora' }}>
+                  onClick={()=>{window.location.href=service.url }}>
                     View Profile
                   </button>
                 </div>
